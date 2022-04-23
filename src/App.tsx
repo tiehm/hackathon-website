@@ -113,24 +113,24 @@ export class App extends React.Component<{}, State> {
                 </div>
                 <div className="h-full block w-full">
                     <div className="h-full m-auto flex flex-col items-center justify-center gap-4 font-medium lg:w-3/5 text-text-m lg:text-head-m">
-                        <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center flex flex-row p-6 iPhoneXS:p-3 gap-2 bg-blue-4 border-2 border-blue-12 rounded relative z-10">
-                            <PersonAddIcon className="w-32 h-auto"/>
-                            <div className="font-regular text-blue-12 text-left break-words">
+                        <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center grid grid-cols-12 p-6 iPhoneXS:p-3 gap-7 bg-blue-4 border-2 border-blue-12 rounded relative z-10">
+                            <PersonAddIcon className="w-12 md:w-24 2xl:w-36 h-auto col-span-2 ml-auto"/>
+                            <div className="font-regular text-blue-12 text-left break-words col-span-10">
                                 Eine Kooperation aller studentischen Legal Tech
                                 Initiativen Deutschlands.
                             </div>
                         </div>
-                        <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center flex flex-row p-6 iPhoneXS:p-3 gap-2 bg-blue-1 border-4 border-blue-4 rounded relative z-10 ">
-                            <div className=" font-regular text-blue-12 text-left break-words">
+                        <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center grid grid-cols-12 p-6 iPhoneXS:p-3 gap-2 bg-blue-1 border-4 border-blue-4 rounded relative z-10 ">
+                            <div className=" font-regular text-blue-12 text-left col-span-10">
                                 Ein standortuebergreifender Zusammenschluss von
                                 Universitaeten und Non-Profits.
                             </div>
-                            <ExploreIcon className="w-32 h-auto"/>
+                            <ExploreIcon className="w-12 md:w-24 2xl:w-36 h-auto mr-auto col-span-2"/>
                         </div>
-                        <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center flex flex-row p-6 iPhoneXS:p-3
-                         gap-2 bg-blue-4 border-2 border-blue-12 rounded relative z-10">
-                            <SupportIcon className="w-56 h-auto"/>
-                            <div className=" font-regular text-blue-12 text-left break-words">
+                        <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center grid grid-cols-12 p-6 iPhoneXS:p-3
+                         gap-7 bg-blue-4 border-2 border-blue-12 rounded relative z-10">
+                            <SupportIcon className="w-12 md:w-24 2xl:w-36 h-auto ml-auto col-span-2"/>
+                            <div className=" font-regular text-blue-12 text-left break-words col-span-10">
                                 Betreuung und Unterricht durch fuehrende
                                 Expert:innen und Dozierende aus den Bereichen
                                 Start-Up, Rechtswissenschaften und Technik.

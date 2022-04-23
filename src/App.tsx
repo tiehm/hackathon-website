@@ -81,15 +81,15 @@ export class App extends React.Component<{}, State> {
                             </div>
                             <img src={heart}
                                  alt=""
-                                 className="hidden md:block w-16 h-16 absolute top-2 right-48 lg:w-20 lg:h-20 lg:right-[45%]"/>
+                                 className="hidden w-16 h-16 absolute top-2 right-48 lg:w-20 lg:h-20 lg:right-[45%]"/>
                             <img src={heart}
                                  alt=""
-                                 className="hidden md:block w-12 h-12 rotate-[-17deg] absolute top-12 right-64 lg:w-16 lg:h-16 lg:right-[53%]"/>
+                                 className="hidden w-12 h-12 rotate-[-17deg] absolute top-12 right-64 lg:w-16 lg:h-16 lg:right-[53%]"/>
                             <img src={heart}
                                  alt=""
-                                 className="hidden md:block w-6 h-6 rotate-[5deg] absolute top-20 right-44 lg:w-10 lg:h-10 lg:right-[41%]"/>
+                                 className="hidden w-6 h-6 rotate-[5deg] absolute top-20 right-44 lg:w-10 lg:h-10 lg:right-[41%]"/>
                         </div>
-                        <div className="details text-blue-12 font-semi-bold text-text-l mt-16 md:mt-10 md:w-8/12 md:ml-auto md:text-head-m lg:text-head-m md:font-regular tabletL:w-9/12">
+                        <div className="details text-blue-12 font-semi-bold text-text-l mt-16 md:mt-10 md:w-8/12 md:ml-auto md:text-head-m lg:text-head-m md:font-regular tabletL:w-9/12 2xl:text-head-l">
                             <div className="mb-4 text-justify">
                                 02.01.23 - 08.01.23. Deutschlands größter Legal Tech Hackathon von und für Studierende. Offen und inklusiv. Non-Profit. Trotzdem € 2.500,- Preisgeld. Und das Beste: Nur dein Interesse genügt, wir bringen dir alles bei!
                             </div>
@@ -114,7 +114,7 @@ export class App extends React.Component<{}, State> {
                 <div className="h-full block w-full">
                     <div className="h-full m-auto flex flex-col items-center justify-center gap-10 md:gap-6 font-medium lg:w-3/5 text-text-m lg:text-head-m">
                         <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center grid grid-cols-12 p-6 md:p-3 lg:pd-6 iPhoneXS:p-3 gap-7 bg-blue-4 border-2 border-blue-12 rounded relative z-10">
-                            <PersonAddIcon className="w-12 md:w-24 h-auto col-span-2 ml-auto"/>
+                            <PersonAddIcon strokeWidth="2px" className="w-12 md:w-24 h-auto col-span-2 ml-auto"/>
                             <div className="font-regular text-blue-12 text-left break-words col-span-10">
                                 Eine Kooperation aller studentischen Legal Tech
                                 Initiativen Deutschlands.
@@ -125,11 +125,11 @@ export class App extends React.Component<{}, State> {
                                 Ein standortübergreifender Zusammenschluss von
                                 Universitäten und Non-Profits.
                             </div>
-                            <ExploreIcon className="w-12 md:w-24 h-auto mr-auto col-span-2"/>
+                            <ExploreIcon strokeWidth="2px" className="w-12 md:w-24 h-auto mr-auto col-span-2"/>
                         </div>
                         <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center grid grid-cols-12 p-6 md:p-3 lg:pd-6 iPhoneXS:p-3
                          gap-7 bg-blue-4 border-2 border-blue-12 rounded relative z-10">
-                            <SupportIcon className="w-12 md:w-24 h-auto ml-auto col-span-2"/>
+                            <SupportIcon strokeWidth="2px" className="w-12 md:w-24 h-auto ml-auto col-span-2"/>
                             <div className=" font-regular text-blue-12 text-left break-words col-span-10">
                                 Betreuung und Unterricht durch führende
                                 Expert:innen und Dozierende aus den Bereichen

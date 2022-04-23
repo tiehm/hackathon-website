@@ -11,8 +11,19 @@ type State = {
 
 export class Navigation extends React.Component<Props, State> {
 
+    constructor (props: Props) {
+        super(props);
+
+        this.toggleNav = this.toggleNav.bind(this);
+    }
+
     state = {
         isOpen: false
+    }
+
+    toggleNav() {
+        // document.getElementById('nav-icon2')?.classList.toggle('open');
+        this.props.toggleNav();
     }
 
     render () {
@@ -22,6 +33,14 @@ export class Navigation extends React.Component<Props, State> {
                     <img src={logo} alt="" className="w-16 tabletL:w-24 ml-2"/>
                 </div>
                 <div className="inline-flex items-center justify-center p-2 ml-3 tabletL:hidden">
+                    {/*<div id="nav-icon2" className="w-fit z-50" onClick={this.toggleNav}>*/}
+                    {/*    <span></span>*/}
+                    {/*    <span></span>*/}
+                    {/*    <span></span>*/}
+                    {/*    <span></span>*/}
+                    {/*    <span></span>*/}
+                    {/*    <span></span>*/}
+                    {/*</div>*/}
                     <svg
                         onClick={this.props.toggleNav}
                         xmlns="http://www.w3.org/2000/svg"

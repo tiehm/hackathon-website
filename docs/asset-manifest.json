@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.425ea54f.css",
+    "main.js": "/static/js/main.48430654.js",
+    "static/js/787.6b8424d0.chunk.js": "/static/js/787.6b8424d0.chunk.js",
+    "static/media/ReenieBeanie-Regular.ttf": "/static/media/ReenieBeanie-Regular.f0878cc6c40bb162ff77.ttf",
+    "static/media/org-fra.png": "/static/media/org-fra.f526f192c5dfc4a662ea.png",
+    "static/media/Manrope-Regular.ttf": "/static/media/Manrope-Regular.b1d694f660569a9a9ee6.ttf",
+    "static/media/Manrope-Bold.ttf": "/static/media/Manrope-Bold.bf52bb7e7aa3e1e99ab5.ttf",
+    "static/media/Manrope-Light.ttf": "/static/media/Manrope-Light.182f890e193b3af623fa.ttf",
+    "static/media/org_munich.png": "/static/media/org_munich.60c8677f888eba8f17b3.png",
+    "static/media/org_marburg.png": "/static/media/org_marburg.39cb5ce80c31941a7b34.png",
+    "static/media/org_trier_logo_dark.png": "/static/media/org_trier_logo_dark.89ad15b8dc213c45d63a.png",
+    "static/media/logo-colored.svg": "/static/media/logo-colored.697c3de709265d8890b073cd7ab0312b.svg",
+    "static/media/logo-bw-inverted.svg": "/static/media/logo-bw-inverted.3a57c516bd104823f92d09e02efc2539.svg",
+    "static/media/org_recode_text.png": "/static/media/org_recode_text.d1a0719f5643ff18b9ed.png",
+    "static/media/org_aachen.svg": "/static/media/org_aachen.0aedf50a06e714113a7c2e3d5d05a8e7.svg",
+    "static/media/support.svg": "/static/media/support.e1419bfe9a2cebfd5e0ec624e92496eb.svg",
+    "static/media/user.svg": "/static/media/user.57603a88fd183999a429544c03d47904.svg",
+    "index.html": "/index.html",
+    "static/media/person-add.svg": "/static/media/person-add.9abafbf236aa5e94faae476a9b65896e.svg",
+    "static/media/explore.svg": "/static/media/explore.37ed74eea762fc43182875b7c4d8b90d.svg",
+    "static/media/cross.svg": "/static/media/cross.bbf546cbc3bd525a4a5ea035d3bf70c7.svg",
+    "static/media/down-caret.svg": "/static/media/down-caret.67ed1724b315315be99f4d23f8e603c8.svg",
+    "main.425ea54f.css.map": "/static/css/main.425ea54f.css.map",
+    "main.48430654.js.map": "/static/js/main.48430654.js.map",
+    "787.6b8424d0.chunk.js.map": "/static/js/787.6b8424d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.425ea54f.css",
+    "static/js/main.48430654.js"
+  ]
+}

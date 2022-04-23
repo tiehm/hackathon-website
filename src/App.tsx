@@ -69,7 +69,7 @@ export class App extends React.Component<{}, State> {
                     <div className="inner container m-auto flex flex-col">
                         <div className="feature text-left relative mb-10 ">
                             <div className="md:w-3/5 lg:w-2/5">
-                                <div className="font-medium text-[60px] iPhoneXS:text-[50px] xs:text-[65px] text-left xl:text-[100px] lg:text-[80px]">
+                                <div className="font-medium text-blue-12 text-[60px] iPhoneXS:text-[50px] xs:text-[65px] text-left xl:text-[100px] lg:text-[80px]">
                                     Legal Tech
                                 </div>
                                 <div className="leading-[90px] iPhoneXS:leading-[70px] font-pen font-medium iPhoneXS:text-[100px] text-[120px] xl:text-[140px] lg:text-[130px] text-red-10 text-center -ml-12">
@@ -89,11 +89,11 @@ export class App extends React.Component<{}, State> {
                                  alt=""
                                  className="hidden md:block w-6 h-6 rotate-[5deg] absolute top-20 right-44 lg:w-10 lg:h-10 lg:right-[41%]"/>
                         </div>
-                        <div className="details text-left font-semi-bold text-text-l mt-16 md:w-8/12 md:ml-auto md:text-head-l md:font-regular tabletL:w-9/12">
-                            02.01.23 - 08.01.23. Deutschlands groesster Legal Tech Hackathon von und fuer Studierende. Offen und inklusiv. Non-Profit. Trotzdem € 2.500,- Preisgeld.Und das Beste: Nur dein Interesse genuegt, wir bringen dir alles bei!
-                        </div>
-                        <div className="w-full justify-end flex my-4 md:my-8">
-                            <div className="bg-blue-12 text-blue-1 rounded text-center px-8 py-5 inline-block cursor-pointer md:px-12 md:py-8 md:text-text-l" >
+                        <div className="details text-blue-12 font-semi-bold text-text-l mt-16 md:mt-10 md:w-8/12 md:ml-auto md:text-head-m lg:text-head-m md:font-regular tabletL:w-9/12">
+                            <div className="mb-4 text-justify">
+                                02.01.23 - 08.01.23. Deutschlands größter Legal Tech Hackathon von und für Studierende. Offen und inklusiv. Non-Profit. Trotzdem € 2.500,- Preisgeld. Und das Beste: Nur dein Interesse genügt, wir bringen dir alles bei!
+                            </div>
+                            <div className="bg-blue-12 text-blue-1 rounded text-center px-8 py-5 cursor-pointer md:px-12 md:py-8 md:text-text-l ml-auto w-fit" >
                                 Mehr erfahren!
                             </div>
                         </div>
@@ -108,30 +108,30 @@ export class App extends React.Component<{}, State> {
                 <div className="items-center flex h-full absolute right-[-0.5rem] mt-auto">
                     <div className="h-4/5 bg-red-10 w-16 rounded"></div>
                 </div>
-                <div className="absolute top-12 right-0 rounded-l bg-blue-12 text-blue-1 text-head-l px-6 py-3 md:px-12 md:py-6 lg:right-8 lg:rounded lg:px-20 lg:py-10">
+                <div className="absolute top-12 right-0 rounded-l bg-blue-12 text-blue-1 text-head-l px-6 py-3 md:px-12 md:py-6 lg:right-8 lg:rounded lg:px-20 lg:py-10 2xl:right-[10%]">
                     About LLT
                 </div>
                 <div className="h-full block w-full">
-                    <div className="h-full m-auto flex flex-col items-center justify-center gap-4 font-medium lg:w-3/5 text-text-m lg:text-head-m">
-                        <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center grid grid-cols-12 p-6 iPhoneXS:p-3 gap-7 bg-blue-4 border-2 border-blue-12 rounded relative z-10">
-                            <PersonAddIcon className="w-12 md:w-24 2xl:w-36 h-auto col-span-2 ml-auto"/>
+                    <div className="h-full m-auto flex flex-col items-center justify-center gap-10 md:gap-6 font-medium lg:w-3/5 text-text-m lg:text-head-m">
+                        <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center grid grid-cols-12 p-6 md:p-3 lg:pd-6 iPhoneXS:p-3 gap-7 bg-blue-4 border-2 border-blue-12 rounded relative z-10">
+                            <PersonAddIcon className="w-12 md:w-24 h-auto col-span-2 ml-auto"/>
                             <div className="font-regular text-blue-12 text-left break-words col-span-10">
                                 Eine Kooperation aller studentischen Legal Tech
                                 Initiativen Deutschlands.
                             </div>
                         </div>
-                        <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center grid grid-cols-12 p-6 iPhoneXS:p-3 gap-2 bg-blue-1 border-4 border-blue-4 rounded relative z-10 ">
+                        <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center grid grid-cols-12 p-6 md:p-3 lg:pd-6 iPhoneXS:p-3 gap-2 bg-blue-1 border-4 border-blue-4 rounded relative z-10 ">
                             <div className=" font-regular text-blue-12 text-left col-span-10">
-                                Ein standortuebergreifender Zusammenschluss von
-                                Universitaeten und Non-Profits.
+                                Ein standortübergreifender Zusammenschluss von
+                                Universitäten und Non-Profits.
                             </div>
-                            <ExploreIcon className="w-12 md:w-24 2xl:w-36 h-auto mr-auto col-span-2"/>
+                            <ExploreIcon className="w-12 md:w-24 h-auto mr-auto col-span-2"/>
                         </div>
-                        <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center grid grid-cols-12 p-6 iPhoneXS:p-3
+                        <div className="w-11/12 -mr-10 lg:w-full lg:mr-0 items-center justify-center grid grid-cols-12 p-6 md:p-3 lg:pd-6 iPhoneXS:p-3
                          gap-7 bg-blue-4 border-2 border-blue-12 rounded relative z-10">
-                            <SupportIcon className="w-12 md:w-24 2xl:w-36 h-auto ml-auto col-span-2"/>
+                            <SupportIcon className="w-12 md:w-24 h-auto ml-auto col-span-2"/>
                             <div className=" font-regular text-blue-12 text-left break-words col-span-10">
-                                Betreuung und Unterricht durch fuehrende
+                                Betreuung und Unterricht durch führende
                                 Expert:innen und Dozierende aus den Bereichen
                                 Start-Up, Rechtswissenschaften und Technik.
                             </div>
@@ -147,10 +147,10 @@ export class App extends React.Component<{}, State> {
                 <div className="items-center flex h-full absolute left-[-0.5rem] mt-auto">
                     <div className="h-4/5 bg-red-3 w-12 rounded"></div>
                 </div>
-                <div className="text-blue-12 text-head-l absolute z-10 top-16 left-6">
+                <div className="absolute top-20 left-0 rounded-r bg-blue-12 text-blue-1 text-head-l px-6 py-3 md:px-12 md:py-6 lg:left-6 lg:rounded lg:px-20 lg:py-10 2xl:left-[10%] 2xl:top-10">
                     Partners
                 </div>
-                <div className="h-full flex justify-center items-center w-4/5 ml-auto mr-2 mt-32 z-10 flex-grow">
+                <div className="h-full flex justify-center items-center w-4/5 ml-auto mr-2 pt-52 z-10 flex-grow">
                     <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 xl:grid-cols-9 h-full gap-2 w-4/5 lg:w-11/12 ml-auto mr-4 justify-center align-middle items-center">
 
                         <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
@@ -280,9 +280,9 @@ export class App extends React.Component<{}, State> {
                             </div>
                         </div>
                     </div>
-                    <div className="py-6 text-center flex flex-col gap-3 justify-center font-semi-bold text-blue-1 xl:basis-full xl:flex-row">
+                    <div className="pt-14 pb-6 text-center flex flex-col gap-4 justify-center font-semi-bold text-blue-1 lg:basis-full lg:flex-row lg:gap-14">
                         <a href="/"
-                           className="text-text-s">Datenschutzerklaerung</a>
+                           className="text-text-s">Datenschutzerklärung</a>
                         <a href="/" className="text-text-s">Impressum</a>
                         <a href="/" className="text-text-s">Interner Bereich</a>
                     </div>

@@ -20,10 +20,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "BUILD_PATH='./docs' react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "gh-build": "gh-pages -d docs"
+    "gh-build": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

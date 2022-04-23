@@ -17,11 +17,11 @@ export class Navigation extends React.Component<Props, State> {
 
     render () {
         return <nav className="bg-blue-1 text-text-l">
-            <div className="container flex flex-wrap justify-between items-center mx-auto p-1">
+            <div className="container flex flex-wrap justify-between items-center mx-auto p-1 tabletL:w-4/5">
                 <div className="flex items-center">
-                    <img src={logo} alt="" className="w-16 ml-2"/>
+                    <img src={logo} alt="" className="w-16 tabletL:w-20 ml-2"/>
                 </div>
-                <div className="inline-flex items-center p-2 ml-3">
+                <div className="inline-flex items-center justify-center p-2 ml-3 tabletL:hidden">
                     <svg
                         onClick={this.props.toggleNav}
                         xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ export class Navigation extends React.Component<Props, State> {
                         />
                     </svg>
                 </div>
-                <div className="hidden w-full ml-4 mt-4 flex flex-col gap-2 md:block md:w-auto"
+                <div className="hidden w-full ml-4 my-4 tabletL:flex tabletL:flex-row tabletL:gap-6 tabletL:w-auto tabletL:justify-center 2xl:text-head-m"
                      id="mobile-menu">
                     <div className="font-medium border-b-2 border-blue-11 text-blue-12 cursor-pointer w-fit">
                         Home

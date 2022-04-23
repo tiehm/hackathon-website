@@ -1,8 +1,16 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    screens: {
+      'xs': '372px',
+      'iPhoneXS': {'raw': '(max-height: 745px)'},
+      'tabletL': '820px',
+      ...defaultTheme.screens,
+    },
     fontFamily: {
       'pen': ['ReenieBeanie', 'cursive'],
     },

@@ -5,8 +5,6 @@ import heart from './img/heart.png';
 import { ReactComponent as PersonAddIcon } from './img/person-add.svg';
 import { ReactComponent as ExploreIcon } from './img/explore.svg';
 import { ReactComponent as SupportIcon } from './img/support.svg';
-import user from './img/user.svg';
-import sebastianImg from './img/team/sebastian_nagl.png';
 import recodeLogo from './img/partners/org_recode_text.png'
 import orgFrankfurtLogo from './img/partners/org-fra.png'
 import orgAachen from './img/partners/org_aachen.svg'
@@ -25,32 +23,9 @@ import orgGiessenLogo from './img/partners/org_giessen.png'
 import orgTuebingenLogo from './img/partners/org_tuebingen.png'
 import tumLogo from './img/partners/tum.png'
 import './App.css';
-import { MobileNavigationOverlay } from './MobileNavigationOverlay';
-import { Navigation } from './Navigation';
 
-type State = {
-  isMenuOpen: boolean;
-};
+export class App extends React.Component {
 
-export class App extends React.Component<{}, State> {
-
-    constructor (props: {}){
-        super(props);
-
-        this.state = {
-            isMenuOpen: false
-        };
-
-        this.toggleMenu = this.toggleMenu.bind(this);
-
-    }
-
-    toggleMenu () {
-        document.body.classList.toggle("overflow-y-hidden");
-        this.setState({
-            isMenuOpen: !this.state.isMenuOpen,
-        });
-    }
 
     scrollTo (selector: string): undefined {
         // https://stackoverflow.com/questions/17733076/smooth-scroll-anchor-links-without-jquery
@@ -69,14 +44,9 @@ export class App extends React.Component<{}, State> {
 
     render() {
         return <div className={`App overflow-x-hidden`}>
-            {
-                this.state.isMenuOpen &&
-                <MobileNavigationOverlay  close={this.toggleMenu}/>
-            }
             <div className="h-screen flex flex-col" id="page-one">
-                <Navigation toggleNav={this.toggleMenu}/>
 
-                <div className="pt-8 px-6 bg-red-3 flex-grow mb-12 md:pt-16">
+                <div className="pt-8 px-6 bg-red-3 flex-grow mb-12 mt-20 md:pt-16">
                     <div className="inner container m-auto flex flex-col">
                         <div className="feature text-left relative mb-10 ">
                             <div className="md:w-3/5 lg:w-2/5">
@@ -111,7 +81,7 @@ export class App extends React.Component<{}, State> {
                     </div>
                     <img src={downCaret}
                          alt=""
-                         className="absolute bottom-7 left-10 cursor-pointer w-12"
+                         className="absolute bottom-7 left-10 cursor-pointer w-12 hover:scale-110 transition-all duration-300"
                          onClick={() => this.scrollTo('#page-two')}/>
                 </div>
             </div>
@@ -149,10 +119,9 @@ export class App extends React.Component<{}, State> {
                         </div>
                     </div>
                 </div>
-                {/*TODO: On desktop, on right side */}
                 <img src={downCaret}
                      alt=""
-                     className="absolute bottom-7 left-10 cursor-pointer w-12"
+                     className="absolute bottom-7 left-10 md:right-24 md:left-auto cursor-pointer w-12 hover:scale-110 transition-all duration-300"
                      onClick={() => this.scrollTo('#page-three')}/>
             </div>
             <div id="page-three" className="relative flex z-10">
@@ -230,23 +199,14 @@ export class App extends React.Component<{}, State> {
 
                     </div>
                 </div>
-                <img src={downCaret}
-                     alt=""
-                     className="hidden absolute bottom-7 left-10 cursor-pointer w-12"
-                     onClick={() => this.scrollTo('#page-four')}/>
             </div>
-            <div id="page-four" className="relative flex flex-col mt-16">
+            <div className="relative flex flex-col mt-16">
                 <div className="w-full bg-blue-12">
                     <div className="flex flex-col xl:flex-row xl:flex-wrap xl:justify-center xl:align-middle xl:items-center xl:py-10">
                         <div className="container mx-auto flex flex-row items-center text-center justify-center md:justify-between md:w-4/5 py-4 gap-12 xl:w-1/2 xl:mx-auto xl:flex-row-reverse">
                             <div className="flex flex-row justify-center align-middle items-center gap-4">
                                 <div className="flex justify-center align-middle items-center">
-                                    <div className="sebastian w-32 h-32 rounded-full">
-
-                                    </div>
-                                    {/*<img src={sebastianImg}*/}
-                                    {/*     alt=""*/}
-                                    {/*     className="rounded-full"/>*/}
+                                    <div className="sebastian w-32 h-32 rounded-full"></div>
                                 </div>
                                 <div className="hidden w-4/5 text-left lg:flex lg:flex-col">
                                     <div className="text-head-m font-medium text-blue-1 mb-4">

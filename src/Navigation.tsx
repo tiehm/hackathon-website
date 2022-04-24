@@ -1,17 +1,15 @@
 import React from 'react';
+import { CustomLink } from './CustomLink';
 import logo from './img/logo-colored.svg';
-
-type Props = {
-    toggleNav: () => void;
-};
+import { MobileNavigationOverlay } from './MobileNavigationOverlay';
 
 type State = {
     isOpen: boolean;
 };
 
-export class Navigation extends React.Component<Props, State> {
+export class Navigation extends React.Component<{}, State> {
 
-    constructor (props: Props) {
+    constructor (props: {}) {
         super(props);
 
         this.toggleNav = this.toggleNav.bind(this);
@@ -22,12 +20,19 @@ export class Navigation extends React.Component<Props, State> {
     }
 
     toggleNav() {
+        document.body.classList.toggle("overflow-y-hidden")
         document.getElementById('nav-button')?.classList.toggle('-menu-open');
-        this.props.toggleNav();
+        this.setState({
+            isOpen: !this.state.isOpen
+        });
     }
 
     render () {
-        return <nav className="bg-blue-1 text-text-l">
+        return <nav className="bg-blue-1 text-text-l absolute w-full">
+            {
+                this.state.isOpen &&
+                <MobileNavigationOverlay  close={this.toggleNav}/>
+            }
             <div className="container flex flex-wrap justify-between items-center mx-auto p-1 tabletL:w-4/5">
                 <div className="flex items-center p-4">
                     <img src={logo} alt="" className="w-16 tabletL:w-24 ml-2"/>
@@ -68,18 +73,18 @@ export class Navigation extends React.Component<Props, State> {
                 </div>
                 <div className="hidden w-full ml-4 my-4 tabletL:flex tabletL:flex-row tabletL:gap-8 tabletL:w-auto tabletL:justify-center 2xl:text-head-s"
                      id="mobile-menu">
-                    <div className="font-medium border-b-2 border-blue-11 text-blue-12 cursor-pointer w-fit">
+                    <CustomLink to="/" className="cursor-pointer hover:text-blue-11 hover:border-blue-11 hover:border-b-2 transition-all">
                         Home
-                    </div>
-                    <div className="text-gray-700 cursor-pointer hover:text-blue-11 hover:border-blue-11 hover:border-b-2 transition-all">
+                    </CustomLink>
+                    <CustomLink to="/event" className="cursor-pointer hover:text-blue-11 hover:border-blue-11 hover:border-b-2 transition-all">
                         Event
-                    </div>
-                    <div className="text-gray-700 cursor-pointer hover:text-blue-11 hover:border-blue-11 hover:border-b-2 transition-all">
+                    </CustomLink>
+                    <CustomLink to="/team" className="text-gray-700 cursor-pointer hover:text-blue-11 hover:border-blue-11 hover:border-b-2 transition-all">
                         Team
-                    </div>
-                    <div className="font-medium text-blue-11 cursor-pointer hover:text-blue-12 hover:border-blue-11 hover:border-b-2 transition-all">
+                    </CustomLink>
+                    <CustomLink to="/join" className="font-medium text-blue-11 cursor-pointer hover:text-blue-12 hover:border-blue-11 hover:border-b-2 transition-all">
                         Mitmachen
-                    </div>
+                    </CustomLink>
                 </div>
             </div>
         </nav>

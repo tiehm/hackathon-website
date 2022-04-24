@@ -6,13 +6,24 @@ import { ReactComponent as PersonAddIcon } from './img/person-add.svg';
 import { ReactComponent as ExploreIcon } from './img/explore.svg';
 import { ReactComponent as SupportIcon } from './img/support.svg';
 import user from './img/user.svg';
+import sebastianImg from './img/team/sebastian_nagl.png';
 import recodeLogo from './img/partners/org_recode_text.png'
-import recodeBaseLogo from './img/partners/org_recode_logo.png'
 import orgFrankfurtLogo from './img/partners/org-fra.png'
 import orgAachen from './img/partners/org_aachen.svg'
 import orgTrierLogo from './img/partners/org_trier_logo_dark.png'
 import mlTechLogo from './img/partners/org_munich.png'
 import orgMarburgLogo from './img/partners/org_marburg.png'
+import cdpsLogo from './img/partners/cdps.png'
+import disruptLogo from './img/partners/disrupt.png'
+import eLegalLogo from './img/partners/elegal.png'
+import legalTechDeLogo from './img/partners/legal_tech_init_de.svg'
+import liquidLegalLogo from './img/partners/liquid_legal.png'
+import lmuLogo from './img/partners/lmu.png'
+import openLegalTechLogo from './img/partners/open_legal_tech.png'
+import orgCologneLogo from './img/partners/org_cologne.png'
+import orgGiessenLogo from './img/partners/org_giessen.png'
+import orgTuebingenLogo from './img/partners/org_tuebingen.png'
+import tumLogo from './img/partners/tum.png'
 import './App.css';
 import { MobileNavigationOverlay } from './MobileNavigationOverlay';
 import { Navigation } from './Navigation';
@@ -91,7 +102,7 @@ export class App extends React.Component<{}, State> {
                         </div>
                         <div className="details text-blue-12 font-semi-bold text-text-l mt-16 md:mt-10 md:w-8/12 md:ml-auto md:text-head-m lg:text-head-m md:font-regular tabletL:w-9/12 2xl:text-head-l">
                             <div className="mb-4 text-justify">
-                                02.01.23 - 08.01.23. Deutschlands größter Legal Tech Hackathon von und für Studierende. Offen und inklusiv. Non-Profit. Trotzdem € 2.500,- Preisgeld. Und das Beste: Nur dein Interesse genügt, wir bringen dir alles bei!
+                                02.01.23 - 08.01.23. Deutschlands größter Legal Tech Hackathon von und für Studierende. Offen und inklusiv. Non-Profit. Trotzdem € 2.500,- Preisgeld. Remote. Und das Beste: Nur dein Interesse genügt, wir bringen dir alles bei!
                             </div>
                             <div className="bg-blue-12 text-blue-1 rounded text-center px-8 py-5 cursor-pointer md:px-12 md:py-8 md:text-text-l ml-auto w-fit" >
                                 Mehr erfahren!
@@ -138,6 +149,7 @@ export class App extends React.Component<{}, State> {
                         </div>
                     </div>
                 </div>
+                {/*TODO: On desktop, on right side */}
                 <img src={downCaret}
                      alt=""
                      className="absolute bottom-7 left-10 cursor-pointer w-12"
@@ -151,7 +163,7 @@ export class App extends React.Component<{}, State> {
                     Partners
                 </div>
                 <div className="h-full flex justify-center items-center w-4/5 ml-auto mr-2 pt-52 z-10 flex-grow">
-                    <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 xl:grid-cols-9 h-full gap-2 w-4/5 lg:w-11/12 ml-auto mr-4 justify-center align-middle items-center">
+                    <div className="grid grid-flow-row-dense grid-cols-3 md:grid-cols-4 lg:grid-cols-8 xl:grid-cols-9 h-full gap-2 w-4/5 lg:w-11/12 ml-auto mr-4 justify-center align-middle items-center">
 
                         <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
                             <img src={recodeLogo} className="h-full w-full object-contain" alt="" />
@@ -171,70 +183,49 @@ export class App extends React.Component<{}, State> {
                             <img src={orgMarburgLogo} className="h-full w-full object-contain" alt="" />
                         </div>
                         <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={recodeBaseLogo} className="h-full w-full object-contain" alt=""/>
+                            <img src={orgTuebingenLogo} className="h-full w-full object-contain" alt=""/>
                         </div>
 
                         <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={orgAachen} className="h-full w-full object-contain" alt=""/>
+                            <img src={openLegalTechLogo} className="h-full w-full object-contain" alt=""/>
                         </div>
                         <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={orgFrankfurtLogo} className="h-full w-full object-contain" alt="" />
+                            <img src={orgCologneLogo} className="h-full w-full object-contain" alt="" />
                         </div>
 
                         <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
                             <img src={mlTechLogo} className="h-full w-full object-contain" alt="" />
                         </div>
                         <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={recodeBaseLogo} className="h-full w-full object-contain" alt=""/>
-                        </div>
-
-                        <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={orgAachen} className="h-full w-full object-contain" alt=""/>
-                        </div>
-                        <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={orgFrankfurtLogo} className="h-full w-full object-contain" alt="" />
+                            <img src={liquidLegalLogo} className="h-full w-full object-contain" alt=""/>
                         </div>
 
                         <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={recodeLogo} className="h-full w-full object-contain" alt="" />
-                        </div>
-                        <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={recodeBaseLogo} className="h-full w-full object-contain" alt=""/>
-                        </div>
-
-                        <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={orgAachen} className="h-full w-full object-contain" alt=""/>
-                        </div>
-                        <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={orgFrankfurtLogo} className="h-full w-full object-contain" alt="" />
+                            <img src={cdpsLogo} className="h-full w-full object-contain" alt="" />
                         </div>
 
                         <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={recodeLogo} className="h-full w-full object-contain" alt="" />
-                        </div>
-                        <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={recodeBaseLogo} className="h-full w-full object-contain" alt=""/>
-                        </div>
-
-                        <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={orgAachen} className="h-full w-full object-contain" alt=""/>
-                        </div>
-                        <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={orgFrankfurtLogo} className="h-full w-full object-contain" alt="" />
+                            <img src={eLegalLogo} className="h-full w-full object-contain" alt="" />
                         </div>
 
                         <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={recodeLogo} className="h-full w-full object-contain" alt="" />
+                            <img src={legalTechDeLogo} className="h-full w-full object-contain" alt="" />
                         </div>
-                        <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={recodeBaseLogo} className="h-full w-full object-contain" alt=""/>
+
+                        <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
+                            <img src={lmuLogo} className="h-full w-full object-contain" alt="" />
+                        </div>
+
+                        <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
+                            <img src={orgGiessenLogo} className="h-full w-full object-contain" alt="" />
                         </div>
 
                         <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={orgAachen} className="h-full w-full object-contain" alt=""/>
+                            <img src={tumLogo} className="h-full w-full object-contain" alt=""/>
                         </div>
-                        <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={orgFrankfurtLogo} className="h-full w-full object-contain" alt="" />
+
+                        <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
+                            <img src={disruptLogo} className="h-full w-full object-contain" alt=""/>
                         </div>
 
                     </div>
@@ -248,16 +239,21 @@ export class App extends React.Component<{}, State> {
                 <div className="w-full bg-blue-12">
                     <div className="flex flex-col xl:flex-row xl:flex-wrap xl:justify-center xl:align-middle xl:items-center xl:py-10">
                         <div className="container mx-auto flex flex-row items-center text-center justify-center md:justify-between md:w-4/5 py-4 gap-12 xl:w-1/2 xl:mx-auto xl:flex-row-reverse">
-                            <div className="flex flex-row justify-center align-middle items-center">
-                                <img src={user}
-                                     alt=""
-                                     className="w-32 h-32"/>
+                            <div className="flex flex-row justify-center align-middle items-center gap-4">
+                                <div className="flex justify-center align-middle items-center">
+                                    <div className="sebastian w-32 h-32 rounded-full">
+
+                                    </div>
+                                    {/*<img src={sebastianImg}*/}
+                                    {/*     alt=""*/}
+                                    {/*     className="rounded-full"/>*/}
+                                </div>
                                 <div className="hidden w-4/5 text-left lg:flex lg:flex-col">
                                     <div className="text-head-m font-medium text-blue-1 mb-4">
                                         Contact
                                     </div>
                                     <div className="font-semi-bold text-blue-1 text-text-l mb-2">
-                                        Name Ansprechpartner:in
+                                        Sebastian Nagl
                                     </div>
                                     <div className="font-semi-bold text-blue-1 text-text-l">
                                         hello@legallovestech.de
@@ -273,7 +269,7 @@ export class App extends React.Component<{}, State> {
                                 Contact
                             </div>
                             <div className="font-semi-bold text-blue-1 text-text-l mb-2">
-                                Name Ansprechpartner:in
+                                Sebastian Nagl
                             </div>
                             <div className="font-semi-bold text-blue-1 text-text-l">
                                 hello@legallovestech.de

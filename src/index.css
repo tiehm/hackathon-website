@@ -35,3 +35,61 @@ code {
     font-weight: 400;
   }
 }
+
+/* Following is taken over and adapted from https://codepen.io/staffanmowitz/pen/KoKgmo */
+
+.button svg {
+  stroke: #00254D;
+  transition: 0.2s;
+}
+.button svg g:first-child {
+  opacity: 1;
+  transition: opacity 0s 0.2s;
+}
+.button svg g:first-child line {
+  transition: transform 0.2s 0.2s;
+  transform: translateY(0px);
+}
+.button svg g:last-child {
+  opacity: 0;
+  transition: opacity 0s 0.2s;
+}
+.button svg g:last-child line {
+  transition: transform 0.2s;
+  transform: rotate(0deg);
+  transform-origin: center;
+}
+.button.-menu-open svg {
+  stroke: #00254D;
+}
+.button.-menu-open svg g:first-child {
+  opacity: 0;
+}
+.button.-menu-open svg g:first-child line {
+  transition: transform 0.2s;
+}
+.button.-menu-open svg g:first-child line:first-child {
+  transform: translateY(7px);
+}
+.button.-menu-open svg g:first-child line:last-child {
+  transform: translateY(-7px);
+}
+.button.-menu-open svg g:last-child {
+  opacity: 1;
+}
+.button.-menu-open svg g:last-child line {
+  transition: transform 0.2s 0.2s;
+}
+.button.-menu-open svg g:last-child line:first-child {
+  transform: rotate(45deg);
+}
+.button.-menu-open svg g:last-child line:last-child {
+  transform: rotate(-45deg);
+}
+
+/* End */
+
+.sebastian {
+  background: url("/src/img/team/sebastian_nagl.png") no-repeat center top;
+  background-size: 100%;
+}

@@ -35,7 +35,9 @@ export class Navigation extends React.Component<{}, State> {
             }
             <div className="container flex flex-wrap justify-between items-center mx-auto p-1 tabletL:w-4/5">
                 <div className="flex items-center p-4">
-                    <img src={logo} alt="" className="w-16 tabletL:w-24 ml-2"/>
+                    <CustomLink to="/" className="">
+                        <img src={logo} alt="" className="w-16 tabletL:w-24 ml-2"/>
+                    </CustomLink>
                 </div>
                 <div className="inline-flex items-center justify-center p-2 ml-3 tabletL:hidden">
                     {/* Following is adapted from https://codepen.io/staffanmowitz/pen/KoKgmo */}
@@ -51,22 +53,22 @@ export class Navigation extends React.Component<{}, State> {
                                       y1="10"
                                       x2="40"
                                       y2="10"
-                                      stroke-width="1"/>
+                                      strokeWidth="1"/>
                                 <line x1="0"
                                       y1="20"
                                       x2="40"
                                       y2="20"
-                                      stroke-width="1"/>
+                                      strokeWidth="1"/>
                                 <line x1="0"
                                       y1="30"
                                       x2="40"
                                       y2="30"
-                                      stroke-width="1"/>
+                                      strokeWidth="1"/>
                             </g>
 
                             <g>
-                                <line x1="0" y1="20" x2="30" y2="20" stroke-width="1" />
-                                <line x1="0" y1="20" x2="30" y2="20" stroke-width="1" />
+                                <line x1="0" y1="20" x2="30" y2="20" strokeWidth="1" />
+                                <line x1="0" y1="20" x2="30" y2="20" strokeWidth="1" />
                             </g>
                         </svg>
                     </div>

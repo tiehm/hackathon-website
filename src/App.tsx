@@ -1,4 +1,5 @@
 import React  from 'react';
+import { CustomLink } from './CustomLink';
 import invertedBwLogo from './img/logo-bw-inverted.svg';
 import downCaret from './img/down-caret.svg';
 import heart from './img/heart.png';
@@ -74,9 +75,9 @@ export class App extends React.Component {
                             <div className="mb-4 text-justify">
                                 02.01.23 - 08.01.23. Deutschlands größter Legal Tech Hackathon von und für Studierende. Offen und inklusiv. Non-Profit. Trotzdem € 2.500,- Preisgeld. Remote. Und das Beste: Nur dein Interesse genügt, wir bringen dir alles bei!
                             </div>
-                            <div className="bg-blue-12 text-blue-1 rounded text-center px-8 py-5 cursor-pointer md:px-12 md:py-8 md:text-text-l ml-auto w-fit" >
+                            <CustomLink to="/event" className="bg-blue-12 text-blue-1 rounded text-center px-8 py-5 cursor-pointer md:px-12 md:py-8 md:text-text-l ml-auto w-fit block" >
                                 Mehr erfahren!
-                            </div>
+                            </CustomLink>
                         </div>
                     </div>
                     <img src={downCaret}

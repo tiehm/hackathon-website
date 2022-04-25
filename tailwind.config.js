@@ -10,6 +10,7 @@ module.exports = {
       'iPhoneXS': {'raw': '(max-height: 745px)'},
       'tabletL': '820px',
       ...defaultTheme.screens,
+      '3xl': '1700px',
     },
     fontFamily: {
       'pen': ['ReenieBeanie', 'cursive'],

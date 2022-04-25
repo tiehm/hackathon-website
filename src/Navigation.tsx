@@ -36,7 +36,7 @@ export class Navigation extends React.Component<{}, State> {
             <div className="container flex flex-wrap justify-between items-center mx-auto p-1 tabletL:w-4/5">
                 <div className="flex items-center p-4">
                     <CustomLink to="/" className="">
-                        <img src={logo} alt="" className="w-16 tabletL:w-24 ml-2"/>
+                        <img src={logo} alt="" className="w-16 tabletL:w-20 xl:w-24 ml-2"/>
                     </CustomLink>
                 </div>
                 <div className="inline-flex items-center justify-center p-2 ml-3 tabletL:hidden">

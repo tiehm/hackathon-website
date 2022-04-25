@@ -122,7 +122,7 @@ export class App extends React.Component {
                 </div>
                 <img src={downCaret}
                      alt=""
-                     className="absolute bottom-7 left-10 md:right-24 md:left-auto cursor-pointer w-12 hover:scale-110 transition-all duration-300"
+                     className="absolute bottom-7 left-10 md:right-24 md:left-auto cursor-pointer w-12 scale-90 hover:scale-100 transition-all duration-300"
                      onClick={() => this.scrollTo('#page-three')}/>
             </div>
             <div id="page-three" className="relative flex z-10">

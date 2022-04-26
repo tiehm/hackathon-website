@@ -190,6 +190,14 @@ export class App extends React.Component {
                             <img src={orgGiessenLogo} className="h-full w-full object-contain" alt="" />
                         </div>
 
+                        <div className="col-span-2 p-2 bg-blue-12 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
+                            <img src={orgFreiburg} className="h-full w-full object-contain" alt="" />
+                        </div>
+
+                        <div className="col-span-2 p-2 bg-blue-12 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
+                            <img src={orgMannheim} className="h-full w-full object-contain" alt="" />
+                        </div>
+
                         <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
                             <img src={tumLogo} className="h-full w-full object-contain" alt=""/>
                         </div>

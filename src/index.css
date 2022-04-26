@@ -93,3 +93,24 @@ code {
   background: url("/src/img/team/sebastian_nagl.png") no-repeat center top;
   background-size: 100%;
 }
+
+.caret-left {
+  left: calc(10% + 2rem);
+}
+
+.caret-right {
+  right: calc(10% + 2rem);
+}
+
+#heart-background {
+  background: url("/src/img/hearts.png") no-repeat center right;
+  background-size: 20%;
+}
+
+#event-hearts::after {
+  position: absolute;
+  top: -40%;
+  scale: 40%;
+  right: -5%;
+  content: url("/src/img/2hearts.png") ;
+  }

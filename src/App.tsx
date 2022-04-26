@@ -13,6 +13,8 @@ import orgTrierLogo from './img/partners/org_trier_logo_dark.png'
 import mlTechLogo from './img/partners/org_munich.png'
 import orgMarburgLogo from './img/partners/org_marburg.png'
 import cdpsLogo from './img/partners/cdps.png'
+import orgFreiburg from './img/partners/org_freiburg_white.png'
+import orgMannheim from './img/partners/org_mannheim_white.png'
 import disruptLogo from './img/partners/disrupt.png'
 import eLegalLogo from './img/partners/elegal.png'
 import legalTechDeLogo from './img/partners/legal_tech_init_de.svg'
@@ -47,42 +49,33 @@ export class App extends React.Component {
         return <div className={`App overflow-x-hidden`}>
             <div className="h-screen flex flex-col" id="page-one">
 
-                <div className="pt-8 px-6 bg-red-3 flex-grow mb-12 mt-20 md:pt-16">
-                    <div className="inner container m-auto flex flex-col">
-                        <div className="feature text-left relative mb-10 ">
-                            <div className="md:w-3/5 lg:w-2/5">
-                                <div className="font-medium text-blue-12 text-[60px] iPhoneXS:text-[50px] xs:text-[65px] text-left xl:text-[100px] lg:text-[80px]">
+                <div className="pt-8 px-6 bg-red-3 flex-grow mt-20 lg:mt-16 xl:mt-20 md:pt-16">
+                    <div className="inner tabletL:w-4/5 m-auto flex flex-col">
+                        <div className="feature text-left relative mb-10 wd-10/12 xs:w-10/12 lxs:w-8/12 sm:w-7/12 md:w-8/12 lg:w-7/12 xl:w-1/2 2xl:w-5/12">
+                            <div id="heart-background" className="">
+                                <div className="font-medium text-blue-12 text-[50px] iPhoneXS:text-[50px] text-left lg:text-[80px] tabletL:pl-10">
                                     Legal Tech
                                 </div>
-                                <div className="leading-[90px] iPhoneXS:leading-[70px] font-pen font-medium iPhoneXS:text-[100px] text-[120px] xl:text-[140px] lg:text-[130px] text-red-10 text-center -ml-12">
+                                <div className="leading-[80px] iPhoneXS:leading-[70px] font-pen font-medium iPhoneXS:text-[100px] text-[100px] xl:text-[140px] lg:text-[130px] text-red-10 text-center -ml-12">
                                     loves
                                 </div>
-                                <div className="text-[120px] iPhoneXS:text-[100px] lg:text-[120px] iPhoneXS:leading-[20px] font-medium text-blue-12 leading-[40px] text-right">
+                                <div id="headline-you" className=" relative text-[100px] iPhoneXS:text-[100px] lg:text-[140px] iPhoneXS:leading-[20px] font-medium text-blue-12 leading-[40px] text-right tabletL:pr-10">
                                     you!
                                 </div>
                             </div>
-                            <img src={heart}
-                                 alt=""
-                                 className="hidden w-16 h-16 absolute top-2 right-48 lg:w-20 lg:h-20 lg:right-[45%]"/>
-                            <img src={heart}
-                                 alt=""
-                                 className="hidden w-12 h-12 rotate-[-17deg] absolute top-12 right-64 lg:w-16 lg:h-16 lg:right-[53%]"/>
-                            <img src={heart}
-                                 alt=""
-                                 className="hidden w-6 h-6 rotate-[5deg] absolute top-20 right-44 lg:w-10 lg:h-10 lg:right-[41%]"/>
                         </div>
-                        <div className="details text-blue-12 font-semi-bold text-text-l mt-16 md:mt-10 md:w-8/12 md:ml-auto md:text-head-m lg:text-head-m md:font-regular tabletL:w-9/12 2xl:text-head-l">
+                        <div className="details text-blue-12 font-semi-bold text-text-l mt-16 lg:w-8/12 md:ml-auto md:text-head-m lg:text-head-m md:font-regular tabletL:w-9/12 2xl:text-head-l">
                             <div className="mb-4 text-justify">
                                 02.01.23 - 08.01.23. Deutschlands größter Legal Tech Hackathon von und für Studierende. Offen und inklusiv. Non-Profit. Trotzdem € 2.500,- Preisgeld. Remote. Und das Beste: Nur dein Interesse genügt, wir bringen dir alles bei!
                             </div>
-                            <CustomLink to="/event" className="bg-blue-12 text-blue-1 rounded text-center px-8 py-5 cursor-pointer md:px-12 md:py-8 md:text-text-l ml-auto w-fit block" >
+                            <CustomLink to="/event" className="bg-blue-12 text-blue-1 rounded text-center px-8 py-5 cursor-pointer md:px-12 md:py-8 md:text-head-m ml-auto w-fit block mt-12" >
                                 Mehr erfahren!
                             </CustomLink>
                         </div>
                     </div>
                     <img src={downCaret}
                          alt=""
-                         className="absolute bottom-7 left-10 cursor-pointer w-12 hover:scale-110 transition-all duration-300"
+                         className="animate-bounce hover:animate-none absolute bottom-7 caret-left cursor-pointer w-12 hover:scale-110 transition-all duration-200"
                          onClick={() => this.scrollTo('#page-two')}/>
                 </div>
             </div>
@@ -122,7 +115,7 @@ export class App extends React.Component {
                 </div>
                 <img src={downCaret}
                      alt=""
-                     className="absolute bottom-7 left-10 md:right-24 md:left-auto cursor-pointer w-12 scale-90 hover:scale-100 transition-all duration-300"
+                     className="animate-bounce hover:animate-none caret-right absolute bottom-7 md:left-auto cursor-pointer w-12 scale-100 hover:scale-130 transition-all duration-200"
                      onClick={() => this.scrollTo('#page-three')}/>
             </div>
             <div id="page-three" className="relative flex z-10">

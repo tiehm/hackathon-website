@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/hackathon-website/static/css/main.3d458d72.css",
-    "main.js": "/hackathon-website/static/js/main.43085181.js",
-    "static/media/org_mannheim_white.png": "/hackathon-website/static/media/org_mannheim_white.e7e762faa684b9b2cabf.png",
+    "main.js": "/hackathon-website/static/js/main.4cb1f087.js",
     "static/media/sebastian_nagl.png": "/hackathon-website/static/media/sebastian_nagl.3fb431271d68971ce624.png",
+    "static/media/org_mannheim_white.png": "/hackathon-website/static/media/org_mannheim_white.4dedcbdf42da3c8b7ccf.png",
+    "static/media/elegal.png": "/hackathon-website/static/media/elegal.6bd673e8e25f89c05e0e.png",
     "static/media/ReenieBeanie-Regular.ttf": "/hackathon-website/static/media/ReenieBeanie-Regular.f0878cc6c40bb162ff77.ttf",
     "static/media/org-fra.png": "/hackathon-website/static/media/org-fra.f526f192c5dfc4a662ea.png",
     "static/media/cdps.png": "/hackathon-website/static/media/cdps.4a778dc2392cdca5703c.png",
@@ -11,15 +12,14 @@
     "static/media/Manrope-Bold.ttf": "/hackathon-website/static/media/Manrope-Bold.bf52bb7e7aa3e1e99ab5.ttf",
     "static/media/Manrope-Light.ttf": "/hackathon-website/static/media/Manrope-Light.182f890e193b3af623fa.ttf",
     "static/media/org_cologne.png": "/hackathon-website/static/media/org_cologne.985611032c722ef5d08b.png",
-    "static/media/elegal.png": "/hackathon-website/static/media/elegal.4ae3134d9fe7aa89a423.png",
+    "static/media/org_freiburg_white.png": "/hackathon-website/static/media/org_freiburg_white.b18b835b58b15af85db0.png",
     "static/media/lmu.png": "/hackathon-website/static/media/lmu.c1573a46dca4d17ab265.png",
+    "static/media/org_trier_logo_text_white.png": "/hackathon-website/static/media/org_trier_logo_text_white.d293959fa1fa8d11541e.png",
     "static/media/org_munich.png": "/hackathon-website/static/media/org_munich.60c8677f888eba8f17b3.png",
     "static/media/org_marburg.png": "/hackathon-website/static/media/org_marburg.39cb5ce80c31941a7b34.png",
-    "static/media/org_trier_logo_dark.png": "/hackathon-website/static/media/org_trier_logo_dark.89ad15b8dc213c45d63a.png",
     "static/media/logo-colored.svg": "/hackathon-website/static/media/logo-colored.697c3de709265d8890b073cd7ab0312b.svg",
     "static/media/logo-bw-inverted.svg": "/hackathon-website/static/media/logo-bw-inverted.3a57c516bd104823f92d09e02efc2539.svg",
     "static/media/disrupt.png": "/hackathon-website/static/media/disrupt.10e3ee060edfbcf30333.png",
-    "static/media/org_freiburg_white.png": "/hackathon-website/static/media/org_freiburg_white.9e5cc7a4b767356fbd51.png",
     "static/media/org_recode_text.png": "/hackathon-website/static/media/org_recode_text.d1a0719f5643ff18b9ed.png",
     "static/media/org_giessen.png": "/hackathon-website/static/media/org_giessen.a7661e04942d6c8c5c69.png",
     "static/media/legal_tech_init_de.svg": "/hackathon-website/static/media/legal_tech_init_de.465dc4151798f995a4d86c66dcfe1512.svg",
@@ -30,10 +30,10 @@
     "static/media/explore.svg": "/hackathon-website/static/media/explore.37ed74eea762fc43182875b7c4d8b90d.svg",
     "static/media/down-caret.svg": "/hackathon-website/static/media/down-caret.67ed1724b315315be99f4d23f8e603c8.svg",
     "main.3d458d72.css.map": "/hackathon-website/static/css/main.3d458d72.css.map",
-    "main.43085181.js.map": "/hackathon-website/static/js/main.43085181.js.map"
+    "main.4cb1f087.js.map": "/hackathon-website/static/js/main.4cb1f087.js.map"
   },
   "entrypoints": [
     "static/css/main.3d458d72.css",
-    "static/js/main.43085181.js"
+    "static/js/main.4cb1f087.js"
   ]
 }

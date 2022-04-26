@@ -9,7 +9,7 @@ import { ReactComponent as SupportIcon } from './img/support.svg';
 import recodeLogo from './img/partners/org_recode_text.png'
 import orgFrankfurtLogo from './img/partners/org-fra.png'
 import orgAachen from './img/partners/org_aachen.svg'
-import orgTrierLogo from './img/partners/org_trier_logo_dark.png'
+import orgTrierLogo from './img/partners/org_trier_logo_text_white.png'
 import mlTechLogo from './img/partners/org_munich.png'
 import orgMarburgLogo from './img/partners/org_marburg.png'
 import cdpsLogo from './img/partners/cdps.png'
@@ -131,20 +131,26 @@ export class App extends React.Component {
                         <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
                             <img src={recodeLogo} className="h-full w-full object-contain" alt="" />
                         </div>
+
                         <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
                             <img src={orgAachen} className="h-full w-full object-contain" alt=""/>
                         </div>
 
-                        <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
+                        <div className="p-2 bg-blue-12 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
                             <img src={orgTrierLogo} className="h-full w-full object-contain" alt=""/>
                         </div>
                         <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
                             <img src={orgFrankfurtLogo} className="h-full w-full object-contain" alt="" />
                         </div>
 
+                        <div className="col-span-2 p-2 bg-blue-12 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
+                            <img src={orgMannheim} className="h-full w-full object-contain" alt="" />
+                        </div>
+
                         <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
                             <img src={orgMarburgLogo} className="h-full w-full object-contain" alt="" />
                         </div>
+
                         <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
                             <img src={orgTuebingenLogo} className="h-full w-full object-contain" alt=""/>
                         </div>
@@ -152,6 +158,7 @@ export class App extends React.Component {
                         <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
                             <img src={openLegalTechLogo} className="h-full w-full object-contain" alt=""/>
                         </div>
+
                         <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
                             <img src={orgCologneLogo} className="h-full w-full object-contain" alt="" />
                         </div>
@@ -159,6 +166,7 @@ export class App extends React.Component {
                         <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
                             <img src={mlTechLogo} className="h-full w-full object-contain" alt="" />
                         </div>
+
                         <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
                             <img src={liquidLegalLogo} className="h-full w-full object-contain" alt=""/>
                         </div>
@@ -171,32 +179,29 @@ export class App extends React.Component {
                             <img src={eLegalLogo} className="h-full w-full object-contain" alt="" />
                         </div>
 
-                        <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={legalTechDeLogo} className="h-full w-full object-contain" alt="" />
-                        </div>
-
-                        <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={lmuLogo} className="h-full w-full object-contain" alt="" />
-                        </div>
-
-                        <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={orgGiessenLogo} className="h-full w-full object-contain" alt="" />
+                        <div className="p-2 bg-blue-12 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
+                            <img src={disruptLogo} className="h-full w-full object-contain" alt=""/>
                         </div>
 
                         <div className="col-span-2 p-2 bg-blue-12 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
                             <img src={orgFreiburg} className="h-full w-full object-contain" alt="" />
                         </div>
 
-                        <div className="col-span-2 p-2 bg-blue-12 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={orgMannheim} className="h-full w-full object-contain" alt="" />
+                        <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
+                            <img src={legalTechDeLogo} className="h-full w-full object-contain" alt="" />
+                        </div>
+
+                        <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
+                            <img src={orgGiessenLogo} className="h-full w-full object-contain" alt="" />
                         </div>
 
                         <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
                             <img src={tumLogo} className="h-full w-full object-contain" alt=""/>
                         </div>
 
-                        <div className="p-2 bg-blue-1 border-4 border-blue-4 rounded h-24 flex justify-center align-middle items-center">
-                            <img src={disruptLogo} className="h-full w-full object-contain" alt=""/>
+
+                        <div className="p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center">
+                            <img src={lmuLogo} className="h-full w-full object-contain" alt="" />
                         </div>
 
                     </div>

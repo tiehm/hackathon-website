@@ -6,7 +6,7 @@ export class Team extends React.Component {
     render () {
         return (<div className="overflow-x-hidden">
             <div className="h-screen flex flex-col">
-                <div className="bg-red-3 w-full flex justify-center align-middle items-center h-full mb-10 flex-grow">
+                <div className="bg-red-3 w-full flex justify-center align-middle items-center h-full mb-10 flex-grow select-none">
                     <div className="font-medium text-blue-12 text-[80px] lg:text-[140px] text-center">
                         Coming soon!
                     </div>

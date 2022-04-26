@@ -4,8 +4,8 @@ import bwLogo from '../img/logo-colored.svg';
 export class Event extends React.Component {
   render() {
     return (
-        <div className="overflow-x-hidden">
-            <div className="flex flex-col">
+        <div className="overflow-x-hidden min-h-screen flex flex-col">
+            <div className="flex flex-col grow">
                 <div className="pt-8 flex-grow mb-6 lg:mb-0 mt-20 tabletL:mt-24 xl:mt-28 relative">
                     <div id="event-hearts" className="text-head-m font-medium text-blue-1 bg-blue-12 rounded-r py-6 pl-6 pr-14 w-fit relative">
                         Anmeldung und Ablauf

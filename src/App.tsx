@@ -128,9 +128,9 @@ export class App extends React.Component {
                 <div className="h-full flex justify-center items-center w-4/5 ml-auto mr-2 pt-52 z-10 flex-grow">
                     <div className="grid grid-flow-row-dense grid-cols-3 md:grid-cols-4 lg:grid-cols-8 xl:grid-cols-9 h-full gap-2 w-4/5 lg:w-11/12 ml-auto mr-4 justify-center align-middle items-center">
 
-                        <div className="col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center relative">
+                        <div className="partner col-span-2 p-2 bg-blue-4 border-2 border-blue-12 rounded h-24 flex justify-center align-middle items-center relative">
                             <img src={recodeLogo} className="h-full w-full object-contain" alt="" />
-                            <div className="absolute w-full h-full bg-blue-4 opacity-0 hover:opacity-95 transition-all flex align-middle items-center justify-center text-head-m text-blue-12 cursor-pointer font-bold">
+                            <div className="absolute w-full h-full bg-blue-4 opacity-0 transition-all flex align-middle items-center justify-center text-head-m text-blue-12 cursor-pointer font-bold">
                                 Recode Law
                             </div>
                         </div>

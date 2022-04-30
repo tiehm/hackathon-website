@@ -8,7 +8,7 @@ type Props = {
     // allowed content as children of the Link component
     children: React.ReactNode
     // class name string for custom styling applied to Link
-    className: string
+    className?: string
     // optional callback which is called once Link is clicked
     onClick?: () => any
 }

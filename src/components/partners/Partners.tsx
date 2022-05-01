@@ -199,7 +199,7 @@ export class Partners extends React.Component {
                 <div className="h-4/5 bg-red-3 w-12 rounded"></div>
             </div>
 
-            <div className="absolute top-20 left-0 rounded-r bg-blue-12 text-blue-1 text-head-l px-6 py-3 md:px-12 md:py-6 lg:left-6 lg:rounded lg:px-20 lg:py-10 2xl:left-[10%] 2xl:top-10">
+            <div className="absolute top-8 left-0 rounded-r z-10 bg-blue-12 text-blue-1 text-3xl px-20 py-6">
                 Partners
             </div>
 

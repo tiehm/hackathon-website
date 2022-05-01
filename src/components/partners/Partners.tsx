@@ -207,8 +207,8 @@ export class Partners extends React.Component {
 
                 <div className="grid grid-flow-row-dense h-full gap-2 w-4/5 ml-auto mr-4 justify-center items-center grid-cols-3 md:grid-cols-4 lg:grid-cols-8 lg:w-11/12 xl:grid-cols-9 ">
 
-                    {this.randomizedPartnerList().map(partner =>
-                        <PartnerItem img={partner.img} name={partner.name} size={partner.size} backgroundColor={partner.backgroundColor} link={partner.link} />
+                    {this.randomizedPartnerList().map((partner, index) =>
+                        <PartnerItem key={index} img={partner.img} name={partner.name} size={partner.size} backgroundColor={partner.backgroundColor} link={partner.link} />
                     )}
 
                 </div>

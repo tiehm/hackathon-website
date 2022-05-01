@@ -93,8 +93,8 @@ export class Footer extends React.Component<Props, {}> {
             </div>
 
             <div className="pt-14 pb-6 text-center text-text-s flex flex-col gap-4 justify-center font-semi-bold lg:basis-full lg:flex-row lg:gap-14">
-                <a href="/#">Datenschutzerklärung</a>
-                <a href="/#">Impressum</a>
+                <a href="/datenschutz">Datenschutzerklärung</a>
+                <a href="/impressum">Impressum</a>
                 <a href="/#">Interner Bereich</a>
             </div>
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { SwiperSlide } from 'swiper/react';
 
 type Props = {
     img: string
@@ -10,7 +9,7 @@ type Props = {
 export class SwiperCard extends React.Component<Props, {}> {
 
     render () {
-        return  <SwiperSlide className="block rounded">
+        return  <div>
             <div>
                 <img alt="" src={this.props.img} className="rounded-t" />
             </div>
@@ -20,7 +19,7 @@ export class SwiperCard extends React.Component<Props, {}> {
             <div className="text-text-l text-left px-6">
                 {this.props.info}
             </div>
-        </SwiperSlide>
+        </div>
     }
 
 }

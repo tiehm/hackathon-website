@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/hackathon-website/static/css/main.1612134a.css",
-    "main.js": "/hackathon-website/static/js/main.071776e6.js",
+    "main.css": "/hackathon-website/static/css/main.c7190480.css",
+    "main.js": "/hackathon-website/static/js/main.18deb808.js",
+    "static/media/nonProfit.png": "/hackathon-website/static/media/nonProfit.97b41073b7971cc204d4.png",
+    "static/media/betreuung.png": "/hackathon-website/static/media/betreuung.8954e632bbc5803f6f6d.png",
+    "static/media/umfassend.png": "/hackathon-website/static/media/umfassend.97e2b60a64c5bd3f4edf.png",
     "static/media/sebastian_nagl.png": "/hackathon-website/static/media/sebastian_nagl.3fb431271d68971ce624.png",
     "static/media/org_mannheim_white.png": "/hackathon-website/static/media/org_mannheim_white.4dedcbdf42da3c8b7ccf.png",
     "static/media/elegal.png": "/hackathon-website/static/media/elegal.6bd673e8e25f89c05e0e.png",
@@ -25,16 +28,13 @@
     "static/media/org_giessen.png": "/hackathon-website/static/media/org_giessen.a7661e04942d6c8c5c69.png",
     "static/media/legal_tech_init_de.svg": "/hackathon-website/static/media/legal_tech_init_de.465dc4151798f995a4d86c66dcfe1512.svg",
     "static/media/org_aachen.svg": "/hackathon-website/static/media/org_aachen.cfa9af68395b5fa088242b534ea21141.svg",
-    "static/media/support.svg": "/hackathon-website/static/media/support.e1419bfe9a2cebfd5e0ec624e92496eb.svg",
     "index.html": "/hackathon-website/index.html",
-    "static/media/person-add.svg": "/hackathon-website/static/media/person-add.9abafbf236aa5e94faae476a9b65896e.svg",
-    "static/media/explore.svg": "/hackathon-website/static/media/explore.37ed74eea762fc43182875b7c4d8b90d.svg",
     "static/media/down-caret.svg": "/hackathon-website/static/media/down-caret.67ed1724b315315be99f4d23f8e603c8.svg",
-    "main.1612134a.css.map": "/hackathon-website/static/css/main.1612134a.css.map",
-    "main.071776e6.js.map": "/hackathon-website/static/js/main.071776e6.js.map"
+    "main.c7190480.css.map": "/hackathon-website/static/css/main.c7190480.css.map",
+    "main.18deb808.js.map": "/hackathon-website/static/js/main.18deb808.js.map"
   },
   "entrypoints": [
-    "static/css/main.1612134a.css",
-    "static/js/main.071776e6.js"
+    "static/css/main.c7190480.css",
+    "static/js/main.18deb808.js"
   ]
 }

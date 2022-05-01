@@ -56,8 +56,7 @@ export class Partners extends React.Component<any, any> {
             name: 'Legal Tech Aachen',
             size: 'small',
             backgroundColor: 'very-light-blue',
-            // TODO: find the link for aachen, not clear what their website is
-            link: '#'
+            link: 'https://www.linkedin.com/company/legal-tech-aachen/'
         },
         {
             img: orgTrierLogo,

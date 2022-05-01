@@ -27,26 +27,26 @@ export class About extends React.Component<Props, {}> {
                 <div className="block w-full h-full py-4 md:hidden">
                     <Swiper className="mySwiper" spaceBetween={10} slidesPerView={1.1} centeredSlides={true}>
                         <SwiperSlide className="block rounded">
-                            <SwiperCard img={umfassendImg} title="Umfassend" info="Eine Kooperation saemtlicher studentischen Legal Tech Initiativen Deutschlands." />
+                            <SwiperCard img={umfassendImg} title="Umfassend" info="Eine Kooperation sämtlicher studentischen Legal Tech Initiativen Deutschlands." />
                         </SwiperSlide>
 
                         <SwiperSlide className="block rounded">
-                            <SwiperCard img={nonProfitImg} title="Non Profit" info="Ein standortuebergreifender Zusammenschluss von Universitaeten und Non-Profit-Organisationen." />
+                            <SwiperCard img={nonProfitImg} title="Non Profit" info="Ein standortübergreifender Zusammenschluss von Universitäten und Non-Profit-Organisationen." />
                         </SwiperSlide>
 
                         <SwiperSlide className="block rounded">
-                            <SwiperCard img={betreuungImg} title="Betreuung" info="Betreuung und Unterricht durch fuehrende Expert:innen und Dozierende aus den Bereichen Start-Up, Rechtswissenschaften und Technik." />
+                            <SwiperCard img={betreuungImg} title="Betreuung" info="Betreuung und Unterricht durch führende Expert:innen und Dozierende aus den Bereichen Start-Up, Rechtswissenschaften und Technik." />
                         </SwiperSlide>
                     </Swiper>
                 </div>
 
                 <div className="hidden md:grid gap-4 grid-cols-3 h-full w-full py-4 xl:w-4/5 xl:mx-auto xl:h-4/5">
 
-                    <AboutCard img={umfassendImg} title="Umfassend" info="Eine Kooperation saemtlicher studentischen Legal Tech Initiativen Deutschlands." />
+                    <AboutCard img={umfassendImg} title="Umfassend" info="Eine Kooperation sämtlicher studentischen Legal Tech Initiativen Deutschlands." />
 
-                    <AboutCard img={nonProfitImg} title="Non Profit" info="Ein standortuebergreifender Zusammenschluss von Universitaeten und Non-Profit-Organisationen." />
+                    <AboutCard img={nonProfitImg} title="Non Profit" info="Ein standortübergreifender Zusammenschluss von Universitäten und Non-Profit-Organisationen." />
 
-                    <AboutCard img={betreuungImg} title="Betreuung" info="Betreuung und Unterricht durch fuehrende Expert:innen und Dozierende aus den Bereichen Start-Up, Rechtswissenschaften und Technik." />
+                    <AboutCard img={betreuungImg} title="Betreuung" info="Betreuung und Unterricht durch führende Expert:innen und Dozierende aus den Bereichen Start-Up, Rechtswissenschaften und Technik." />
 
                 </div>
             </div>

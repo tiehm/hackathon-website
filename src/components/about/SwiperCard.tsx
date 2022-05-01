@@ -16,7 +16,7 @@ export class SwiperCard extends React.Component<Props, {}> {
             <div className="py-10 text-head-m">
                 {this.props.title}
             </div>
-            <div className="text-text-l text-left px-6">
+            <div className="text-text-l text-left px-6 text-justify">
                 {this.props.info}
             </div>
         </div>

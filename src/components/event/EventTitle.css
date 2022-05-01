@@ -1,3 +1,5 @@
+/* places the two hearts relative to the event title, nothing else needed as the
+   width of the title never changes so responsiveness is not an issue*/
 #event-hearts::after {
     position: absolute;
     top: -40%;

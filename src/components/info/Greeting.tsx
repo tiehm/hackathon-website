@@ -11,15 +11,15 @@ export class Greeting extends React.Component {
               somewhat responsive placement of the 3 hearts */}
             <div id="heart-background">
 
-                <div className="font-medium text-blue-12 text-5xl iPhoneXS:text-5xl text-left lg:text-7xl tabletL:pl-10">
+                <div className="font-medium text-blue-12 text-5xl text-left tabletL:pl-10 lg:text-7xl">
                     Legal Tech
                 </div>
 
-                <div className="leading-none font-pen font-medium iPhoneXS:text-8xl text-8xl xl:text-10xl lg:text-8xl text-red-10 text-center -ml-12">
+                <div className="leading-none font-pen font-medium text-red-10 text-center -ml-12 text-8xl lg:text-8xl xl:text-10xl">
                     loves
                 </div>
 
-                <div className="leading-4 relative text-8xl iPhoneXS:text-8xl lg:text-10xl font-medium text-blue-12 text-right tabletL:pr-10">
+                <div className="leading-4 relative text-8xl font-medium text-blue-12 text-right tabletL:pr-10 lg:text-10xl">
                     you!
                 </div>
 

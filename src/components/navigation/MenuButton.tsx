@@ -11,22 +11,22 @@ type Props = {
 // svg / animation adapted from https://codepen.io/staffanmowitz/pen/KoKgmo
 export class MenuButton extends React.Component<Props, {}> {
 
-    openedMenu: boolean = false
+    openedMenu: boolean = false;
 
     constructor (props: Props) {
         super(props);
 
-        this.toggleNav = this.toggleNav.bind(this)
+        this.toggleNav = this.toggleNav.bind(this);
     }
 
-    toggleNav() {
-        this.openedMenu = !this.openedMenu
-        this.props.toggleNav()
+    toggleNav () {
+        this.openedMenu = !this.openedMenu;
+        this.props.toggleNav();
     }
 
     render () {
         return <div id="nav-button"
-                    className={classNames("button cursor-pointer p-1 z-50", {'-menu-open': this.openedMenu})}
+                    className={classNames('button cursor-pointer p-1 z-50', {'-menu-open': this.openedMenu})}
                     onClick={this.toggleNav}>
             <svg width="30px"
                  height="40px"

@@ -40,7 +40,7 @@ interface Partner {
     priorityPick?: boolean;
 }
 
-export class Partners extends React.Component<any, any> {
+export class Partners extends React.Component {
 
     // list of all partners
     partnerList: Partner[] = [
@@ -193,20 +193,26 @@ export class Partners extends React.Component<any, any> {
 
     render () {
         return <div id="partners-page" className="relative flex z-10">
-            <div className="items-center flex h-full absolute left-[-0.5rem] mt-auto">
+            {/* container for the left aligned, colored sidebar */}
+            <div className="items-center flex h-full absolute -left-2 mt-auto">
+                {/* left aligned, colored sidebar */}
                 <div className="h-4/5 bg-red-3 w-12 rounded"></div>
             </div>
+
             <div className="absolute top-20 left-0 rounded-r bg-blue-12 text-blue-1 text-head-l px-6 py-3 md:px-12 md:py-6 lg:left-6 lg:rounded lg:px-20 lg:py-10 2xl:left-[10%] 2xl:top-10">
                 Partners
             </div>
-            <div className="h-full flex justify-center items-center w-4/5 ml-auto mr-2 pt-52 z-10 flex-grow">
-                <div className="grid grid-flow-row-dense grid-cols-3 md:grid-cols-4 lg:grid-cols-8 xl:grid-cols-9 h-full gap-2 w-4/5 lg:w-11/12 ml-auto mr-4 justify-center align-middle items-center">
 
-                    {this.randomizedPartnerList().map(value =>
-                        <PartnerItem img={value.img} name={value.name} size={value.size} backgroundColor={value.backgroundColor} link={value.link} />
+            <div className="h-full flex justify-center items-center w-4/5 ml-auto mr-2 pt-52 z-10 flex-grow">
+
+                <div className="grid grid-flow-row-dense h-full gap-2 w-4/5 ml-auto mr-4 justify-center items-center grid-cols-3 md:grid-cols-4 lg:grid-cols-8 lg:w-11/12 xl:grid-cols-9 ">
+
+                    {this.randomizedPartnerList().map(partner =>
+                        <PartnerItem img={partner.img} name={partner.name} size={partner.size} backgroundColor={partner.backgroundColor} link={partner.link} />
                     )}
 
                 </div>
+
             </div>
         </div>;
     }

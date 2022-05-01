@@ -10,7 +10,7 @@ type Props = {
     // class name string for custom styling applied to Link
     className?: string
     // optional callback which is called once Link is clicked
-    onClick?: () => any
+    onClick?: () => void
 }
 
 // CustomLink is embeds react-router's Link for enabling path based styling,
@@ -30,8 +30,8 @@ export function CustomLink ({to, children, className, onClick}: Props) {
             onClick={onClick ? onClick : undefined}
             to={to}
             className={classNames(className,
-                'cursor-pointer border-b-2 hover:text-blue-11',
-                'hover:border-blue-11 hover:border-b-2 transition-all',
+                'cursor-pointer border-b-2 transition-all hover:text-blue-11',
+                'hover:border-blue-11 hover:border-b-2',
                 match ? 'border-blue-11 text-blue-12' : 'border-transparent')}
         >
             {children}

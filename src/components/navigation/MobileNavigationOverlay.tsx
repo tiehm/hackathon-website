@@ -19,9 +19,9 @@ export class MobileNavigationOverlay extends React.Component<Props, {}> {
 
     render () {
         return <div id="nav-modal"
-                    className="fixed w-full h-full top-0 left-0 bg-white z-50">
+                    className="fixed w-full h-full bg-white z-50">
 
-            <div className="h-full flex flex-col justify-center align-middle items-center gap-6 text-blue-12 text-head-l">
+            <div className="h-full flex flex-col justify-center items-center gap-6 text-blue-12 text-head-l">
                 <CustomLink to="/" onClick={this.leaveModal}>Home</CustomLink>
                 <CustomLink to="/event" onClick={this.leaveModal}>Event</CustomLink>
                 <CustomLink to="/team" onClick={this.leaveModal}>Team</CustomLink>

@@ -1,3 +1,11 @@
 .caret-left {
+    /* the carets should, on big screens, be aligned with the navbar logo
+     as the navbar has the container class for determining the width we need to
+     use that as the root for the calculation
+
+     the container has a width of 80% (so 10% of width space on each side)
+     to align the caret we need to add 2rem to account for padding from the navbar
+     logo as well as the size of the caret icon itself as the position is calculated
+     from the center of the icon while we want to have it on the left most edge*/
     left: calc(10% + 2rem);
 }

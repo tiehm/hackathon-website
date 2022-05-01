@@ -11,11 +11,11 @@ type Props = {
 export class Info extends React.Component<Props, {}> {
 
     render () {
-        return <div className="h-screen flex flex-col" id="info-page">
+        return <div className="h-screen flex" id="info-page">
 
-            <div className="pt-8 px-6 bg-red-3 flex-grow mt-20 lg:mt-16 xl:mt-20 md:pt-16">
+            <div className="pt-8 px-6 bg-red-3 flex-grow mt-20 md:pt-16 lg:mt-16 xl:mt-20">
 
-                <div className="inner tabletL:w-4/5 m-auto flex flex-col">
+                <div className="m-auto flex flex-col tabletL:w-4/5">
 
                     <Greeting />
 

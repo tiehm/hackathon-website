@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/hackathon-website/static/css/main.7198e3e1.css",
-    "main.js": "/hackathon-website/static/js/main.5598cc43.js",
+    "main.css": "/hackathon-website/static/css/main.8a61717d.css",
+    "main.js": "/hackathon-website/static/js/main.0d432edf.js",
     "static/media/sebastian_nagl.png": "/hackathon-website/static/media/sebastian_nagl.3fb431271d68971ce624.png",
     "static/media/org_mannheim_white.png": "/hackathon-website/static/media/org_mannheim_white.4dedcbdf42da3c8b7ccf.png",
     "static/media/elegal.png": "/hackathon-website/static/media/elegal.6bd673e8e25f89c05e0e.png",
     "static/media/ReenieBeanie-Regular.ttf": "/hackathon-website/static/media/ReenieBeanie-Regular.f0878cc6c40bb162ff77.ttf",
-    "static/media/org-fra.png": "/hackathon-website/static/media/org-fra.f526f192c5dfc4a662ea.png",
+    "static/media/org_fra.png": "/hackathon-website/static/media/org_fra.f526f192c5dfc4a662ea.png",
     "static/media/cdps.png": "/hackathon-website/static/media/cdps.4a778dc2392cdca5703c.png",
     "static/media/Manrope-Regular.ttf": "/hackathon-website/static/media/Manrope-Regular.b1d694f660569a9a9ee6.ttf",
     "static/media/Manrope-Bold.ttf": "/hackathon-website/static/media/Manrope-Bold.bf52bb7e7aa3e1e99ab5.ttf",
@@ -20,20 +20,21 @@
     "static/media/logo-colored.svg": "/hackathon-website/static/media/logo-colored.697c3de709265d8890b073cd7ab0312b.svg",
     "static/media/logo-bw-inverted.svg": "/hackathon-website/static/media/logo-bw-inverted.3a57c516bd104823f92d09e02efc2539.svg",
     "static/media/disrupt.png": "/hackathon-website/static/media/disrupt.10e3ee060edfbcf30333.png",
+    "static/media/logo-bw.svg": "/hackathon-website/static/media/logo-bw.eeec0838a69d0f544cc02fbd5b209db3.svg",
     "static/media/org_recode_text.png": "/hackathon-website/static/media/org_recode_text.d1a0719f5643ff18b9ed.png",
     "static/media/org_giessen.png": "/hackathon-website/static/media/org_giessen.a7661e04942d6c8c5c69.png",
     "static/media/legal_tech_init_de.svg": "/hackathon-website/static/media/legal_tech_init_de.465dc4151798f995a4d86c66dcfe1512.svg",
-    "static/media/org_aachen.svg": "/hackathon-website/static/media/org_aachen.0aedf50a06e714113a7c2e3d5d05a8e7.svg",
+    "static/media/org_aachen.svg": "/hackathon-website/static/media/org_aachen.cfa9af68395b5fa088242b534ea21141.svg",
     "static/media/support.svg": "/hackathon-website/static/media/support.e1419bfe9a2cebfd5e0ec624e92496eb.svg",
     "index.html": "/hackathon-website/index.html",
     "static/media/person-add.svg": "/hackathon-website/static/media/person-add.9abafbf236aa5e94faae476a9b65896e.svg",
     "static/media/explore.svg": "/hackathon-website/static/media/explore.37ed74eea762fc43182875b7c4d8b90d.svg",
     "static/media/down-caret.svg": "/hackathon-website/static/media/down-caret.67ed1724b315315be99f4d23f8e603c8.svg",
-    "main.7198e3e1.css.map": "/hackathon-website/static/css/main.7198e3e1.css.map",
-    "main.5598cc43.js.map": "/hackathon-website/static/js/main.5598cc43.js.map"
+    "main.8a61717d.css.map": "/hackathon-website/static/css/main.8a61717d.css.map",
+    "main.0d432edf.js.map": "/hackathon-website/static/js/main.0d432edf.js.map"
   },
   "entrypoints": [
-    "static/css/main.7198e3e1.css",
-    "static/js/main.5598cc43.js"
+    "static/css/main.8a61717d.css",
+    "static/js/main.0d432edf.js"
   ]
 }

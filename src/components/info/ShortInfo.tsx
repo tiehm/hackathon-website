@@ -11,7 +11,7 @@ export class ShortInfo extends React.Component {
             </div>
 
             <CustomLink to="/event" className="bg-blue-12 text-blue-1 rounded text-center px-8 py-5 mt-[15%] md:mt-0 lg:mt-14 ml-auto w-fit block cursor-pointer md:px-12 md:py-8 md:text-head-m" >
-                Mehr erfahren!
+                Mehr erfahren
             </CustomLink>
 
         </div>

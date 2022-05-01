@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hackathon-website/static/css/main.8a61717d.css",
-    "main.js": "/hackathon-website/static/js/main.0d432edf.js",
+    "main.css": "/hackathon-website/static/css/main.1612134a.css",
+    "main.js": "/hackathon-website/static/js/main.071776e6.js",
     "static/media/sebastian_nagl.png": "/hackathon-website/static/media/sebastian_nagl.3fb431271d68971ce624.png",
     "static/media/org_mannheim_white.png": "/hackathon-website/static/media/org_mannheim_white.4dedcbdf42da3c8b7ccf.png",
     "static/media/elegal.png": "/hackathon-website/static/media/elegal.6bd673e8e25f89c05e0e.png",
@@ -30,11 +30,11 @@
     "static/media/person-add.svg": "/hackathon-website/static/media/person-add.9abafbf236aa5e94faae476a9b65896e.svg",
     "static/media/explore.svg": "/hackathon-website/static/media/explore.37ed74eea762fc43182875b7c4d8b90d.svg",
     "static/media/down-caret.svg": "/hackathon-website/static/media/down-caret.67ed1724b315315be99f4d23f8e603c8.svg",
-    "main.8a61717d.css.map": "/hackathon-website/static/css/main.8a61717d.css.map",
-    "main.0d432edf.js.map": "/hackathon-website/static/js/main.0d432edf.js.map"
+    "main.1612134a.css.map": "/hackathon-website/static/css/main.1612134a.css.map",
+    "main.071776e6.js.map": "/hackathon-website/static/js/main.071776e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a61717d.css",
-    "static/js/main.0d432edf.js"
+    "static/css/main.1612134a.css",
+    "static/js/main.071776e6.js"
   ]
 }

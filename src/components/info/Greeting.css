@@ -1,19 +1,58 @@
-#heart-background {
-    background: url("/src/img/3hearts.png") no-repeat center right;
-    background-size: 20%;
+#big-heart-background {
+    background: url("/src/img/bigHeart.png") no-repeat 95% 10%;
+    background-size: 15%;
+    opacity: 0;
+}
+
+#medium-heart-background {
+    background: url("/src/img/mediumHeart.png") no-repeat 82% 50%;
+    background-size: 10%;
+    opacity: 0;
+}
+
+#small-heart-background {
+    background: url("/src/img/smallHeart.png") no-repeat 98% 60%;
+    background-size: 7%;
+    opacity: 0;
+}
+
+.fadeIn {
     animation: fadeIn 1.5s normal forwards;
+}
+
+.delay-1 {
+    animation-delay: 1s;
+}
+
+.delay-2 {
+    animation-delay: 2s;
+}
+
+.delay-3 {
+    animation-delay: 3s;
+}
+@media (max-width: 768px) {
+    #big-heart-background {
+        background: url("/src/img/bigHeart.png") no-repeat 100% 25%;
+        background-size: 15%;
+    }
+
+    #medium-heart-background {
+        background: url("/src/img/mediumHeart.png") no-repeat 85% 50%;
+        background-size: 10%;
+    }
+
+    #small-heart-background {
+        background: url("/src/img/smallHeart.png") no-repeat 100% 60%;
+        background-size: 7%;
+    }
 }
 
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
-    1% {
-        opacity: 0;
-        transform: translateY(-300%);
-    }
     100% {
         opacity: 1;
-        transform: translateY(0);
     }
 }

@@ -9,11 +9,11 @@ export class Greeting extends React.Component {
             {/* the container div is just used for placing the hearts on the
              background, without if it's nearly impossible to have a
               somewhat responsive placement of the 3 hearts */}
-            <div>
+            <div className="pr-10">
 
-                <div id="heart-background" className="w-full h-full absolute">
-
-                </div>
+                <div id="big-heart-background" className="w-full h-full absolute fadeIn delay-3"></div>
+                <div id="medium-heart-background" className="w-full h-full absolute fadeIn delay-2"></div>
+                <div id="small-heart-background" className="w-full h-full absolute fadeIn delay-1"></div>
 
                 <div className="font-medium text-blue-12 text-5xl text-left tabletL:pl-10 lg:text-7xl">
                     Legal Tech

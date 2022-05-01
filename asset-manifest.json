@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hackathon-website/static/css/main.063f47cf.css",
-    "main.js": "/hackathon-website/static/js/main.bc266b66.js",
+    "main.css": "/hackathon-website/static/css/main.6b571968.css",
+    "main.js": "/hackathon-website/static/js/main.9394134e.js",
     "static/media/nonProfit.png": "/hackathon-website/static/media/nonProfit.97b41073b7971cc204d4.png",
     "static/media/betreuung.png": "/hackathon-website/static/media/betreuung.8954e632bbc5803f6f6d.png",
     "static/media/umfassend.png": "/hackathon-website/static/media/umfassend.97e2b60a64c5bd3f4edf.png",
@@ -30,11 +30,11 @@
     "static/media/org_aachen.svg": "/hackathon-website/static/media/org_aachen.cfa9af68395b5fa088242b534ea21141.svg",
     "index.html": "/hackathon-website/index.html",
     "static/media/down-caret.svg": "/hackathon-website/static/media/down-caret.67ed1724b315315be99f4d23f8e603c8.svg",
-    "main.063f47cf.css.map": "/hackathon-website/static/css/main.063f47cf.css.map",
-    "main.bc266b66.js.map": "/hackathon-website/static/js/main.bc266b66.js.map"
+    "main.6b571968.css.map": "/hackathon-website/static/css/main.6b571968.css.map",
+    "main.9394134e.js.map": "/hackathon-website/static/js/main.9394134e.js.map"
   },
   "entrypoints": [
-    "static/css/main.063f47cf.css",
-    "static/js/main.bc266b66.js"
+    "static/css/main.6b571968.css",
+    "static/js/main.9394134e.js"
   ]
 }

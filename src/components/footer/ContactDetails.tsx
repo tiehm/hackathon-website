@@ -15,7 +15,7 @@ export class ContactDetails extends React.Component<Props, any> {
                 {/* the name of the person to contact, changes should
                  probably also cause an image change. the image can be
                   changed in Footer.css */}
-                Sebastian Nagl
+                Ann-Sophie Blaser
             </div>
             <div className="font-semi-bold text-text-l">
                 hello@legallovestech.de

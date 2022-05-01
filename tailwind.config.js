@@ -15,6 +15,7 @@ module.exports = {
     },
     fontFamily: {
       'pen': ['ReenieBeanie', 'cursive'],
+      'code':  ['Roboto Mono', 'monospace']
     },
     fontWeight: {
       "regular": 400,
@@ -22,19 +23,20 @@ module.exports = {
       "semi-bold": 600,
       "bold": 700,
     },
-    fontSize: {
-      'head-l': ['32px', '40px'],
-      'head-m': ['24px', '32px'],
-      'head-s': ['18px', '24px'],
-      'text-l': ['18px', '24px'],
-      'text-m': ['16px', '24px'],
-      'text-subtitle': ['14px', '24px'],
-      'text-s': ['14px', '16px'],
-      'text-button': ['14px', '24px'],
-      'text-caption': ['12px',  '16px'],
-      'text-overline': ['10px', '16px'],
-    },
     extend: {
+      fontSize: {
+        'head-l': ['32px', '40px'],
+        'head-m': ['24px', '32px'],
+        'head-s': ['18px', '24px'],
+        'text-l': ['18px', '24px'],
+        'text-m': ['16px', '24px'],
+        'text-subtitle': ['14px', '24px'],
+        'text-s': ['14px', '16px'],
+        'text-button': ['14px', '24px'],
+        'text-caption': ['12px',  '16px'],
+        'text-overline': ['10px', '16px'],
+        '10xl': ['140px']
+      },
       colors: {
         "blue": {
           "12": "#00254D",

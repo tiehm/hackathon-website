@@ -30,7 +30,9 @@ export function CustomLink ({to, children, className, onClick}: Props) {
             onClick={onClick ? onClick : undefined}
             to={to}
             className={classNames(className,
-                {'border-b-2 border-blue-11 text-blue-12': match})}
+                'cursor-pointer border-b-2 hover:text-blue-11',
+                'hover:border-blue-11 hover:border-b-2 transition-all',
+                match ? 'border-blue-11 text-blue-12' : 'border-transparent')}
         >
             {children}
         </Link>

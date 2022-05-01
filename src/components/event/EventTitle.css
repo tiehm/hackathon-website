@@ -1,0 +1,7 @@
+#event-hearts::after {
+    position: absolute;
+    top: -40%;
+    scale: 40%;
+    right: -5%;
+    content: url("/src/img/2hearts.png") ;
+}

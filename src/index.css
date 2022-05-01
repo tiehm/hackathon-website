@@ -22,6 +22,11 @@ code {
 }
 
 @font-face {
+  font-family: 'Roboto Mono', monospace;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+}
+
+@font-face {
   font-family: "Manrope";
   src: url("../public/fonts/Manrope-Regular.ttf"),
   url("../public/fonts/Manrope-Regular.ttf"),
@@ -34,93 +39,4 @@ code {
     font-family: "Manrope", sans-serif;
     font-weight: 400;
   }
-}
-
-/* Following is taken over and adapted from https://codepen.io/staffanmowitz/pen/KoKgmo */
-
-.button svg {
-  stroke: #00254D;
-  transition: 0.2s;
-}
-.button svg g:first-child {
-  opacity: 1;
-  transition: opacity 0s 0.2s;
-}
-.button svg g:first-child line {
-  transition: transform 0.2s 0.2s;
-  transform: translateY(0px);
-}
-.button svg g:last-child {
-  opacity: 0;
-  transition: opacity 0s 0.2s;
-}
-.button svg g:last-child line {
-  transition: transform 0.2s;
-  transform: rotate(0deg);
-  transform-origin: center;
-}
-.button.-menu-open svg {
-  stroke: #00254D;
-}
-.button.-menu-open svg g:first-child {
-  opacity: 0;
-}
-.button.-menu-open svg g:first-child line {
-  transition: transform 0.2s;
-}
-.button.-menu-open svg g:first-child line:first-child {
-  transform: translateY(7px);
-}
-.button.-menu-open svg g:first-child line:last-child {
-  transform: translateY(-7px);
-}
-.button.-menu-open svg g:last-child {
-  opacity: 1;
-}
-.button.-menu-open svg g:last-child line {
-  transition: transform 0.2s 0.2s;
-}
-.button.-menu-open svg g:last-child line:first-child {
-  transform: rotate(45deg);
-}
-.button.-menu-open svg g:last-child line:last-child {
-  transform: rotate(-45deg);
-}
-
-/* End */
-
-.sebastian {
-  background: url("/src/img/team/sebastian_nagl.png") no-repeat center top;
-  background-size: 100%;
-}
-
-.caret-left {
-  left: calc(10% + 2rem);
-}
-
-.caret-right {
-  right: calc(10% + 2rem);
-}
-
-#heart-background {
-  background: url("/src/img/hearts.png") no-repeat center right;
-  background-size: 20%;
-}
-
-#event-hearts::after {
-  position: absolute;
-  top: -40%;
-  scale: 40%;
-  right: -5%;
-  content: url("/src/img/2hearts.png") ;
-  }
-
-.partner:hover img {
-  transform: scale(1.4);
-  transition: all ease-in-out 0.15s;
-}
-
-.partner:hover div {
-  opacity: 95%!important;
-  transition: opacity ease-in-out 0.15s;
 }

@@ -1,0 +1,50 @@
+/* Following is taken over and adapted from https://codepen.io/staffanmowitz/pen/KoKgmo */
+
+#nav-button svg {
+    stroke: #00254D;
+    transition: 0.2s;
+}
+#nav-button svg g:first-child {
+    opacity: 1;
+    transition: opacity 0s 0.2s;
+}
+#nav-button svg g:first-child line {
+    transition: transform 0.2s 0.2s;
+    transform: translateY(0px);
+}
+#nav-button svg g:last-child {
+    opacity: 0;
+    transition: opacity 0s 0.2s;
+}
+#nav-button svg g:last-child line {
+    transition: transform 0.2s;
+    transform: rotate(0deg);
+    transform-origin: center;
+}
+#nav-button.-menu-open svg {
+    stroke: #00254D;
+}
+#nav-button.-menu-open svg g:first-child {
+    opacity: 0;
+}
+#nav-button.-menu-open svg g:first-child line {
+    transition: transform 0.2s;
+}
+#nav-button.-menu-open svg g:first-child line:first-child {
+    transform: translateY(7px);
+}
+#nav-button.-menu-open svg g:first-child line:last-child {
+    transform: translateY(-7px);
+}
+#nav-button.-menu-open svg g:last-child {
+    opacity: 1;
+}
+#nav-button.-menu-open svg g:last-child line {
+    transition: transform 0.2s 0.2s;
+}
+#nav-button.-menu-open svg g:last-child line:first-child {
+    transform: rotate(45deg);
+}
+#nav-button.-menu-open svg g:last-child line:last-child {
+    transform: rotate(-45deg);
+}

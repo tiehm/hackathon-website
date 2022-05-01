@@ -4,7 +4,7 @@ import './Greeting.css'
 export class Greeting extends React.Component {
 
     render () {
-        return <div className="text-left relative mb-10 wd-10/12 xs:w-10/12 lxs:w-8/12 sm:w-7/12 md:w-8/12 lg:w-7/12 xl:w-1/2 2xl:w-5/12">
+        return <div className="text-left relative mb-10 mt-[5%] md:mt-5 lg:mt-10 wd-10/12 xs:w-10/12 lxs:w-8/12 sm:w-7/12 md:w-8/12 lg:w-7/12 xl:w-1/2 2xl:w-5/12">
 
             {/* the container div is just used for placing the hearts on the
              background, without if it's nearly impossible to have a

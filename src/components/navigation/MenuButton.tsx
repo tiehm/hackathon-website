@@ -3,15 +3,14 @@ import React from 'react';
 import './MenuButton.css';
 
 type Props = {
+    openedMenu: boolean
     toggleNav: () => void
 }
 
 // MenuButton is the mobile hamburger menu button for opening and closing
 // the navigation modal
 // svg / animation adapted from https://codepen.io/staffanmowitz/pen/KoKgmo
-export class MenuButton extends React.Component<Props, {}> {
-
-    openedMenu: boolean = false;
+export class MenuButton extends React.Component<Props, { }> {
 
     constructor (props: Props) {
         super(props);
@@ -20,13 +19,12 @@ export class MenuButton extends React.Component<Props, {}> {
     }
 
     toggleNav () {
-        this.openedMenu = !this.openedMenu;
         this.props.toggleNav();
     }
 
     render () {
         return <div id="nav-button"
-                    className={classNames('button cursor-pointer p-1 z-50', {'-menu-open': this.openedMenu})}
+                    className={classNames('button cursor-pointer p-1 z-50', {'-menu-open': this.props.openedMenu})}
                     onClick={this.toggleNav}>
             <svg width="30px"
                  height="40px"

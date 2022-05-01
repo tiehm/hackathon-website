@@ -46,7 +46,7 @@ export class Navigation extends React.Component<{}, State> {
                 </div>
 
                 <div className="inline-flex p-2 ml-3 tabletL:hidden">
-                    <MenuButton toggleNav={this.toggleNav} />
+                    <MenuButton openedMenu={this.state.isMobileNavigationOpened} toggleNav={this.toggleNav} />
                 </div>
 
                 <div className="hidden w-full ml-4 my-4 flex-row gap-8 w-auto justify-center tabletL:flex 2xl:text-head-s">

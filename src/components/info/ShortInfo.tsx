@@ -6,7 +6,7 @@ export class ShortInfo extends React.Component {
     render () {
         return <div className="font-semi-bold mt-16 md:text-head-m md:font-regular md:ml-auto tabletL:w-9/12 lg:w-8/12 lg:text-head-m 2xl:text-head-l">
 
-            <div className="mb-4 text-justify text-blue-12 text-text-l">
+            <div className="mb-4 text-justify text-blue-12 text-text-l lg:text-3xl">
                 02.01.23 - 08.01.23. Deutschlands größter Legal Tech Hackathon von und für Studierende. Offen und inklusiv. Non-Profit. Trotzdem € 2.500,- Preisgeld. Remote. Und das Beste: Nur dein Interesse genügt, wir bringen dir alles bei!
             </div>
 

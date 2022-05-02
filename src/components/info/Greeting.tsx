@@ -15,7 +15,7 @@ export class Greeting extends React.Component {
                 <div id="medium-heart-background" className="w-full h-full absolute fadeIn delay-2"></div>
                 <div id="small-heart-background" className="w-full h-full absolute fadeIn delay-1"></div>
 
-                <div className="font-medium text-blue-12 text-5xl text-left tabletL:pl-10 lg:text-7xl">
+                <div className="font-medium text-blue-12 text-4xl text-left tabletL:pl-10 lg:text-7xl">
                     Legal Tech
                 </div>
 

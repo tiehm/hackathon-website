@@ -18,7 +18,7 @@ export class ContactDetails extends React.Component<Props, any> {
                 Ann-Sophie Blaser
             </div>
             <div className="font-semi-bold text-text-l">
-                hello@legallovestech.de
+                hallo@legallovestech.de
             </div>
         </div>
     }

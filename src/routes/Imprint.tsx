@@ -10,7 +10,7 @@ export class Imprint extends React.Component {
                 <p><strong>z. Hd. Sebastian Nagl</strong></p>
                 <p>Prof-Huber-Platz 2</p>
                 <p>80530 Muenchen</p>
-                <p><strong>E-Mail: hallo@4germany.org</strong></p>
+                <p><strong>E-Mail: hallo@legallovestech.de</strong></p>
                 <p><strong>Dieses Impressum gilt auch für unsere Social-Media-Präsenzen</strong></p>
                 <p><strong>Bildernachweis</strong></p>
                 <p><strong>Sofern nicht anderweitig gekennzeichnet verwendet diese Webseite eigene oder Public Domain Bilder. Eigene Bilder sind urheberrechtlich geschützt und dürfen nicht ohne unsere Zustimmung verwendet werden. Die Fotos alleine dürfen nicht herausgetrennt oder in irgendeiner Art verändert werden. Es ist immer der gesamte Text und Quellpfad abzubilden.</strong></p>

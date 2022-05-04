@@ -52,7 +52,7 @@ export class About extends React.Component<Props, {}> {
             </div>
 
 
-            <Caret className="caret-right z-10" onClick={() => this.props.scrollTo('#partners-page')} />
+            <Caret className="caret-right z-10 700-h:hidden md:block" onClick={() => this.props.scrollTo('#partners-page')} />
         </div>
     }
 

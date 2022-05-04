@@ -8,6 +8,7 @@ module.exports = {
     screens: {
       'xs': '372px',
       'lxs': '480px',
+      '700-h': {'raw': '(max-height: 700px)'},
       'iPhoneXS': {'raw': '(max-height: 745px)'},
       'tabletL': '810px',
       ...defaultTheme.screens,

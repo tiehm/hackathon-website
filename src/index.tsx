@@ -10,6 +10,9 @@ import { Join } from './routes/Join';
 import { Privacy } from './routes/Privacy';
 import { Team } from './routes/Team';
 
+// TODO: Dokku does develpoment build, for god knows what reason. Find that
+//  out
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

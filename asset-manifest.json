@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/hackathon-website/static/css/main.2d95218e.css",
-    "main.js": "/hackathon-website/static/js/main.f0c496e0.js",
+    "main.css": "/hackathon-website/static/css/main.92f6637e.css",
+    "main.js": "/hackathon-website/static/js/main.ca1ebf1d.js",
     "static/media/nonProfit.png": "/hackathon-website/static/media/nonProfit.97b41073b7971cc204d4.png",
+    "static/media/sarah.png": "/hackathon-website/static/media/sarah.4e721395fe1eee0047fb.png",
     "static/media/betreuung.png": "/hackathon-website/static/media/betreuung.8954e632bbc5803f6f6d.png",
+    "static/media/fabian.png": "/hackathon-website/static/media/fabian.dcfb40b232a8c09a2c17.png",
     "static/media/umfassend.png": "/hackathon-website/static/media/umfassend.97e2b60a64c5bd3f4edf.png",
     "static/media/ann_sophie.png": "/hackathon-website/static/media/ann_sophie.d8653472223dde0b4aaf.png",
+    "static/media/charlie.png": "/hackathon-website/static/media/charlie.8b7646c0180b3d43fbc4.png",
+    "static/media/muskaan.png": "/hackathon-website/static/media/muskaan.bb15d6fa3c666fcf1d03.png",
+    "static/media/charlotte.png": "/hackathon-website/static/media/charlotte.bbc6afffe269473fba70.png",
     "static/media/basti.png": "/hackathon-website/static/media/basti.3fb431271d68971ce624.png",
     "static/media/org_mannheim_white.png": "/hackathon-website/static/media/org_mannheim_white.4dedcbdf42da3c8b7ccf.png",
     "static/media/elegal.png": "/hackathon-website/static/media/elegal.6bd673e8e25f89c05e0e.png",
@@ -31,12 +36,13 @@
     "static/media/legal_tech_init_de.svg": "/hackathon-website/static/media/legal_tech_init_de.465dc4151798f995a4d86c66dcfe1512.svg",
     "static/media/org_aachen.svg": "/hackathon-website/static/media/org_aachen.cfa9af68395b5fa088242b534ea21141.svg",
     "index.html": "/hackathon-website/index.html",
+    "static/media/mail.svg": "/hackathon-website/static/media/mail.31e5cf18b6741ff64e8e84254eeb59af.svg",
     "static/media/down-caret.svg": "/hackathon-website/static/media/down-caret.67ed1724b315315be99f4d23f8e603c8.svg",
-    "main.2d95218e.css.map": "/hackathon-website/static/css/main.2d95218e.css.map",
-    "main.f0c496e0.js.map": "/hackathon-website/static/js/main.f0c496e0.js.map"
+    "main.92f6637e.css.map": "/hackathon-website/static/css/main.92f6637e.css.map",
+    "main.ca1ebf1d.js.map": "/hackathon-website/static/js/main.ca1ebf1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d95218e.css",
-    "static/js/main.f0c496e0.js"
+    "static/css/main.92f6637e.css",
+    "static/js/main.ca1ebf1d.js"
   ]
 }

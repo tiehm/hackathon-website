@@ -37,7 +37,7 @@ export class Navigation extends React.Component<{}, State> {
                 this.state.isMobileNavigationOpened &&
                 <MobileNavigationOverlay  close={this.toggleNav}/>
             }
-            <div className="container flex flex-wrap justify-between items-center mx-auto p-1 tabletL:w-4/5">
+            <div className="container flex flex-wrap justify-between items-center mx-auto tabletL:w-4/5 items-stretch h-full">
 
                 <div className="p-4">
                     <CustomLink to="/">
@@ -49,11 +49,11 @@ export class Navigation extends React.Component<{}, State> {
                     <MenuButton openedMenu={this.state.isMobileNavigationOpened} toggleNav={this.toggleNav} />
                 </div>
 
-                <div className="hidden w-full ml-4 my-4 flex-row gap-8 w-auto justify-center tabletL:flex 2xl:text-head-s">
-                    <CustomLink to="/">Home</CustomLink>
-                    <CustomLink to="/event">Event</CustomLink>
-                    <CustomLink to="/team" className="text-gray-700">Team</CustomLink>
-                    <CustomLink to="/join" className="font-medium text-blue-11">Mitmachen</CustomLink>
+                <div className="hidden w-full ml-4 flex-row gap-8 w-auto justify-center tabletL:flex 2xl:text-head-s items-stretch">
+                    <CustomLink to="/" className="hover:text-blue-11">Home</CustomLink>
+                    <CustomLink to="/event" className="hover:text-blue-11">Event</CustomLink>
+                    <CustomLink to="/team" className="text-gray-700 hover:text-blue-11">Team</CustomLink>
+                    <CustomLink to="/join" className="font-medium text-blue-11 bg-blue-2">Mitmachen</CustomLink>
                 </div>
             </div>
         </nav>

@@ -18,7 +18,9 @@ import recodeLogo from '../../img/partners/org_recode_text.png';
 import orgTrierLogo from '../../img/partners/org_trier_logo_text_white.png';
 import orgTuebingenLogo from '../../img/partners/org_tuebingen.png';
 import tumLogo from '../../img/partners/tum.png';
+import riLMU from '../../img/partners/ri_lmu.png'
 import { PartnerItem } from './PartnerItem';
+
 
 interface Partner {
     // the image source string to the logo of the partner
@@ -176,6 +178,13 @@ export class Partners extends React.Component {
             size: 'small',
             backgroundColor: 'light-blue',
             link: 'https://www.lmu.de/de/index.html'
+        },
+        {
+            img: riLMU,
+            name: 'LMU RIZ',
+            size: 'small',
+            backgroundColor: 'very-light-blue',
+            link: 'https://www.jura.uni-muenchen.de/fakultaet/riz_neu/index.html'
         }
     ];
 

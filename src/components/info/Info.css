@@ -9,3 +9,12 @@
      from the center of the icon while we want to have it on the left most edge*/
     left: calc(10% + 2rem);
 }
+
+@media (max-height: 900px) and (max-width: 1200px) and (min-height: 700px) and (min-width: 1000px) {
+    #shortInfo {
+        margin-top: 0!important;
+    }
+    #shortInfoLink {
+        margin-top: 2rem!important;
+    }
+}

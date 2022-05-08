@@ -22,9 +22,9 @@ export class MobileNavigationOverlay extends React.Component<Props, {}> {
                     className="fixed w-full h-full bg-white z-50">
 
             <div className="h-full flex flex-col justify-center items-center gap-6 text-blue-12 text-head-l">
-                <CustomLink to="/" onClick={this.leaveModal}>Home</CustomLink>
-                <CustomLink to="/event" onClick={this.leaveModal}>Event</CustomLink>
-                <CustomLink to="/team" onClick={this.leaveModal}>Team</CustomLink>
+                <CustomLink to="/" onClick={this.leaveModal} className="hover:text-blue-11">Home</CustomLink>
+                <CustomLink to="/event" onClick={this.leaveModal} className="hover:text-blue-11">Event</CustomLink>
+                <CustomLink to="/team" onClick={this.leaveModal} className="hover:text-blue-11">Team</CustomLink>
                 <CustomLink to="/join" className="text-blue-11" onClick={this.leaveModal}>Mitmachen</CustomLink>
             </div>
 

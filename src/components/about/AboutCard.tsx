@@ -16,7 +16,7 @@ export class AboutCard extends React.Component<Props, {}> {
             <div className="py-10 text-head-m text-center">
                 {this.props.title}
             </div>
-            <div className="text-md text-left px-6 xl:text-text-l text-justify">
+            <div className="text-md text-left px-6 xl:text-text-l text-left  850-h:text-justify">
                 {this.props.info}
             </div>
         </div>

@@ -56,3 +56,10 @@
         opacity: 1;
     }
 }
+
+
+@media (max-height: 900px) and (max-width: 1200px) and (min-height: 700px) and (min-width: 1000px){
+    #greeting {
+        margin-top: 0!important;
+    }
+}

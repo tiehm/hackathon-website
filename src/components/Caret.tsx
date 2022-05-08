@@ -5,12 +5,13 @@ import downCaret from '../img/icons/down-caret.svg';
 type Props = {
     className: string
     onClick: () => void
+    id?: string
 }
 
 export class Caret extends React.Component<Props, {}>  {
 
     render () {
-        return <img src={downCaret}
+        return <img id={this.props.id} src={downCaret}
                     alt=""
                     className={classNames(
                         "animate-bounce hover:animate-none",

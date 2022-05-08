@@ -11,6 +11,7 @@ type Props = {
     className?: string
     // optional callback which is called once Link is clicked
     onClick?: () => void
+    id?: string
 }
 
 // CustomLink is embeds react-router's Link for enabling path based styling,
@@ -18,20 +19,22 @@ type Props = {
 // the currently active page.
 // idea/code adapted from
 // https://stackblitz.com/github/remix-run/react-router/tree/main/examples/custom-link?file=src/App.tsx
-export function CustomLink ({to, children, className, onClick}: Props) {
+export function CustomLink ({to, children, className, onClick, id}: Props) {
 
     let path = useResolvedPath(to);
     // match contains information weather the current page matches the given
     // path
     let match = useMatch({path: path.pathname, end: true});
 
-    return (<div>
+    return (<div className="flex justify-center items-center">
         <Link
+            id={id}
             onClick={onClick ? onClick : undefined}
             to={to}
-            className={classNames(className,
-                'cursor-pointer border-b-2 transition-all hover:text-blue-11',
-                'hover:border-blue-11 hover:border-b-2',
+            className={classNames(
+                'cursor-pointer border-b-2 transition-all',
+                'hover:border-blue-11 hover:border-b-2 flex justify-center items-center',
+                className,
                 match ? 'border-blue-11 text-blue-12' : 'border-transparent')}
         >
             {children}

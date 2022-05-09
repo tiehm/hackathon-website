@@ -14,6 +14,6 @@ Another setup is not needed as there is no ports or anything else which could be
 
 ## Github Pages
 
-The website is published [here](https://tiehm.github.io/hackathon-website/) for development, due to the nature of the react router and github page you will end up on an empty pages with just the navigation. For it to work you **must click on "Home" (or any other navigation item)**. You'll be redirected to the actual homepage with the content. 
+The website is published [here](https://tiehm.github.io/hackathon-website/) for development, due to the nature of the react router and github pages you will end up on an empty page with just the navigation. For it to work you **must click on "Home" (or any other navigation item)**. You'll be redirected to the actual homepage with the content. 
 
 This problem is of course only present on the development build on github pages and not on the production release (which is not hosted on github pages anyway).

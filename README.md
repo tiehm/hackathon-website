@@ -6,7 +6,9 @@ This is the frontend for [legallovestech.de](https://legallovestech.de).
 
 Install all dependencies with `npm i` or `npm ci` or any other package manager like `yarn`.  
 
-The project can be built with `npm run build`
+The project can be built with `npm run build` for a production build WITHOUT using the `homepage` path in `package.json`. 
+
+To build the project with that in mind, use `npm run build-homepage`
 
 Another setup is not needed as there is no ports or anything else which could be stored in the environment. Building produces normal HTML/CSS/JS files without any server needed.
 

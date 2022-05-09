@@ -4,7 +4,7 @@ import {Footer} from '../components/footer/Footer';
 export class Join extends React.Component {
   render() {
     return (<div className={'overflow-x-hidden'}>
-      <div className={'h-screen flex bg-red-3 w-full justify-center' +
+      <div className={'h-screen flex bg-red-3 w-full justify-center ' +
           'items-center mb-10'}>
         <div className={'select-none text-center text-blue-12'}>
           <div className={'font-medium mb-4 lxs:mb-0 text-5xl sm:text-7xl ' +

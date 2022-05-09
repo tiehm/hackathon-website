@@ -27,8 +27,8 @@ export class Team extends React.Component {
       email: 'hallo@legallovestech.de',
       linkedIn: 'https://www.linkedin.com/in/sebastian-nagl-94b276162/',
       backgroundClass: 'basti-pic',
-      details: 'Kuemmert sich um Content und Branding des Legal ❤ Tech, und ' +
-          'alles, was sonst noch so anfaellt. Daneben der beste ' +
+      details: 'Kümmert sich um Content und Branding des Legal ❤ Tech, und ' +
+          'alles, was sonst noch so anfällt. Daneben der beste ' +
           'Dungeons & Dragons Gamemaster und begeisterter Rennrad-Fahrer.',
     },
     {
@@ -58,8 +58,8 @@ export class Team extends React.Component {
       email: 'marketing@legallovestech.de',
       linkedIn: 'https://www.linkedin.com/in/charlotte-falk-129a7a106/ ',
       backgroundClass: 'charlotte-pic',
-      details: 'Sorgt dafuer, dass der Legal ❤ Tech in den Sozialen Medien ' +
-          '(und weit darueber hinaus) richtig zur Geltung kommt.',
+      details: 'Sorgt dafür, dass der Legal ❤ Tech in den Sozialen Medien ' +
+          '(und weit darüber hinaus) richtig zur Geltung kommt.',
     },
     {
       name: 'Ann-Sophie Blaser',

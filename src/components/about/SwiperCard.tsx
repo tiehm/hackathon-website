@@ -7,19 +7,21 @@ type Props = {
 }
 
 export class SwiperCard extends React.Component<Props, {}> {
-
-    render () {
-        return  <div>
-            <div>
-                <img alt="" src={this.props.img} className="rounded-t" />
-            </div>
-            <div className="py-10 text-head-m">
-                {this.props.title}
-            </div>
-            <div className="text-text-l text-left px-6 text-justify">
-                {this.props.info}
-            </div>
-        </div>
-    }
-
+  render() {
+    return <div>
+      <div>
+        <img
+          alt={this.props.title}
+          src={this.props.img}
+          className={'rounded-t'}
+        />
+      </div>
+      <div className={'py-10 text-head-m'}>
+        {this.props.title}
+      </div>
+      <div className={'text-text-l text-left px-6 850-h:text-justify'}>
+        {this.props.info}
+      </div>
+    </div>;
+  }
 }

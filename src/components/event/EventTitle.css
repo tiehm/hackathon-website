@@ -1,9 +1,23 @@
 /* places the two hearts relative to the event title, nothing else needed as the
-   width of the title never changes so responsiveness is not an issue*/
-#event-hearts::after {
-    position: absolute;
-    top: -40%;
-    scale: 40%;
-    right: -5%;
-    content: url("/src/img/2hearts.png") ;
+   width of the title never changes so responsiveness is not an issue */
+
+@media (min-width: 810px) {
+    #event-hearts::after {
+        position: absolute;
+        top: -40%;
+        transform: scale(40%);
+        right: -5%;
+        content: url("/src/img/2hearts.png") ;
+    }
+
+}
+
+@media (max-width: 810px) {
+    #event-hearts::after {
+        position: absolute;
+        top: -40%;
+        transform: scale(90%);
+        right: -5%;
+        content: url("/src/img/2hearts.png") ;
+    }
 }

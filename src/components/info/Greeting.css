@@ -31,6 +31,7 @@
 .delay-3 {
     animation-delay: 3s;
 }
+
 @media (max-width: 768px) {
     #big-heart-background {
         background: url("/src/img/bigHeart.png") no-repeat 100% 25%;

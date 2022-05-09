@@ -27,7 +27,6 @@
 }
 
 @media (max-height: 700px) and (max-width: 700px) {
-
     #aboutCaret {
         display: none!important;
     }

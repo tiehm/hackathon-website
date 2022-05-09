@@ -78,6 +78,7 @@ export class Navigation extends React.Component<{}, State> {
             to={'/join'}
             className={'border-b-2 font-medium text-blue-2'}
             outerClassName="bg-blue-12 px-2"
+            isJoinButton={true}
           >
               Mitmachen
           </CustomLink>

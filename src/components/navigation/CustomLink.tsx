@@ -13,6 +13,9 @@ type Props = {
     // optional callback which is called once Link is clicked
     onClick?: () => void
     id?: string
+    // weather the link points to the join page (which has a different
+    // background and thus needs some other styling)
+    isJoinButton?: boolean
 }
 
 // CustomLink is embeds react-router's Link for enabling path based styling,
@@ -27,11 +30,15 @@ export function CustomLink({
   outerClassName,
   onClick,
   id,
+  isJoinButton,
 }: Props) {
   const path = useResolvedPath(to);
   // match contains information weather the current page matches the given
   // path
   const match = useMatch({path: path.pathname, end: true});
+
+  // the style to apply if the link points to the currently active page
+  const underlineStyle = isJoinButton ? 'border-blue-3' : 'border-blue-11';
 
   return (<div className={classNames(outerClassName,
       'flex justify-center items-center')}>
@@ -41,9 +48,10 @@ export function CustomLink({
       to={to}
       className={classNames(
           'cursor-pointer transition-all',
-          'hover:border-blue-11 flex justify-center items-center',
+          'flex justify-center items-center',
+          isJoinButton ? 'hover:border-blue-3' : 'hover:border-blue-11',
           className,
-                match ? 'border-blue-11 text-blue-12' : 'border-transparent')}
+          match ? underlineStyle + ' text-blue-12' : 'border-transparent')}
     >
       {children}
     </Link>

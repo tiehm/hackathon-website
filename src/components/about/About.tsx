@@ -15,8 +15,39 @@ type Props = {
     scrollTo: (selector: string) => void
 }
 
+type Card = {
+  // title of the card
+  title: string
+  // general information displayed about the card
+  description: string
+  // the image which should be shown for the card
+  img: string
+}
+
 // About is the entrypoint for the about page (path: /about)
 export class About extends React.Component<Props, {}> {
+  cards: Card[] = [
+    {
+      title: 'Umfassend',
+      description: 'Eine Kooperation sämtlicher studentischen Legal' +
+      ' Tech Initiativen Deutschlands.',
+      img: umfassendImg,
+    },
+    {
+      title: 'Non Profit',
+      description: 'Ein standortübergreifender Zusammenschluss von ' +
+          'Universitäten und Non‑Profit‑Organisationen.',
+      img: nonProfitImg,
+    },
+    {
+      title: 'Betreuung',
+      description: 'Betreuung und Unterricht durch führende ' +
+          'Expert:innen und Dozierende aus den Bereichen ' +
+          'Start‑Up, Rechtswissenschaften und Technik.',
+      img: betreuungImg,
+    },
+  ];
+
   render() {
     return <div
       id="about-page"
@@ -36,60 +67,34 @@ export class About extends React.Component<Props, {}> {
             slidesPerView={1.1}
             centeredSlides={true}>
 
-            <SwiperSlide className="block rounded">
-              <SwiperCard
-                img={umfassendImg}
-                title={'Umfassend'}
-                info={'Eine Kooperation sämtlicher studentischen Legal ' +
-                      'Tech Initiativen Deutschlands.'}
-              />
-            </SwiperSlide>
-
-            <SwiperSlide className="block rounded">
-              <SwiperCard
-                img={nonProfitImg}
-                title={'Non Profit'}
-                info={'Ein standortübergreifender Zusammenschluss von ' +
-                    'Universitäten und Non-Profit-Organisationen.'} />
-            </SwiperSlide>
-
-            <SwiperSlide className="block rounded">
-              <SwiperCard
-                img={betreuungImg}
-                title={'Betreuung'}
-                info={'Betreuung und Unterricht durch führende ' +
-                      'Expert:innen und Dozierende aus den Bereichen ' +
-                      'Start-Up, Rechtswissenschaften und Technik.'} />
-            </SwiperSlide>
+            {this.cards.map((card, i) => {
+              return <SwiperSlide key={i} className="block rounded">
+                <SwiperCard
+                  img={card.img}
+                  title={card.title}
+                  info={card.description}
+                />
+              </SwiperSlide>;
+            })}
 
           </Swiper>
+
         </div>
 
         <div className={'hidden md:grid gap-4 grid-cols-3 h-full w-full py-4 ' +
             'xl:w-4/5 xl:mx-auto xl:h-4/5'}>
 
-          <AboutCard
-            img={umfassendImg}
-            title={'Umfassend'}
-            info={'Eine Kooperation sämtlicher studentischen Legal Tech ' +
-                  'Initiativen Deutschlands.'} />
-
-          <AboutCard
-            img={nonProfitImg}
-            title={'Non Profit'}
-            info={'Ein standortübergreifender Zusammenschluss von ' +
-                  'Universitäten und Non-Profit-Organisationen.'}/>
-
-          <AboutCard
-            img={betreuungImg}
-            title={'Betreuung'}
-            info={'Betreuung und Unterricht durch führende Expert:innen ' +
-                  'und Dozierende aus den Bereichen Start-Up, ' +
-                  'Rechtswissenschaften und Technik.'} />
+          {this.cards.map((card, i) => {
+            return <AboutCard
+              key={i}
+              img={card.img}
+              title={card.title}
+              info={card.description}
+            />;
+          })}
 
         </div>
       </div>
-
 
       <Caret
         id={'aboutCaret'}

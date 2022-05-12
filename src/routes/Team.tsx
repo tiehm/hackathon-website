@@ -50,7 +50,7 @@ export class Team extends React.Component {
       backgroundClass: 'muskaan-pic',
       details: 'Organisiert die Vorträge und Workshops für den Legal ❤ Tech ' +
           'Hackathon. Ansonsten besucht Sie selbst gerne Events und hat eine ' +
-          'große Leidenschaft für die Formel 1',
+          'große Leidenschaft für die Formel 1.',
     },
     {
       name: 'Charlotte Falk',

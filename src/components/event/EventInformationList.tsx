@@ -24,7 +24,7 @@ export class EventInformationList extends React.Component {
     ' Bereiche zu gewahren.',
 
     'Am Ende der Woche bewertet eine Jury die Prototypen, die die Teams im' +
-    ' Laufe der Woche entwickelt haben. Das Siegerteam kann sich ueber einen' +
+    ' Laufe der Woche entwickelt haben. Das Siegerteam kann sich über einen' +
     ' Geldpreis i.H.v. € 2.500,- freuen!',
 
   ];

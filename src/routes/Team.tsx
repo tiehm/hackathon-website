@@ -54,12 +54,14 @@ export class Team extends React.Component {
     },
     {
       name: 'Charlotte Falk',
-      shortDesc: 'Kommunikation & PR',
+      shortDesc: 'Marketing',
       email: 'marketing@legallovestech.de',
       linkedIn: 'https://www.linkedin.com/in/charlotte-falk-129a7a106/ ',
       backgroundClass: 'charlotte-pic',
-      details: 'Sorgt dafür, dass der Legal ❤ Tech in den Sozialen Medien ' +
-          '(und weit darüber hinaus) richtig zur Geltung kommt.',
+      details: 'Sorgt für die Verbreitung von Legal ❤ Tech über alle ' +
+          'Social-Media-Kanäle. Liebt es an der Schnittstelle zwischen ' +
+          'Kommunikation und Recht zu arbeiten. Hat eine Schwäche für ' +
+          'Interior Design und eBay Kleinanzeigen.',
     },
     {
       name: 'Ann-Sophie Blaser',

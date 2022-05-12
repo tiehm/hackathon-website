@@ -14,7 +14,7 @@ export class EventInformationList extends React.Component {
 
     'Zu Beginn des Events bekommen alle zugelassenen Teams entweder eine' +
     ' Aufgabe zugeteilt, oder die Teams bringen eine eigene Aufgabe mit,' +
-    ' an der sie im Lauf des Hackathons arbeiten mochten.' +
+    ' an der sie im Lauf des Hackathons arbeiten möchten.' +
     ' Eigene Aufgabenstellungen sind ausdrücklich erlaubt!',
 
     'Im Lauf der Woche finden Vorträge und Workshops führender Expert:innen' +
@@ -25,7 +25,7 @@ export class EventInformationList extends React.Component {
 
     'Am Ende der Woche bewertet eine Jury die Prototypen, die die Teams im' +
     ' Laufe der Woche entwickelt haben. Das Siegerteam kann sich über einen' +
-    ' Geldpreis i.H.v. € 2.500,- freuen!',
+    ' Geldpreis i.H.v. € 2.500,‑ freuen!',
 
   ];
 

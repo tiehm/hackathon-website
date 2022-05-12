@@ -89,8 +89,8 @@ export class Team extends React.Component {
       email: 'hallo@legallovestech.de',
       backgroundClass: 'charlie-pic',
       details: 'Programmiert jede Idee aus, die nicht bei drei auf\'m' +
-                ' Baum ist. Kümmert sich vorallem um die Website und' +
-                ' technische Aufgaben im Hintergrund.',
+          ' Baum ist. Kümmert sich vorallem um die Website und' +
+          ' technische Aufgaben im Hintergrund.',
     },
   ];
 

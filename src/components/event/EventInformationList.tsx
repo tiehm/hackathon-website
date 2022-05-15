@@ -12,6 +12,9 @@ export class EventInformationList extends React.Component {
     ' gestellt, die bei Interesse genutzt werden können. Daneben existieren' +
     ' je ein juristischer und technischer Helpdesk!',
 
+    'Das Event richtet sich nicht ausschließlich an Jurist:innen;' +
+    ' interdisziplinäre Teams sind ausdrücklich erwünscht!',
+
     'Zu Beginn des Events bekommen alle zugelassenen Teams entweder eine' +
     ' Aufgabe zugeteilt, oder die Teams bringen eine eigene Aufgabe mit,' +
     ' an der sie im Lauf des Hackathons arbeiten möchten.' +

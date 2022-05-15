@@ -51,7 +51,7 @@ export class About extends React.Component<Props, {}> {
   render() {
     return <div
       id="about-page"
-      className="h-screen relative flex justify-center items-center"
+      className="h-screen relative flex justify-center items-center bg-blue-3"
     >
       <div className={'absolute top-4 right-0 rounded-l z-10 bg-blue-12 ' +
           'text-blue-1 text-3xl px-16 py-4 ' +

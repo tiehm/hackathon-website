@@ -14,8 +14,8 @@ export class ShortInfo extends React.Component {
       <div className={'mb-4 text-justify text-blue-12 text-text-l ' +
           'md:text-2xl lg:mt-10'}>
           02.01.23 - 08.01.23. Deutschlands größter Legal Tech Hackathon von und
-          für Studierende. Offen und inklusiv. Non-Profit. Trotzdem € 2.500,-
-          Preisgeld. Remote. Und das Beste: Nur dein Interesse genügt,
+          für Studierende. Offen und inklusiv. Non-Profit. Remote. Trotzdem
+          € 2.500,- Preisgeld. Und das Beste: Nur dein Interesse genügt,
           wir bringen dir alles bei!
       </div>
 

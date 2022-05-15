@@ -4,7 +4,7 @@ export class EventInformationList extends React.Component {
   informationList: string[] = [
 
     'Das Event findet in der ersten Januarwoche 2023 voll remote statt,' +
-      ' also vom 02.01.2023 bis einschliesslich 08.01.2023.',
+      ' also vom 02.01.2023 bis einschließlich 08.01.2023.',
 
     'Zugelassen werden Teams von bis zu 6 Personen. Alle Teilnehmer:innen' +
     ' sollten sich noch in Studium / Referendariat befinden. Es werden' +

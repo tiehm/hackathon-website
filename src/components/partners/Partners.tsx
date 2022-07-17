@@ -216,9 +216,9 @@ export class Partners extends React.Component {
       <div className={'h-full flex justify-center items-center w-4/5 ml-auto ' +
           'mr-2 pt-52 z-10 flex-grow'}>
 
-        <div className={'grid grid-flow-row-dense h-full gap-2 w-4/5 ml-auto ' +
+        <div className={'grid grid-flow-row-dense h-full gap-3 w-4/5 ml-auto ' +
             'mr-4 justify-center items-center grid-cols-3 md:grid-cols-4 ' +
-            'lg:grid-cols-8 lg:w-11/12 xl:grid-cols-9 '}>
+            'lg:grid-cols-6 lg:w-11/12 xl:grid-cols-7 '}>
 
           {this.randomizedPartnerList().map((partner, index) =>
             <PartnerItem

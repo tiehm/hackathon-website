@@ -100,7 +100,7 @@ export class Team extends React.Component {
           'items-center mb-10'}>
         <div className={'container p-10 grid grid-cols-1 sm:grid-cols-2 ' +
             'lg:grid-cols-3 xl:grid-cols-4 gap-8 min-h-full flex ' +
-            'justify-center items-center mt-24 tabletL:mt-28 lg:mt-32 xl:mt-20'}
+            'justify-center items-center mt-24 tabletL:mt-28 lg:mt-32 xl:mt-36'}
         >
 
           {this.teamMembers.map((partner, index) =>

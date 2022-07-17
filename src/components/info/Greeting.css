@@ -64,3 +64,55 @@
         margin-top: 0!important;
     }
 }
+
+@media (max-height: 900px) and (min-width: 1100px) and (min-height: 600px) and (min-width: 800px) {
+    /*.scale-greeting {*/
+    /*    transform: scale(0.9)!important;*/
+    /*}*/
+    #shortInfoLink {
+        margin-top: 2%!important;
+    }
+    #big-heart-background {
+        background: url("/src/img/bigHeart.png") no-repeat 90% 25%;
+        background-size: 15%;
+    }
+
+    #medium-heart-background {
+        background: url("/src/img/mediumHeart.png") no-repeat 75% 55%;
+        background-size: 10%;
+    }
+
+    #small-heart-background {
+        background: url("/src/img/smallHeart.png") no-repeat 95% 60%;
+        background-size: 7%;
+    }
+}
+
+@media (max-height: 800px) and (min-width: 1100px) and (min-height: 600px) and (min-width: 800px) {
+    .scale-greeting {
+        transform: scale(0.9)!important;
+    }
+    #shortInfo {
+        margin-top: 0!important;
+    }
+    #greeting {
+        margin-top: 0!important;
+    }
+    #shortInfoLink {
+        margin-top: 2%!important;
+    }
+    #big-heart-background {
+        background: url("/src/img/bigHeart.png") no-repeat 90% 25%;
+        background-size: 15%;
+    }
+
+    #medium-heart-background {
+        background: url("/src/img/mediumHeart.png") no-repeat 75% 55%;
+        background-size: 10%;
+    }
+
+    #small-heart-background {
+        background: url("/src/img/smallHeart.png") no-repeat 95% 60%;
+        background-size: 7%;
+    }
+}

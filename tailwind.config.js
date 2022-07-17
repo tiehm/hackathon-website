@@ -11,6 +11,7 @@ module.exports = {
       '700-h': {'raw': '(max-height: 700px)'},
       '850-h': {'raw': '(min-height: 850px)'},
       'iPhoneXS': {'raw': '(max-height: 745px)'},
+      'smDesktop': {'raw': '(max-height: 850px) and (min-width: 1250px)'},
       'tabletL': '810px',
       ...defaultTheme.screens,
       '3xl': '1700px',

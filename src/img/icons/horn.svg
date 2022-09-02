@@ -1,0 +1,7 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="horn">
+<path id="Rectangle 4" fill-rule="evenodd" clip-rule="evenodd" d="M16.6667 45.5C16.6667 41.0817 20.2424 37.5 24.6607 37.5C31.8641 37.5 42.4515 37.5 50.0001 37.5C62.5001 37.5 79.1667 16.6666 79.1667 16.6666V79.1666C79.1667 79.1666 62.5001 58.3333 50.0001 58.3333C42.4515 58.3333 31.8641 58.3333 24.6607 58.3333C20.2424 58.3333 16.6667 54.7516 16.6667 50.3333V45.5Z" stroke="#141E12" stroke-linejoin="round"/>
+<path id="Path 19" fill-rule="evenodd" clip-rule="evenodd" d="M29.1667 58.3334L37.5001 83.3334H54.1667L45.8334 58.3334H29.1667Z" stroke="#141E12" stroke-linejoin="round"/>
+<path id="Path 20" d="M45.8334 37.5V58.3333" stroke="#141E12"/>
+</g>
+</svg>

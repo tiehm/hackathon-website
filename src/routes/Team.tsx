@@ -53,17 +53,6 @@ export class Team extends React.Component {
           'große Leidenschaft für die Formel 1.',
     },
     {
-      name: 'Charlotte Falk',
-      shortDesc: 'Marketing',
-      email: 'marketing@legallovestech.de',
-      linkedIn: 'https://www.linkedin.com/in/charlotte-falk-129a7a106/ ',
-      backgroundClass: 'charlotte-pic',
-      details: 'Sorgt für die Verbreitung von Legal ❤ Tech über alle ' +
-          'Social-Media-Kanäle. Liebt es an der Schnittstelle zwischen ' +
-          'Kommunikation und Recht zu arbeiten. Hat eine Schwäche für ' +
-          'Interior Design und eBay Kleinanzeigen.',
-    },
-    {
       name: 'Ann-Sophie Blaser',
       shortDesc: 'Teilnerhmer:innen & Initiativen',
       email: 'hallo@legallovestech.de',

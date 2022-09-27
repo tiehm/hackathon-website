@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/hackathon-website/static/css/main.6777c9e7.css",
-    "main.js": "/hackathon-website/static/js/main.149ea301.js",
+    "main.css": "/hackathon-website/static/css/main.78f889be.css",
+    "main.js": "/hackathon-website/static/js/main.f2654a65.js",
     "static/media/nonProfit.png": "/hackathon-website/static/media/nonProfit.97b41073b7971cc204d4.png",
     "static/media/sarah.png": "/hackathon-website/static/media/sarah.4e721395fe1eee0047fb.png",
     "static/media/betreuung.png": "/hackathon-website/static/media/betreuung.8954e632bbc5803f6f6d.png",
     "static/media/fabian.png": "/hackathon-website/static/media/fabian.dcfb40b232a8c09a2c17.png",
     "static/media/umfassend.png": "/hackathon-website/static/media/umfassend.97e2b60a64c5bd3f4edf.png",
+    "static/media/DirkHartung.jpg": "/hackathon-website/static/media/DirkHartung.3e7324f30f132d7e191e.jpg",
     "static/media/ann_sophie.png": "/hackathon-website/static/media/ann_sophie.d8653472223dde0b4aaf.png",
     "static/media/charlie.png": "/hackathon-website/static/media/charlie.8b7646c0180b3d43fbc4.png",
     "static/media/muskaan.png": "/hackathon-website/static/media/muskaan.bb15d6fa3c666fcf1d03.png",
@@ -20,6 +21,8 @@
     "static/media/Manrope-Regular.ttf": "/hackathon-website/static/media/Manrope-Regular.b1d694f660569a9a9ee6.ttf",
     "static/media/Manrope-Bold.ttf": "/hackathon-website/static/media/Manrope-Bold.bf52bb7e7aa3e1e99ab5.ttf",
     "static/media/Manrope-Light.ttf": "/hackathon-website/static/media/Manrope-Light.182f890e193b3af623fa.ttf",
+    "static/media/BernhardWaltl.jpg": "/hackathon-website/static/media/BernhardWaltl.f1374dfca7f3ae22577c.jpg",
+    "static/media/bucerius.png": "/hackathon-website/static/media/bucerius.3970efb6bbdf8d3dc329.png",
     "static/media/org_cologne.png": "/hackathon-website/static/media/org_cologne.985611032c722ef5d08b.png",
     "static/media/org_freiburg_white.png": "/hackathon-website/static/media/org_freiburg_white.b18b835b58b15af85db0.png",
     "static/media/lmu.png": "/hackathon-website/static/media/lmu.c1573a46dca4d17ab265.png",
@@ -27,6 +30,7 @@
     "static/media/org_munich.png": "/hackathon-website/static/media/org_munich.60c8677f888eba8f17b3.png",
     "static/media/org_marburg.png": "/hackathon-website/static/media/org_marburg.39cb5ce80c31941a7b34.png",
     "static/media/ri_lmu.png": "/hackathon-website/static/media/ri_lmu.7f879d8460566b0a02f6.png",
+    "static/media/unternehmertum.png": "/hackathon-website/static/media/unternehmertum.f5a68131682c6f471fd3.png",
     "static/media/logo-colored.svg": "/hackathon-website/static/media/logo-colored.697c3de709265d8890b073cd7ab0312b.svg",
     "static/media/logo-bw-inverted.svg": "/hackathon-website/static/media/logo-bw-inverted.3a57c516bd104823f92d09e02efc2539.svg",
     "static/media/disrupt.png": "/hackathon-website/static/media/disrupt.10e3ee060edfbcf30333.png",
@@ -35,14 +39,16 @@
     "static/media/org_giessen.png": "/hackathon-website/static/media/org_giessen.a7661e04942d6c8c5c69.png",
     "static/media/legal_tech_init_de.svg": "/hackathon-website/static/media/legal_tech_init_de.465dc4151798f995a4d86c66dcfe1512.svg",
     "static/media/org_aachen.svg": "/hackathon-website/static/media/org_aachen.cfa9af68395b5fa088242b534ea21141.svg",
+    "static/media/TUM_good.svg": "/hackathon-website/static/media/TUM_good.cb0d08778b6ad90bfa9820ecf4d3c3e0.svg",
     "index.html": "/hackathon-website/index.html",
     "static/media/mail.svg": "/hackathon-website/static/media/mail.31e5cf18b6741ff64e8e84254eeb59af.svg",
+    "static/media/brackets.svg": "/hackathon-website/static/media/brackets.6125df9d8712353f9a99.svg",
     "static/media/down-caret.svg": "/hackathon-website/static/media/down-caret.67ed1724b315315be99f4d23f8e603c8.svg",
-    "main.6777c9e7.css.map": "/hackathon-website/static/css/main.6777c9e7.css.map",
-    "main.149ea301.js.map": "/hackathon-website/static/js/main.149ea301.js.map"
+    "main.78f889be.css.map": "/hackathon-website/static/css/main.78f889be.css.map",
+    "main.f2654a65.js.map": "/hackathon-website/static/js/main.f2654a65.js.map"
   },
   "entrypoints": [
-    "static/css/main.6777c9e7.css",
-    "static/js/main.149ea301.js"
+    "static/css/main.78f889be.css",
+    "static/js/main.f2654a65.js"
   ]
 }

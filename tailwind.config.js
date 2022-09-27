@@ -27,6 +27,12 @@ module.exports = {
       'bold': 700,
     },
     extend: {
+      gridTemplateColumns: {
+        '15': 'repeat(15, minmax(0, 1fr))',
+      },
+      backgroundImage: {
+        'brackets': 'url(\'/src/img/icons/brackets.svg\')',
+      },
       flexBasis: {
         '1/15': '6.666666666666667%',
         '2/15': '13.333333333333334%',

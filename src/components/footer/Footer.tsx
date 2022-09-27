@@ -102,7 +102,6 @@ export class Footer extends React.Component<Props, {}> {
           'lg:gap-14'}>
         <a href={'/datenschutz'}>Datenschutzerklärung</a>
         <a href={'/impressum'}>Impressum</a>
-        <a href={'/#'}>Interner Bereich</a>
       </div>
 
     </div>;

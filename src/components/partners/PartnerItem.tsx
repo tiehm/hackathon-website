@@ -5,7 +5,7 @@ import './PartnerItem.css';
 type Props = {
     img: string
     name: string
-    size: 'big' | 'small'
+    size: 'big' | 'small' | 'very-big' | 'cube'
     backgroundColor: 'dark-blue' | 'light-blue' | 'very-light-blue'
     link: string
 }
@@ -13,10 +13,14 @@ type Props = {
 export class PartnerItem extends React.Component<Props, any> {
   get tailwindGridSpanClass(): string {
     switch (this.props.size) {
+      case 'cube':
+        return 'col-span-1 lg:row-span-2 h-24 lg:h-52';
+      case 'very-big':
+        return 'col-span-3 lg:col-span-2 row-span-2 h-52';
       case 'big':
-        return 'col-span-2';
+        return 'col-span-2 h-24';
       default:
-        return '';
+        return 'h-24';
     }
   }
 
@@ -25,7 +29,7 @@ export class PartnerItem extends React.Component<Props, any> {
       case 'dark-blue':
         return 'bg-blue-12 border-blue-12';
       case 'light-blue':
-        return 'bg-blue-4 border-blue-12';
+        return 'bg-blue-1 border-blue-4';
       case 'very-light-blue':
         return 'bg-blue-1 border-blue-4';
       default:
@@ -40,7 +44,7 @@ export class PartnerItem extends React.Component<Props, any> {
       rel="noreferrer"
       target="_blank"
       className={classNames(
-          'partnerItem overflow-hidden p-2 border-2 rounded h-24 flex ' +
+          'partnerItem overflow-hidden p-4 border-2 rounded flex ' +
           'justify-center items-center relative',
           this.tailwindBackgroundColorBorderClass,
           this.tailwindGridSpanClass,

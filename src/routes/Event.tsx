@@ -2,7 +2,6 @@ import React from 'react';
 import {EventInformationList} from '../components/event/EventInformationList';
 import {EventTitle} from '../components/event/EventTitle';
 import {Footer} from '../components/footer/Footer';
-import {Timetable} from '../components/timetable/Timetable';
 
 // entrypoint for the event page (path: /event)
 export class Event extends React.Component {
@@ -33,7 +32,6 @@ export class Event extends React.Component {
 
         </div>
 
-        <Timetable></Timetable>
 
       </div>
 

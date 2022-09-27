@@ -16,9 +16,11 @@ import orgMarburgLogo from '../../img/partners/org_marburg.png';
 import mlTechLogo from '../../img/partners/org_munich.png';
 import recodeLogo from '../../img/partners/org_recode_text.png';
 import orgTrierLogo from '../../img/partners/org_trier_logo_text_white.png';
-import orgTuebingenLogo from '../../img/partners/org_tuebingen.png';
-import tumLogo from '../../img/partners/tum.png';
+import tumLogo from '../../img/partners/TUM_good.svg';
 import riLMU from '../../img/partners/ri_lmu.png';
+import bucerius from '../../img/partners/bucerius.png';
+import ltc from '../../img/partners/ltc.png';
+import unternehmerTUM from '../../img/partners/unternehmertum.png';
 import {PartnerItem} from './PartnerItem';
 
 
@@ -30,7 +32,7 @@ interface Partner {
     // indicator weather the provided logo is small or big, there is no
     // exact measurement but in general any wide logo is "big" while more
     // quadratic lltLogos are "small"
-    size: 'small' | 'big';
+    size: 'small' | 'big' | 'very-big' | 'cube';
     // depending on the logo the background color can be chosen, light lltLogos
     // are probably best on a dark blue background while very dark lltLogos are
     // the best on a very light blue or light blue
@@ -45,6 +47,23 @@ interface Partner {
 export class Partners extends React.Component {
   // list of all partners
   partnerList: Partner[] = [
+
+    {
+      img: ltc,
+      name: 'Legal Tech Colab',
+      size: 'big',
+      backgroundColor: 'very-light-blue',
+      link: 'https://www.legaltechcolab.com/',
+    },
+
+    {
+      img: unternehmerTUM,
+      name: 'UnternehmerTUM GmbH',
+      size: 'very-big',
+      backgroundColor: 'very-light-blue',
+      link: 'https://www.unternehmertum.de/',
+    },
+
     {
       img: recodeLogo,
       name: 'recode.law e.V.',
@@ -52,12 +71,28 @@ export class Partners extends React.Component {
       backgroundColor: 'light-blue',
       link: 'https://recode.law/',
     },
+
     {
-      img: orgAachen,
-      name: 'Legal Tech Aachen',
-      size: 'small',
+      img: liquidLegalLogo,
+      name: 'Liquid Legal Institute e.V.',
+      size: 'cube',
       backgroundColor: 'very-light-blue',
-      link: 'https://www.linkedin.com/company/legal-tech-aachen/',
+      link: 'https://www.liquid-legal-institute.com/',
+    },
+    {
+      img: lmuLogo,
+      name: 'Ludwig-Maximilians-Universität München',
+      size: 'very-big',
+      backgroundColor: 'light-blue',
+      link: 'https://www.lmu.de/de/index.html',
+    },
+
+    {
+      img: openLegalTechLogo,
+      name: 'Open Legal Tech e. V.',
+      size: 'cube',
+      backgroundColor: 'very-light-blue',
+      link: 'https://open-legal-tech.org/',
     },
     {
       img: orgTrierLogo,
@@ -66,40 +101,13 @@ export class Partners extends React.Component {
       backgroundColor: 'dark-blue',
       link: 'https://www.legaltechtrier.de/',
     },
+
     {
-      img: orgFrankfurtLogo,
-      name: 'LEGAL TECH LAB FRANKFURT AM MAIN E.V.',
-      size: 'big',
-      backgroundColor: 'light-blue',
-      link: 'https://legaltechlab.de/',
-    },
-    {
-      img: orgMannheim,
-      name: 'ltc Mannheim e.V.',
+      img: orgFreiburg,
+      name: 'fruit - Freiburg Recht und IT',
       size: 'big',
       backgroundColor: 'dark-blue',
-      link: 'https://www.ltc-mannheim.de/',
-    },
-    {
-      img: orgMarburgLogo,
-      name: 'Legal Tech Lab Marburg',
-      size: 'big',
-      backgroundColor: 'light-blue',
-      link: 'https://www.legal-tech-marburg.de/',
-    },
-    {
-      img: orgTuebingenLogo,
-      name: 'Tübingen Legal Tech e.V.',
-      size: 'small',
-      backgroundColor: 'very-light-blue',
-      link: 'https://www.tuebingenlegaltech.de/',
-    },
-    {
-      img: openLegalTechLogo,
-      name: 'Open Legal Tech e. V.',
-      size: 'small',
-      backgroundColor: 'very-light-blue',
-      link: 'https://open-legal-tech.org/',
+      link: 'https://freiburg-recht-und-it.de/',
     },
     {
       img: orgCologneLogo,
@@ -115,20 +123,7 @@ export class Partners extends React.Component {
       backgroundColor: 'light-blue',
       link: 'https://www.ml-tech.org/',
     },
-    {
-      img: liquidLegalLogo,
-      name: 'Liquid Legal Institute e.V.',
-      size: 'small',
-      backgroundColor: 'very-light-blue',
-      link: 'https://www.liquid-legal-institute.com/',
-    },
-    {
-      img: cdpsLogo,
-      name: 'TUM Center for Digital Public Services',
-      size: 'big',
-      backgroundColor: 'light-blue',
-      link: 'https://www.tum-cdps.de/',
-    },
+
     {
       img: eLegalLogo,
       name: 'eLEGAL e.V.',
@@ -137,67 +132,102 @@ export class Partners extends React.Component {
       link: 'https://www.elegal.technology/',
     },
     {
+      img: tumLogo,
+      name: 'Technische Universität München',
+      size: 'very-big',
+      backgroundColor: 'very-light-blue',
+      link: 'https://www.tum.de/',
+    },
+
+    {
+      img: riLMU,
+      name: 'LMU RIZ',
+      size: 'cube',
+      backgroundColor: 'very-light-blue',
+      link: 'https://www.jura.uni-muenchen.de/fakultaet/riz_neu/index.html',
+    },
+    {
       img: disruptLogo,
       name: 'disrUPt law Heidelberg e.V.',
       size: 'small',
       backgroundColor: 'dark-blue',
       link: 'https://disrupt-law.org/',
     },
+
     {
-      img: orgFreiburg,
-      name: 'fruit - Freiburg Recht und IT',
-      size: 'big',
-      backgroundColor: 'dark-blue',
-      link: 'https://freiburg-recht-und-it.de/',
-    },
-    {
-      img: legalTechDeLogo,
-      name: 'Legal Tech Verband Deutschland e.V.',
-      size: 'big',
+      img: bucerius,
+      name: 'Bucerius Law School',
+      size: 'very-big',
       backgroundColor: 'very-light-blue',
-      link: 'https://www.legaltechverband.de/',
+      link: 'https://www.law-school.de/',
     },
+    {
+      img: orgAachen,
+      name: 'Legal Tech Aachen',
+      size: 'small',
+      backgroundColor: 'very-light-blue',
+      link: 'https://www.linkedin.com/company/legal-tech-aachen/',
+    },
+
     {
       img: orgGiessenLogo,
       name: 'JUST Legal Tech e.V.',
-      size: 'big',
+      size: 'small',
       backgroundColor: 'light-blue',
       link: 'https://www.just-legaltech.de/',
     },
     {
-      img: tumLogo,
-      name: 'Technische Universität München',
-      size: 'small',
+      img: legalTechDeLogo,
+      name: 'Legal Tech Verband Deutschland e.V.',
+      size: 'very-big',
       backgroundColor: 'very-light-blue',
-      link: 'https://www.tum.de/',
+      link: 'https://www.legaltechverband.de/',
     },
+
     {
-      img: lmuLogo,
-      name: 'Ludwig-Maximilians-Universität München',
+      img: orgFrankfurtLogo,
+      name: 'Legal Tech Lab Frankfurt am Main e.V.',
+      size: 'big',
+      backgroundColor: 'light-blue',
+      link: 'https://legaltechlab.de/',
+    },
+
+    {
+      img: orgMarburgLogo,
+      name: 'Legal Tech Lab Marburg',
+      size: 'big',
+      backgroundColor: 'very-light-blue',
+      link: 'https://www.legal-tech-marburg.de/',
+    },
+
+    {
+      img: cdpsLogo,
+      name: 'TUM Center for Digital Public Services',
       size: 'small',
       backgroundColor: 'light-blue',
-      link: 'https://www.lmu.de/de/index.html',
+      link: 'https://www.tum-cdps.de/',
     },
     {
-      img: riLMU,
-      name: 'LMU RIZ',
-      size: 'small',
-      backgroundColor: 'very-light-blue',
-      link: 'https://www.jura.uni-muenchen.de/fakultaet/riz_neu/index.html',
+      img: orgMannheim,
+      name: 'ltc Mannheim e.V.',
+      size: 'big',
+      backgroundColor: 'dark-blue',
+      link: 'https://www.ltc-mannheim.de/',
     },
   ];
 
   randomizedPartnerList(): Partner[] {
-    return [
-      // priority partners should always come first and as such are
-      // always in the beginning of the list
-      ...this.partnerList.filter((p) => p.priorityPick),
-      // there are better ways to make sure that the array is properly
-      // sorted than using Math.random() with .sort(), however for
-      // this application this is random and efficient enough
-      ...this.partnerList.filter((p) => !p.priorityPick)
-          .sort(() => 0.5 - Math.random()),
-    ];
+    return this.partnerList;
+    // return [
+    //   // priority partners should always come first and as such are
+    //   // always in the beginning of the list
+    //   ...this.partnerList.filter((p) => p.priorityPick),
+    //   // there are better ways to make sure that the array is properly
+    //   // sorted than using Math.random() with .sort(), however for
+    //   // this application this is random and efficient enough
+    //   ...this.partnerList.filter((p) => !p.priorityPick)
+    //       .sort(() => 0.5 - Math.random()),
+    // ];
   }
 
   render() {
@@ -216,7 +246,9 @@ export class Partners extends React.Component {
       <div className={'h-full flex justify-center items-center w-4/5 ml-auto ' +
           'mr-2 pt-52 z-10 flex-grow'}>
 
-        <div className={'grid grid-flow-row-dense h-full gap-3 w-4/5 ml-auto ' +
+        <div className={'grid grid-flow-row-dense xl:grid-flow-auto h-full' +
+          ' gap-3 w-4/5' +
+          ' ml-auto ' +
             'mr-4 justify-center items-center grid-cols-3 md:grid-cols-4 ' +
             'lg:grid-cols-6 lg:w-11/12 xl:grid-cols-7 '}>
 

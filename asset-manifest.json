@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hackathon-website/static/css/main.78f889be.css",
-    "main.js": "/hackathon-website/static/js/main.f2654a65.js",
+    "main.css": "/hackathon-website/static/css/main.68c0c653.css",
+    "main.js": "/hackathon-website/static/js/main.5fad9bd8.js",
     "static/media/nonProfit.png": "/hackathon-website/static/media/nonProfit.97b41073b7971cc204d4.png",
     "static/media/sarah.png": "/hackathon-website/static/media/sarah.4e721395fe1eee0047fb.png",
     "static/media/betreuung.png": "/hackathon-website/static/media/betreuung.8954e632bbc5803f6f6d.png",
@@ -39,16 +39,16 @@
     "static/media/org_giessen.png": "/hackathon-website/static/media/org_giessen.a7661e04942d6c8c5c69.png",
     "static/media/legal_tech_init_de.svg": "/hackathon-website/static/media/legal_tech_init_de.465dc4151798f995a4d86c66dcfe1512.svg",
     "static/media/org_aachen.svg": "/hackathon-website/static/media/org_aachen.cfa9af68395b5fa088242b534ea21141.svg",
-    "static/media/TUM_good.svg": "/hackathon-website/static/media/TUM_good.cb0d08778b6ad90bfa9820ecf4d3c3e0.svg",
     "index.html": "/hackathon-website/index.html",
+    "static/media/TUM_good.svg": "/hackathon-website/static/media/TUM_good.cb0d08778b6ad90bfa9820ecf4d3c3e0.svg",
     "static/media/mail.svg": "/hackathon-website/static/media/mail.31e5cf18b6741ff64e8e84254eeb59af.svg",
     "static/media/brackets.svg": "/hackathon-website/static/media/brackets.6125df9d8712353f9a99.svg",
     "static/media/down-caret.svg": "/hackathon-website/static/media/down-caret.67ed1724b315315be99f4d23f8e603c8.svg",
-    "main.78f889be.css.map": "/hackathon-website/static/css/main.78f889be.css.map",
-    "main.f2654a65.js.map": "/hackathon-website/static/js/main.f2654a65.js.map"
+    "main.68c0c653.css.map": "/hackathon-website/static/css/main.68c0c653.css.map",
+    "main.5fad9bd8.js.map": "/hackathon-website/static/js/main.5fad9bd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.78f889be.css",
-    "static/js/main.f2654a65.js"
+    "static/css/main.68c0c653.css",
+    "static/js/main.5fad9bd8.js"
   ]
 }

@@ -1,6 +1,6 @@
 .basti-pic {
     background: url("../../img/teamMembers/basti.png") 40% 15%;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -12,25 +12,25 @@
 
 .charlie-pic {
     background: url("../../img/teamMembers/charlie.png") 40% 20%;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .charlotte-pic {
     background: url("../../img/teamMembers/charlotte.png") 100% 20%;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .fabian-pic {
     background: url("../../img/teamMembers/fabian.png") 40% 20%;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .muskaan-pic {
     background: url("../../img/teamMembers/muskaan.png") 40% 20%;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 

@@ -88,7 +88,7 @@ export class Team extends React.Component {
       <div className={'min-h-screen flex bg-red-3 w-full justify-center ' +
           'items-center mb-10'}>
         <div className={'container p-10 grid grid-cols-1 sm:grid-cols-2 ' +
-            'lg:grid-cols-3 xl:grid-cols-4 gap-8 min-h-full flex ' +
+            'lg:grid-cols-3 gap-8 min-h-full flex ' +
             'justify-center items-center mt-24 tabletL:mt-28 lg:mt-32 xl:mt-36'}
         >
 

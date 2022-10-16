@@ -39,7 +39,8 @@ export class TeamCard extends React.Component<Props, State> {
   }
 
   render() {
-    return <div className="bg-blue-2 rounded relative select-none">
+    return <div
+      className="bg-blue-2 rounded relative select-none 2xl:h-[400px]">
       <div className={classNames('absolute h-full w-full bg-blue-2 rounded' +
                 ' tabletL:hover:opacity-95 transition-opacity flex' +
                 ' flex-col justify-center items-center p-4',
@@ -73,8 +74,9 @@ export class TeamCard extends React.Component<Props, State> {
           }
         </div>
       </div>
-      <div className={'w-full h-60 rounded-t ' + this.props.backgroundClass}>
-
+      <div
+        className={'w-full h-60 2xl:h-[80%] rounded-t ' +
+          this.props.backgroundClass}>
       </div>
       <div className="text-center p-4 bg-blue-2 bg-opacity-10 rounded-b">
         <div className="font-semi-bold">

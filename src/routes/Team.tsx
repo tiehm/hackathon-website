@@ -69,8 +69,8 @@ export class Team extends React.Component {
       linkedIn: 'https://www.linkedin.com/in/fabian-wiedemann/',
       backgroundClass: 'fabian-pic',
       details: 'Kümmert sich um die Verbreitung des Events als Teil ' +
-          'universitärer Lehre. Mag cinematographische Klassiker wie ' +
-          'Rick and Morty, The Office und Community.',
+        'universitärer Lehre. Interessiert sich für Coding genauso wie für ' +
+        'Serienklassiker wie Rick and Morty, The Office und Community.',
     },
     {
       name: 'Charlie Tiehm',

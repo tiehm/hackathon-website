@@ -1,6 +1,7 @@
 import React from 'react';
 import bernhardWaltl from '../../img/BernhardWaltl.jpg';
 import dirkHartung from '../../img/DirkHartung.jpg';
+import heckmann from '../../img/Heckmann.jpg';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import './Testimonials.css';
 import {Navigation} from 'swiper';
@@ -14,6 +15,7 @@ export interface Testimonial {
   img: string;
   name: string;
   text: string;
+  isTooBig?: boolean;
 }
 
 export class Testimonials extends React.Component<Props, {}> {
@@ -31,6 +33,17 @@ export class Testimonials extends React.Component<Props, {}> {
         ' technische Umsetzung ankommt, ist genau das anspruchsvolle' +
         ' Ausbildungsformat, das wir im Legal Tech Bereich brauchen',
       name: 'Dirk Hartung',
+    },
+    {
+      text: 'Der LegalLovesTech Hackathon bietet die ideale Plattform für' +
+        ' angehende Jurist*innen, Informatiker*innen und Interessierte, um' +
+        ' gemeinsam innovative Einsatzmöglichkeiten von IT in der' +
+        ' Rechtsanwendung zu entdecken, den Grundstein für wettbewerbsfähige' +
+        ' technische Lösungen zu entwickeln und damit die Zukunft der' +
+        ' rechtsanwendenden Berufe mitzugestalten.',
+      name: 'Prof. Dr. Dirk Heckmann',
+      img: heckmann,
+      isTooBig: true,
     },
   ];
 
@@ -58,7 +71,7 @@ export class Testimonials extends React.Component<Props, {}> {
             centeredSlides={true}>
             {this.cards.map((testimonial, i) => {
               return <SwiperSlide key={i} className="block rounded">
-                <TestimonialSwiper testimonial={testimonial} />
+                <TestimonialSwiper testimonial={testimonial} i={i} />
               </SwiperSlide>;
             })}
 

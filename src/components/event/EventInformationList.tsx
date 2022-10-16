@@ -22,7 +22,7 @@ export class EventInformationList extends React.Component {
 
     'Im Lauf der Woche finden Vorträge und Workshops führender Expert:innen' +
     ' statt, deren Teilnahme nicht verpflichtend ist. In diesen Einheiten' +
-    ' werden sämtliche Fähigkeiten vermittelt, die notwendig sind,' +
+    ' werden saemtliche Fähigkeiten vermittelt, die notwendig sind,' +
     ' um die Aufgaben zu lösen, und einen Einblick in die entsprechenden' +
     ' Bereiche zu gewahren.',
 

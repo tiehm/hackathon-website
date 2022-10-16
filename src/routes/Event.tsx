@@ -24,11 +24,13 @@ export class Event extends React.Component {
 
           <EventInformationList/>
 
-          <div className={'bg-blue-3 font-semi-bold text-text-caption ' +
+          <a className={'bg-blue-3 font-semi-bold text-text-caption ' +
               'rounded border w-fit py-6 px-8 border-blue-12 uppercase ' +
-              'ml-auto mt-16'}>
-              Anmeldung möglich ab 01.10.2022
-          </div>
+              'ml-auto mt-16 block'}
+          href={'/join'}
+          >
+              Jetzt Anmelden!
+          </a>
 
         </div>
 

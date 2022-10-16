@@ -29,7 +29,7 @@ export class About extends React.Component<Props, {}> {
   cards: Card[] = [
     {
       title: 'Umfassend',
-      description: 'Eine Kooperation sämtlicher studentischen Legal' +
+      description: 'Eine Kooperation saesmtlicher studentischen Legal' +
       ' Tech Initiativen Deutschlands.',
       img: umfassendImg,
     },

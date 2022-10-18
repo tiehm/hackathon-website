@@ -54,7 +54,7 @@ export class Team extends React.Component {
     },
     {
       name: 'Ann-Sophie Blaser',
-      shortDesc: 'Teilnerhmer:innen & Initiativen',
+      shortDesc: 'Teilnehmer:innen & Initiativen',
       email: 'hallo@legallovestech.de',
       linkedIn: 'https://www.linkedin.com/in/ann-sophie-blaser-a9706b222/',
       backgroundClass: 'ann-sophie-pic',
@@ -78,7 +78,7 @@ export class Team extends React.Component {
       email: 'hallo@legallovestech.de',
       backgroundClass: 'charlie-pic',
       details: 'Programmiert jede Idee aus, die nicht bei drei auf\'m' +
-          ' Baum ist. Kümmert sich vorallem um die Website und' +
+          ' Baum ist. Kümmert sich vor allem um die Website und' +
           ' technische Aufgaben im Hintergrund.',
     },
   ];

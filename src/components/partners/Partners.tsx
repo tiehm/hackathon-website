@@ -21,6 +21,7 @@ import riLMU from '../../img/partners/ri_lmu.png';
 import bucerius from '../../img/partners/bucerius.png';
 import ltc from '../../img/partners/ltc.png';
 import unternehmerTUM from '../../img/partners/unternehmertum.png';
+import womenInAI from '../../img/partners/women_in_ai.png';
 import {PartnerItem} from './PartnerItem';
 
 
@@ -213,6 +214,13 @@ export class Partners extends React.Component {
       size: 'big',
       backgroundColor: 'dark-blue',
       link: 'https://www.ltc-mannheim.de/',
+    },
+    {
+      img: womenInAI,
+      name: 'Women in Artificial Intelligence and Robotics Germany e.V.',
+      size: 'big',
+      backgroundColor: 'light-blue',
+      link: 'https://www.womeninairobotics.de/',
     },
   ];
 

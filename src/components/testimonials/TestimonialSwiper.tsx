@@ -22,7 +22,7 @@ export class TestimonialSwiper extends React.Component<Props, {}> {
             'xl:-right-28 md:-right-20')}>
           <img
             src={this.props.testimonial.img}
-            className={'h-5/6 rounded'}
+            className={'h-auto max-h-[80%] max-w-[80%] rounded'}
             alt={this.props.testimonial.name} />
         </div>
         <div className={'rounded bg-red-3 w-full h-2/3 sm:h-1/2' +

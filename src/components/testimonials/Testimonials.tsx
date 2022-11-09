@@ -1,14 +1,19 @@
 import React from 'react';
 import bernhardWaltl from '../../img/BernhardWaltl.jpg';
 import dirkHartung from '../../img/DirkHartung.jpg';
+import fraukeRostalski from '../../img/FraukeRostalski.png';
+import christinaMariaLeeb from '../../img/ChristinaMariaLeeb.png';
+import annePaschke from '../../img/AnnePaschke.png';
 import heckmann from '../../img/Heckmann.jpg';
+import christianSchlicht from '../../img/ChristianSchlicht.png';
+import biancaNeumaier from '../../img/biancaNeumaier.png';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import './Testimonials.css';
 import {Navigation} from 'swiper';
 import {TestimonialSwiper} from './TestimonialSwiper';
 
 type Props = {
-    scrollTo: (selector: string) => void
+  scrollTo: (selector: string) => void
 }
 
 export interface Testimonial {
@@ -26,15 +31,30 @@ export class Testimonials extends React.Component<Props, {}> {
         ' Erfahrungen. Der LLT Hackathon bringt beides in einer' +
         ' hervorragenden Initiative zusammen.',
       name: 'Dr. Bernhard Waltl',
-    },
-    {
+    }, {
+      text: 'Der Hackathon bietet allen Beteiligten eine optimale' +
+        ' Gelegenheit des interdisziplinären Arbeitens. IT und Recht finden' +
+        ' zusammen - eine Vermählung, die in der Praxis immer höhere' +
+        ' Bedeutung erlangt und daher auch in der Ausbildung nicht fehlen' +
+        ' darf. Im Rahmen eines Hackathons können daher nicht bloß wichtige' +
+        ' Erfahrungen gesammelt, sondern Kontakte geknüpft werden, ' +
+        'die über das Event selbst Bestand haben.',
+      name: 'Prof. Dr. Frauke Rostalski',
+      img: fraukeRostalski,
+      isTooBig: true,
+    }, {
       img: dirkHartung,
       text: 'Ein großer Wettbewerb bei dem es auf gute Ideen und deren' +
         ' technische Umsetzung ankommt, ist genau das anspruchsvolle' +
         ' Ausbildungsformat, das wir im Legal Tech Bereich brauchen',
       name: 'Dirk Hartung',
-    },
-    {
+    }, {
+      text: 'Bei einem Hackathon steht von vornherein fest: Ausnahmslos alle ' +
+        'Teilnehmenden sind Gewinner. Gewinner wertvoller Erfahrungen ' +
+        'und Kontakte. Teilnahmeempfehlung von Herzen!',
+      name: 'Dr. Christina-Maria Leeb',
+      img: christinaMariaLeeb,
+    }, {
       text: 'Der LegalLovesTech Hackathon bietet die ideale Plattform für' +
         ' angehende Jurist*innen, Informatiker*innen und Interessierte, um' +
         ' gemeinsam innovative Einsatzmöglichkeiten von IT in der' +
@@ -44,6 +64,30 @@ export class Testimonials extends React.Component<Props, {}> {
       name: 'Prof. Dr. Dirk Heckmann',
       img: heckmann,
       isTooBig: true,
+    }, {
+      text: 'Täglich erzeugt die Justiz tausende von Datensätzen, die ' +
+        'unsere Rechtsordnung widerspiegeln. Der LegalLovesTech Hackathon ' +
+        'ermöglicht es allen Beteiligten über die Nutzung dieser Daten und ' +
+        'den Zugang zum Recht in einem interdisziplinären Team neu zu denken ' +
+        'und mit innovativen Ansätzen die Rechtsanwendung von morgen zu ' +
+        'beeinflussen.',
+      name: 'Prof. Dr. Anne Paschke',
+      isTooBig: true,
+      img: annePaschke,
+    },
+    {
+      text: 'Der Legal Loves Tech Hackathon ist eine großartige' +
+        ' Bottom-up-Initiative, von der ich mir wertvolle Impulse auch für ' +
+        'die Justiz verspreche!',
+      name: 'Dr. Christian Schlicht',
+      img: christianSchlicht,
+    },
+    {
+      text: 'Dieser Hackathon lohnt sich auch für alle Personen, die in ' +
+        'Unternehmensrechtsabteilungen Legal Tech und Legal Operations ' +
+        'aufbauen wollen. Eine super Inspiration und Lernerfahrung!',
+      name: 'Bianca Neumaier',
+      img: biancaNeumaier,
     },
   ];
 
@@ -53,12 +97,10 @@ export class Testimonials extends React.Component<Props, {}> {
       className="h-screen relative flex justify-center items-center"
     >
 
-      <div className={'absolute top-8 left-0 rounded-r z-10 bg-blue-12 ' +
-            'text-blue-1 text-3xl px-20 py-6'}>
-            What Others Say
+      <div className={'absolute top-8 left-0 rounded-r z-10 bg-blue-12 ' + 'text-blue-1 text-3xl px-20 py-6'}>
+        What Others Say
       </div>
-      <div className={'w-full h-5/6 py-4 flex justify-center ' +
-            'items-center md:px-4'}>
+      <div className={'w-full h-5/6 py-4 flex justify-center ' + 'items-center md:px-4'}>
         <div className={'block w-full h-full py-4 relative'}>
 
           <Swiper
@@ -71,7 +113,7 @@ export class Testimonials extends React.Component<Props, {}> {
             centeredSlides={true}>
             {this.cards.map((testimonial, i) => {
               return <SwiperSlide key={i} className="block rounded">
-                <TestimonialSwiper testimonial={testimonial} i={i} />
+                <TestimonialSwiper testimonial={testimonial} i={i}/>
               </SwiperSlide>;
             })}
 

@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/hackathon-website/static/css/main.8f2ad5b8.css",
-    "main.js": "/hackathon-website/static/js/main.908ffc5f.js",
+    "main.css": "/hackathon-website/static/css/main.80455cbb.css",
+    "main.js": "/hackathon-website/static/js/main.d7a1f5e7.js",
     "static/media/ChristianSchlicht.png": "/hackathon-website/static/media/ChristianSchlicht.52b07308f4c090db07b5.png",
     "static/media/AnnePaschke.png": "/hackathon-website/static/media/AnnePaschke.ce5585d7c511bdb72770.png",
-    "static/media/FraukeRostalski.png": "/hackathon-website/static/media/FraukeRostalski.714cdfba822ff9e92c22.png",
     "static/media/Heckmann.jpg": "/hackathon-website/static/media/Heckmann.b3a2e06d8e409543642f.jpg",
     "static/media/nonProfit.png": "/hackathon-website/static/media/nonProfit.97b41073b7971cc204d4.png",
     "static/media/sarah.png": "/hackathon-website/static/media/sarah.4e721395fe1eee0047fb.png",
@@ -23,6 +22,7 @@
     "static/media/elegal.png": "/hackathon-website/static/media/elegal.6bd673e8e25f89c05e0e.png",
     "static/media/ReenieBeanie-Regular.ttf": "/hackathon-website/static/media/ReenieBeanie-Regular.f0878cc6c40bb162ff77.ttf",
     "static/media/org_fra.png": "/hackathon-website/static/media/org_fra.f526f192c5dfc4a662ea.png",
+    "static/media/built.png": "/hackathon-website/static/media/built.8de58c6c6dcf8429030e.png",
     "static/media/cdps.png": "/hackathon-website/static/media/cdps.4a778dc2392cdca5703c.png",
     "static/media/Manrope-Regular.ttf": "/hackathon-website/static/media/Manrope-Regular.b1d694f660569a9a9ee6.ttf",
     "static/media/Manrope-Bold.ttf": "/hackathon-website/static/media/Manrope-Bold.bf52bb7e7aa3e1e99ab5.ttf",
@@ -40,6 +40,7 @@
     "static/media/ri_lmu.png": "/hackathon-website/static/media/ri_lmu.7f879d8460566b0a02f6.png",
     "static/media/unternehmertum.png": "/hackathon-website/static/media/unternehmertum.f5a68131682c6f471fd3.png",
     "static/media/logo-colored.svg": "/hackathon-website/static/media/logo-colored.697c3de709265d8890b073cd7ab0312b.svg",
+    "static/media/FraukeRostalski.jpg": "/hackathon-website/static/media/FraukeRostalski.8098de3c550530ed30c7.jpg",
     "static/media/logo-bw-inverted.svg": "/hackathon-website/static/media/logo-bw-inverted.3a57c516bd104823f92d09e02efc2539.svg",
     "static/media/disrupt.png": "/hackathon-website/static/media/disrupt.10e3ee060edfbcf30333.png",
     "static/media/logo-bw.svg": "/hackathon-website/static/media/logo-bw.eeec0838a69d0f544cc02fbd5b209db3.svg",
@@ -52,11 +53,11 @@
     "static/media/mail.svg": "/hackathon-website/static/media/mail.31e5cf18b6741ff64e8e84254eeb59af.svg",
     "static/media/brackets.svg": "/hackathon-website/static/media/brackets.6125df9d8712353f9a99.svg",
     "static/media/down-caret.svg": "/hackathon-website/static/media/down-caret.67ed1724b315315be99f4d23f8e603c8.svg",
-    "main.8f2ad5b8.css.map": "/hackathon-website/static/css/main.8f2ad5b8.css.map",
-    "main.908ffc5f.js.map": "/hackathon-website/static/js/main.908ffc5f.js.map"
+    "main.80455cbb.css.map": "/hackathon-website/static/css/main.80455cbb.css.map",
+    "main.d7a1f5e7.js.map": "/hackathon-website/static/js/main.d7a1f5e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f2ad5b8.css",
-    "static/js/main.908ffc5f.js"
+    "static/css/main.80455cbb.css",
+    "static/js/main.d7a1f5e7.js"
   ]
 }

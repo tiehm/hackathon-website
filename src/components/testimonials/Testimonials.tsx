@@ -1,7 +1,7 @@
 import React from 'react';
 import bernhardWaltl from '../../img/BernhardWaltl.jpg';
 import dirkHartung from '../../img/DirkHartung.jpg';
-import fraukeRostalski from '../../img/FraukeRostalski.png';
+import fraukeRostalski from '../../img/FraukeRostalski.jpg';
 import christinaMariaLeeb from '../../img/ChristinaMariaLeeb.png';
 import annePaschke from '../../img/AnnePaschke.png';
 import heckmann from '../../img/Heckmann.jpg';
@@ -10,6 +10,7 @@ import biancaNeumaier from '../../img/biancaNeumaier.png';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import './Testimonials.css';
 import {Navigation} from 'swiper';
+import {Caret} from '../Caret';
 import {TestimonialSwiper} from './TestimonialSwiper';
 
 type Props = {
@@ -20,6 +21,7 @@ export interface Testimonial {
   img: string;
   name: string;
   text: string;
+  pictureSource?: string;
   isTooBig?: boolean;
 }
 
@@ -33,7 +35,8 @@ export class Testimonials extends React.Component<Props, {}> {
       name: 'Dr. Bernhard Waltl',
     }, {
       text: 'Der Hackathon bietet allen Beteiligten eine optimale' +
-        ' Gelegenheit des interdisziplinären Arbeitens. IT und Recht finden' +
+        ' Gelegenheit des inter&shy;disziplinären Arbeitens. IT und ' +
+        ' Recht finden' +
         ' zusammen - eine Vermählung, die in der Praxis immer höhere' +
         ' Bedeutung erlangt und daher auch in der Ausbildung nicht fehlen' +
         ' darf. Im Rahmen eines Hackathons können daher nicht bloß wichtige' +
@@ -42,34 +45,39 @@ export class Testimonials extends React.Component<Props, {}> {
       name: 'Prof. Dr. Frauke Rostalski',
       img: fraukeRostalski,
       isTooBig: true,
+      pictureSource: 'Pascal Bünning',
     }, {
       img: dirkHartung,
       text: 'Ein großer Wettbewerb bei dem es auf gute Ideen und deren' +
         ' technische Umsetzung ankommt, ist genau das anspruchsvolle' +
-        ' Ausbildungsformat, das wir im Legal Tech Bereich brauchen',
+        ' Ausbildungs&shy;format, das wir im Legal Tech Bereich brauchen',
       name: 'Dirk Hartung',
     }, {
       text: 'Bei einem Hackathon steht von vornherein fest: Ausnahmslos alle ' +
         'Teilnehmenden sind Gewinner. Gewinner wertvoller Erfahrungen ' +
-        'und Kontakte. Teilnahmeempfehlung von Herzen!',
+        'und Kontakte. Teilnahme&shy;empfehlung von Herzen!',
       name: 'Dr. Christina-Maria Leeb',
       img: christinaMariaLeeb,
     }, {
       text: 'Der LegalLovesTech Hackathon bietet die ideale Plattform für' +
         ' angehende Jurist*innen, Informatiker*innen und Interessierte, um' +
-        ' gemeinsam innovative Einsatzmöglichkeiten von IT in der' +
-        ' Rechtsanwendung zu entdecken, den Grundstein für wettbewerbsfähige' +
+        ' gemeinsam innovative Einsatz&shy;möglichkeiten von IT in der' +
+        ' Rechts&shy;anwendung zu entdecken, den Grundstein ' +
+        'für wett&shy;bewerbs&shy;fähige' +
         ' technische Lösungen zu entwickeln und damit die Zukunft der' +
-        ' rechtsanwendenden Berufe mitzugestalten.',
+        ' rechts&shy;anwendenden Berufe mitzugestalten.',
       name: 'Prof. Dr. Dirk Heckmann',
       img: heckmann,
       isTooBig: true,
+      pictureSource: 'Kilian Blees / bidt',
     }, {
       text: 'Täglich erzeugt die Justiz tausende von Datensätzen, die ' +
-        'unsere Rechtsordnung widerspiegeln. Der LegalLovesTech Hackathon ' +
+        'unsere Recht&shy;sordnung widerspiegeln. Der LegalLovesTech ' +
+        'Hackathon ' +
         'ermöglicht es allen Beteiligten über die Nutzung dieser Daten und ' +
-        'den Zugang zum Recht in einem interdisziplinären Team neu zu denken ' +
-        'und mit innovativen Ansätzen die Rechtsanwendung von morgen zu ' +
+        'den Zugang zum Recht in einem inter&shy;disziplinären Team neu' +
+        ' zu denken ' +
+        'und mit innovativen Ansätzen die Rechts&shy;anwendung von morgen zu ' +
         'beeinflussen.',
       name: 'Prof. Dr. Anne Paschke',
       isTooBig: true,
@@ -84,7 +92,7 @@ export class Testimonials extends React.Component<Props, {}> {
     },
     {
       text: 'Dieser Hackathon lohnt sich auch für alle Personen, die in ' +
-        'Unternehmensrechtsabteilungen Legal Tech und Legal Operations ' +
+        'Unternehmens&shy;rechtsabteilungen Legal Tech und Legal Operations ' +
         'aufbauen wollen. Eine super Inspiration und Lernerfahrung!',
       name: 'Bianca Neumaier',
       img: biancaNeumaier,
@@ -97,13 +105,16 @@ export class Testimonials extends React.Component<Props, {}> {
       className="h-screen relative flex justify-center items-center"
     >
 
-      <div className={'absolute top-8 left-0 rounded-r z-10 bg-blue-12 ' + 'text-blue-1 text-3xl px-20 py-6'}>
+      <div className={'absolute top-8 left-0 rounded-r z-10 bg-blue-12 ' +
+        'text-blue-1 text-3xl px-20 py-6'}>
         What Others Say
       </div>
-      <div className={'w-full h-5/6 py-4 flex justify-center ' + 'items-center md:px-4'}>
+      <div className={'w-full h-5/6 py-4 flex justify-center ' +
+        'items-center md:px-4'}>
         <div className={'block w-full h-full py-4 relative'}>
 
           <Swiper
+            speed={300}
             className="testimonial-swiper"
             spaceBetween={10}
             slidesPerView={1.1}
@@ -122,6 +133,9 @@ export class Testimonials extends React.Component<Props, {}> {
         </div>
       </div>
 
+      <Caret
+        className={'caret-left'}
+        onClick={() => this.props.scrollTo('#partners-page')} />
     </div>);
   }
 }

@@ -22,6 +22,7 @@ import bucerius from '../../img/partners/bucerius.png';
 import ltc from '../../img/partners/ltc.png';
 import unternehmerTUM from '../../img/partners/unternehmertum.png';
 import womenInAI from '../../img/partners/women_in_ai.png';
+import built from '../../img/partners/built.png';
 import {PartnerItem} from './PartnerItem';
 
 
@@ -222,6 +223,13 @@ export class Partners extends React.Component {
       backgroundColor: 'light-blue',
       link: 'https://www.womeninairobotics.de/',
     },
+    {
+      img: built,
+      size: 'small',
+      backgroundColor: 'very-light-blue',
+      link: 'https://www.built-bt.de/',
+      name: 'Bayreuther Initiative für Legal Tech',
+    },
   ];
 
   randomizedPartnerList(): Partner[] {
@@ -239,7 +247,7 @@ export class Partners extends React.Component {
   }
 
   render() {
-    return <div id="partners-page" className={'relative flex z-10'}>
+    return <div id="partners-page" className={'relative flex z-10 mb-24'}>
       {/* container for the left aligned, colored sidebar */}
       <div className={'items-center flex h-full absolute -left-2 mt-auto'}>
         {/* left aligned, colored sidebar */}

@@ -1,3 +1,7 @@
 .testimonial-swiper .swiper-slide {
     background: transparent!important;
 }
+
+.testimonial-text {
+    hyphens: manual;
+}

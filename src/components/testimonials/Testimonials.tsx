@@ -7,6 +7,7 @@ import annePaschke from '../../img/AnnePaschke.png';
 import heckmann from '../../img/Heckmann.jpg';
 import christianSchlicht from '../../img/ChristianSchlicht.png';
 import biancaNeumaier from '../../img/biancaNeumaier.png';
+import kirstenRulf from '../../img/KirstenRulf.png';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import './Testimonials.css';
 import {Navigation} from 'swiper';
@@ -96,6 +97,13 @@ export class Testimonials extends React.Component<Props, {}> {
         'aufbauen wollen. Eine super Inspiration und Lernerfahrung!',
       name: 'Bianca Neumaier',
       img: biancaNeumaier,
+    },
+    {
+      name: 'Kirsten Rulf',
+      text: 'Im Bereich LegalTech liegt für die Justiz die Chance,' +
+        ' brach&shy;liegende Potenziale zu heben und effizienter zu werden.' +
+        ' Wer diese Entwicklung verpasst, hat einen Wettbewerbs&shy;nachteil.',
+      img: kirstenRulf,
     },
   ];
 

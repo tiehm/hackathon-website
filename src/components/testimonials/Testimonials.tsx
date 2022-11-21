@@ -4,6 +4,7 @@ import dirkHartung from '../../img/DirkHartung.jpg';
 import fraukeRostalski from '../../img/FraukeRostalski.png';
 import christinaMariaLeeb from '../../img/ChristinaMariaLeeb.png';
 import annePaschke from '../../img/AnnePaschke.png';
+import tamaraDeichsel from '../../img/TamaraDeichsel.png';
 import heckmann from '../../img/Heckmann.jpg';
 import christianSchlicht from '../../img/ChristianSchlicht.png';
 import biancaNeumaier from '../../img/biancaNeumaier.png';
@@ -71,7 +72,14 @@ export class Testimonials extends React.Component<Props, {}> {
       img: heckmann,
       isTooBig: true,
       pictureSource: 'Kilian Blees / bidt',
-    }, {
+    },
+    {
+      name: 'Dr. Tamara Deichsel',
+      text: 'Legal Tech ist der Schlüssel für den zukünftigen Zugang zur' +
+        ' Streitbeilegung. Lasst uns diesen gemeinsam gestalten!',
+      img: tamaraDeichsel,
+    },
+    {
       text: 'Täglich erzeugt die Justiz tausende von Datensätzen, die ' +
         'unsere Recht&shy;sordnung widerspiegeln. Der LegalLovesTech ' +
         'Hackathon ' +

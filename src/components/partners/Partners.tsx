@@ -23,6 +23,8 @@ import ltc from '../../img/partners/ltc.png';
 import unternehmerTUM from '../../img/partners/unternehmertum.png';
 import womenInAI from '../../img/partners/women_in_ai.png';
 import built from '../../img/partners/built.png';
+import stmj from '../../img/partners/stmj.png';
+import uniLeipzig from '../../img/partners/uniLeipzig.png';
 import {PartnerItem} from './PartnerItem';
 
 
@@ -49,7 +51,13 @@ interface Partner {
 export class Partners extends React.Component {
   // list of all partners
   partnerList: Partner[] = [
-
+    {
+      img: stmj,
+      name: 'Bayerisches Staatsministerium der Justiz',
+      size: 'very-big',
+      backgroundColor: 'very-light-blue',
+      link: 'https://www.justiz.bayern.de/ministerium/',
+    },
     {
       img: ltc,
       name: 'Legal Tech Colab',
@@ -57,7 +65,13 @@ export class Partners extends React.Component {
       backgroundColor: 'very-light-blue',
       link: 'https://www.legaltechcolab.com/',
     },
-
+    {
+      img: openLegalTechLogo,
+      name: 'Open Legal Tech e. V.',
+      size: 'cube',
+      backgroundColor: 'very-light-blue',
+      link: 'https://open-legal-tech.org/',
+    },
     {
       img: unternehmerTUM,
       name: 'UnternehmerTUM GmbH',
@@ -90,13 +104,6 @@ export class Partners extends React.Component {
     },
 
     {
-      img: openLegalTechLogo,
-      name: 'Open Legal Tech e. V.',
-      size: 'cube',
-      backgroundColor: 'very-light-blue',
-      link: 'https://open-legal-tech.org/',
-    },
-    {
       img: orgTrierLogo,
       name: 'Legal Tech Trier e.V.',
       size: 'small',
@@ -104,13 +111,6 @@ export class Partners extends React.Component {
       link: 'https://www.legaltechtrier.de/',
     },
 
-    {
-      img: orgFreiburg,
-      name: 'fruit - Freiburg Recht und IT',
-      size: 'big',
-      backgroundColor: 'dark-blue',
-      link: 'https://freiburg-recht-und-it.de/',
-    },
     {
       img: orgCologneLogo,
       name: 'Legal Tech Lab Cologne e.V.',
@@ -140,7 +140,13 @@ export class Partners extends React.Component {
       backgroundColor: 'very-light-blue',
       link: 'https://www.tum.de/',
     },
-
+    {
+      img: orgFreiburg,
+      name: 'fruit - Freiburg Recht und IT',
+      size: 'big',
+      backgroundColor: 'dark-blue',
+      link: 'https://freiburg-recht-und-it.de/',
+    },
     {
       img: riLMU,
       name: 'LMU RIZ',
@@ -229,6 +235,13 @@ export class Partners extends React.Component {
       backgroundColor: 'very-light-blue',
       link: 'https://www.built-bt.de/',
       name: 'Bayreuther Initiative für Legal Tech',
+    },
+    {
+      img: uniLeipzig,
+      size: 'small',
+      backgroundColor: 'very-light-blue',
+      link: 'https://www.uni-leipzig.de/',
+      name: 'Universität Leipzig',
     },
   ];
 

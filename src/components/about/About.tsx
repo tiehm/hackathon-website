@@ -37,7 +37,7 @@ export class About extends React.Component<Props, {}> {
       title: 'Non Profit',
       description: 'Ein standortübergreifender Zusammenschluss von ' +
           'Universitäten und Non‑Profit‑Organisationen unter der' +
-        ' Schirmherrschaft des Bayerisches Staatsministeriums für Justiz',
+        ' Schirmherrschaft des Bayerisches Staatsministeriums für Justiz.',
       img: nonProfitImg,
     },
     {

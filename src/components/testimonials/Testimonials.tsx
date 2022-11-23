@@ -30,6 +30,13 @@ export interface Testimonial {
 export class Testimonials extends React.Component<Props, {}> {
   cards: Testimonial[] = [
     {
+      name: 'Kirsten Rulf',
+      text: 'Im Bereich LegalTech liegt für die Justiz die Chance,' +
+        ' brach&shy;liegende Potenziale zu heben und effizienter zu werden.' +
+        ' Wer diese Entwicklung verpasst, hat einen Wettbewerbs&shy;nachteil.',
+      img: kirstenRulf,
+    },
+    {
       img: bernhardWaltl,
       text: 'Der Rechtsmarkt der Zukunft braucht Kollaboration und Hands-on' +
         ' Erfahrungen. Der LLT Hackathon bringt beides in einer' +
@@ -105,13 +112,6 @@ export class Testimonials extends React.Component<Props, {}> {
         'aufbauen wollen. Eine super Inspiration und Lernerfahrung!',
       name: 'Bianca Neumaier',
       img: biancaNeumaier,
-    },
-    {
-      name: 'Kirsten Rulf',
-      text: 'Im Bereich LegalTech liegt für die Justiz die Chance,' +
-        ' brach&shy;liegende Potenziale zu heben und effizienter zu werden.' +
-        ' Wer diese Entwicklung verpasst, hat einen Wettbewerbs&shy;nachteil.',
-      img: kirstenRulf,
     },
   ];
 

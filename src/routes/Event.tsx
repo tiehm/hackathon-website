@@ -2,6 +2,7 @@ import React from 'react';
 import {EventInformationList} from '../components/event/EventInformationList';
 import {EventTitle} from '../components/event/EventTitle';
 import {Footer} from '../components/footer/Footer';
+import timetable from '../img/timetable.svg';
 
 // entrypoint for the event page (path: /event)
 export class Event extends React.Component {
@@ -26,10 +27,22 @@ export class Event extends React.Component {
 
           <a className={'bg-blue-3 font-semi-bold text-text-caption ' +
               'rounded border w-fit py-6 px-8 border-blue-12 uppercase ' +
-              'ml-auto mt-16 block'}
+              'ml-auto mt-16 mb-12 block'}
           href={'/join'}
           >
               Jetzt Anmelden!
+          </a>
+
+          <div className={'w-full h-1 bg-blue-12 rounded'}>
+
+          </div>
+
+          <div className={'py-8 mt-4 text-head-m lg:text-head-l font-bold'}>
+            Ablaufplan
+          </div>
+
+          <a href={timetable} target='_blank' rel="noreferrer">
+            <img src={timetable} alt=""/>
           </a>
 
         </div>

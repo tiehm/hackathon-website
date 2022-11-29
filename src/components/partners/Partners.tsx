@@ -25,27 +25,28 @@ import womenInAI from '../../img/partners/women_in_ai.png';
 import built from '../../img/partners/built.png';
 import stmj from '../../img/partners/stmj.png';
 import uniLeipzig from '../../img/partners/uniLeipzig.png';
+import ds4g from '../../img/partners/ds4g-logo.svg';
 import {PartnerItem} from './PartnerItem';
 
 
 interface Partner {
-    // the image source string to the logo of the partner
-    img: string;
-    // the name of the organization which is shown to the user
-    name: string;
-    // indicator weather the provided logo is small or big, there is no
-    // exact measurement but in general any wide logo is "big" while more
-    // quadratic lltLogos are "small"
-    size: 'small' | 'big' | 'very-big' | 'cube';
-    // depending on the logo the background color can be chosen, light lltLogos
-    // are probably best on a dark blue background while very dark lltLogos are
-    // the best on a very light blue or light blue
-    backgroundColor: 'dark-blue' | 'light-blue' | 'very-light-blue';
-    // link to the website of the partner organization
-    link: string
-    // indicates that the partner is priority and should always be somewhere
-    // around the top
-    priorityPick?: boolean;
+  // the image source string to the logo of the partner
+  img: string;
+  // the name of the organization which is shown to the user
+  name: string;
+  // indicator weather the provided logo is small or big, there is no
+  // exact measurement but in general any wide logo is "big" while more
+  // quadratic lltLogos are "small"
+  size: 'small' | 'big' | 'very-big' | 'cube';
+  // depending on the logo the background color can be chosen, light lltLogos
+  // are probably best on a dark blue background while very dark lltLogos are
+  // the best on a very light blue or light blue
+  backgroundColor: 'dark-blue' | 'light-blue' | 'very-light-blue';
+  // link to the website of the partner organization
+  link: string;
+  // indicates that the partner is priority and should always be somewhere
+  // around the top
+  priorityPick?: boolean;
 }
 
 export class Partners extends React.Component {
@@ -57,22 +58,19 @@ export class Partners extends React.Component {
       size: 'very-big',
       backgroundColor: 'very-light-blue',
       link: 'https://www.justiz.bayern.de/ministerium/',
-    },
-    {
+    }, {
       img: ltc,
       name: 'Legal Tech Colab',
       size: 'big',
       backgroundColor: 'very-light-blue',
       link: 'https://www.legaltechcolab.com/',
-    },
-    {
+    }, {
       img: openLegalTechLogo,
       name: 'Open Legal Tech e. V.',
       size: 'cube',
       backgroundColor: 'very-light-blue',
       link: 'https://open-legal-tech.org/',
-    },
-    {
+    }, {
       img: unternehmerTUM,
       name: 'UnternehmerTUM GmbH',
       size: 'very-big',
@@ -94,8 +92,7 @@ export class Partners extends React.Component {
       size: 'cube',
       backgroundColor: 'very-light-blue',
       link: 'https://www.liquid-legal-institute.com/',
-    },
-    {
+    }, {
       img: lmuLogo,
       name: 'Ludwig-Maximilians-Universität München',
       size: 'very-big',
@@ -117,8 +114,7 @@ export class Partners extends React.Component {
       size: 'big',
       backgroundColor: 'light-blue',
       link: 'https://legaltechcologne.de/',
-    },
-    {
+    }, {
       img: mlTechLogo,
       name: 'Munich Legal Tech Student Association e.V.',
       size: 'big',
@@ -132,29 +128,25 @@ export class Partners extends React.Component {
       size: 'big',
       backgroundColor: 'light-blue',
       link: 'https://www.elegal.technology/',
-    },
-    {
+    }, {
       img: tumLogo,
       name: 'Technische Universität München',
       size: 'very-big',
       backgroundColor: 'very-light-blue',
       link: 'https://www.tum.de/',
-    },
-    {
+    }, {
       img: orgFreiburg,
       name: 'fruit - Freiburg Recht und IT',
       size: 'big',
       backgroundColor: 'dark-blue',
       link: 'https://freiburg-recht-und-it.de/',
-    },
-    {
+    }, {
       img: riLMU,
       name: 'LMU RIZ',
       size: 'cube',
       backgroundColor: 'very-light-blue',
       link: 'https://www.jura.uni-muenchen.de/fakultaet/riz_neu/index.html',
-    },
-    {
+    }, {
       img: disruptLogo,
       name: 'disrUPt law Heidelberg e.V.',
       size: 'small',
@@ -168,8 +160,7 @@ export class Partners extends React.Component {
       size: 'very-big',
       backgroundColor: 'very-light-blue',
       link: 'https://www.law-school.de/',
-    },
-    {
+    }, {
       img: orgAachen,
       name: 'Legal Tech Aachen',
       size: 'small',
@@ -183,8 +174,7 @@ export class Partners extends React.Component {
       size: 'small',
       backgroundColor: 'light-blue',
       link: 'https://www.just-legaltech.de/',
-    },
-    {
+    }, {
       img: legalTechDeLogo,
       name: 'Legal Tech Verband Deutschland e.V.',
       size: 'very-big',
@@ -214,34 +204,36 @@ export class Partners extends React.Component {
       size: 'small',
       backgroundColor: 'light-blue',
       link: 'https://www.tum-cdps.de/',
-    },
-    {
+    }, {
       img: orgMannheim,
       name: 'ltc Mannheim e.V.',
       size: 'big',
       backgroundColor: 'dark-blue',
       link: 'https://www.ltc-mannheim.de/',
-    },
-    {
+    }, {
       img: womenInAI,
       name: 'Women in Artificial Intelligence and Robotics Germany e.V.',
       size: 'big',
       backgroundColor: 'light-blue',
       link: 'https://www.womeninairobotics.de/',
-    },
-    {
+    }, {
       img: built,
       size: 'small',
       backgroundColor: 'very-light-blue',
       link: 'https://www.built-bt.de/',
       name: 'Bayreuther Initiative für Legal Tech',
-    },
-    {
+    }, {
       img: uniLeipzig,
       size: 'small',
       backgroundColor: 'very-light-blue',
       link: 'https://www.uni-leipzig.de/',
       name: 'Universität Leipzig',
+    }, {
+      img: ds4g,
+      size: 'cube',
+      backgroundColor: 'very-light-blue',
+      link: 'https://digitalservice.bund.de/',
+      name: 'DigitalService GmbH des Bundes',
     },
   ];
 
@@ -268,29 +260,27 @@ export class Partners extends React.Component {
       </div>
 
       <div className={'absolute top-8 left-0 rounded-r z-10 bg-blue-12 ' +
-          'text-blue-1 text-3xl px-20 py-6'}>
-                Partners
+        'text-blue-1 text-3xl px-20 py-6'}>
+        Partners
       </div>
 
       <div className={'h-full flex justify-center items-center w-4/5 ml-auto ' +
-          'mr-2 pt-52 z-10 flex-grow'}>
+        'mr-2 pt-52 z-10 flex-grow'}>
 
         <div className={'grid grid-flow-row-dense xl:grid-flow-auto h-full' +
           ' gap-3 w-4/5' +
           ' ml-auto ' +
-            'mr-4 justify-center items-center grid-cols-3 md:grid-cols-4 ' +
-            'lg:grid-cols-6 lg:w-11/12 xl:grid-cols-7 '}>
+          'mr-4 justify-center items-center grid-cols-3 md:grid-cols-4 ' +
+          'lg:grid-cols-6 lg:w-11/12 xl:grid-cols-7 '}>
 
-          {this.randomizedPartnerList().map((partner, index) =>
-            <PartnerItem
-              key={index}
-              img={partner.img}
-              name={partner.name}
-              size={partner.size}
-              backgroundColor={partner.backgroundColor}
-              link={partner.link}
-            />,
-          )}
+          {this.randomizedPartnerList().map((partner, index) => <PartnerItem
+            key={index}
+            img={partner.img}
+            name={partner.name}
+            size={partner.size}
+            backgroundColor={partner.backgroundColor}
+            link={partner.link}
+          />)}
 
         </div>
 

@@ -201,7 +201,7 @@ export class Partners extends React.Component {
     {
       img: cdpsLogo,
       name: 'TUM Center for Digital Public Services',
-      size: 'small',
+      size: 'cube',
       backgroundColor: 'light-blue',
       link: 'https://www.tum-cdps.de/',
     }, {
@@ -217,11 +217,11 @@ export class Partners extends React.Component {
       backgroundColor: 'light-blue',
       link: 'https://www.womeninairobotics.de/',
     }, {
-      img: built,
-      size: 'small',
+      img: ds4g,
+      size: 'cube',
       backgroundColor: 'very-light-blue',
-      link: 'https://www.built-bt.de/',
-      name: 'Bayreuther Initiative für Legal Tech',
+      link: 'https://digitalservice.bund.de/',
+      name: 'DigitalService GmbH des Bundes',
     }, {
       img: uniLeipzig,
       size: 'small',
@@ -229,11 +229,11 @@ export class Partners extends React.Component {
       link: 'https://www.uni-leipzig.de/',
       name: 'Universität Leipzig',
     }, {
-      img: ds4g,
-      size: 'cube',
+      img: built,
+      size: 'small',
       backgroundColor: 'very-light-blue',
-      link: 'https://digitalservice.bund.de/',
-      name: 'DigitalService GmbH des Bundes',
+      link: 'https://www.built-bt.de/',
+      name: 'Bayreuther Initiative für Legal Tech',
     },
   ];
 

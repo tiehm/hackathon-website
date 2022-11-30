@@ -27,17 +27,16 @@ export class Event extends React.Component {
 
           <a className={'bg-blue-3 font-semi-bold text-text-caption ' +
               'rounded border w-fit py-6 px-8 border-blue-12 uppercase ' +
-              'ml-auto mt-16 mb-12 block'}
+              'ml-auto mt-16 block mb-12'}
           href={'/join'}
           >
               Jetzt Anmelden!
           </a>
 
-          <div className={'w-full h-1 bg-blue-12 rounded'}>
+          <div className={'w-full h-1 bg-blue-12 rounded'} />
 
-          </div>
-
-          <div className={'py-8 mt-4 text-head-m lg:text-head-l font-bold'}>
+          <div className={'py-8 mt-4 text-head-m lg:text-head-l font-bold' +
+            ' relative'}>
             Ablaufplan
           </div>
 

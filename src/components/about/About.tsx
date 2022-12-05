@@ -19,7 +19,8 @@ type Card = {
   // title of the card
   title: string
   // general information displayed about the card
-  description: string
+  descriptionTop: string
+  descriptionBottom: string
   // the image which should be shown for the card
   img: string
 }
@@ -29,22 +30,41 @@ export class About extends React.Component<Props, {}> {
   cards: Card[] = [
     {
       title: 'Umfassend',
-      description: 'Eine Kooperation sämtlicher studentischen Legal' +
-      ' Tech Initiativen Deutschlands.',
+      descriptionTop:
+        'Eine Kooperation sämtlicher stu&shy;dentischen Legal Tech ' +
+        'Initiativen Deutschlands.',
+      descriptionBottom: 'Der Legal Loves Tech Hackathon vereint und ' +
+        'vernetzt interessierte Studierende unter&shy;schiedlicher ' +
+        'Fach&shy;richtungen und bietet eine Plattform zum Austausch. Durch' +
+        ' das Rahmen&shy;programm ist zudem sicher&shy;gestellt, dass ' +
+        'jede:r einen Blick über den eigenen Tellerrand wagen kann.',
       img: umfassendImg,
     },
     {
       title: 'Non Profit',
-      description: 'Ein standortübergreifender Zusammenschluss von ' +
-          'Universitäten und Non‑Profit‑Organisationen unter der' +
-        ' Schirmherrschaft des Bayerisches Staatsministeriums für Justiz.',
+      descriptionTop:
+        'Ein standort&shy;übergreifender Zusammen&shy;schluss von ' +
+        'Universitäten und Non-<wbr>Profit‑<wbr>Organisationen <strong>unter ' +
+        'der unter der Schirmherrschaft des Bayerischen Staatsministeriums ' +
+        'der Justiz</strong>.',
+      descriptionBottom: 'Wir glauben, dass Legal Tech dabei helfen kann die ' +
+        'Welt ein kleines Stückchen besser zu machen und möchten alle daran ' +
+        'teilhaben lassen. Im Mittelpunkt stehen daher das gemeinsame ' +
+        'Engagement und die Vermittlung von Wissen und Fähigkeiten ' +
+        'rund um Legal Tech.',
       img: nonProfitImg,
     },
     {
-      title: 'Betreuung',
-      description: 'Betreuung und Unterricht durch führende ' +
-          'Expert:innen und Dozierende aus den Bereichen ' +
-          'Start‑Up, Rechtswissenschaften und Technik.',
+      title: 'Interdisziplinär',
+      descriptionTop: 'Betreuung und Unterricht durch führende Expert:innen ' +
+        'und Dozierende aus den Bereichen <strong>Start Up, ' +
+        'Rechtswissenschaft und Technik</strong>.',
+      descriptionBottom: 'Egal auf wie viel Vorwissen die Teams aufbauen ' +
+        'können und aus welchen Disziplinen sie kommen, alle erhalten die ' +
+        'notwenigen Kenntnisse in den Bereichen Recht und Tech durch ein ' +
+        'umfassendes Workshop-Programm. Abgerundet durch Help Desks und eine ' +
+        'engagierte Slack-Community findet jede:r einen Zugang zum Thema ' +
+        'Legal Tech.',
       img: betreuungImg,
     },
   ];
@@ -73,7 +93,8 @@ export class About extends React.Component<Props, {}> {
                 <SwiperCard
                   img={card.img}
                   title={card.title}
-                  info={card.description}
+                  info={card.descriptionTop}
+                  details={card.descriptionBottom}
                 />
               </SwiperSlide>;
             })}
@@ -90,7 +111,8 @@ export class About extends React.Component<Props, {}> {
               key={i}
               img={card.img}
               title={card.title}
-              info={card.description}
+              info={card.descriptionTop}
+              details={card.descriptionBottom}
             />;
           })}
 

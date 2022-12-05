@@ -4,6 +4,7 @@ type Props = {
     img: string
     title: string
     info: string
+    details: string
 }
 
 export class SwiperCard extends React.Component<Props, {}> {
@@ -16,11 +17,14 @@ export class SwiperCard extends React.Component<Props, {}> {
           className={'rounded-t'}
         />
       </div>
-      <div className={'py-10 text-head-m'}>
+      <div className={'pt-3 850-h:pt-6 text-head-m'}>
         {this.props.title}
       </div>
-      <div className={'text-text-l text-left px-6 850-h:text-justify'}>
-        {this.props.info}
+      <div className={'text-text-s 750-h:text-text-subtitle' +
+        ' 850-h:text-text-l text-left px-6 pt-2 850-h:text-justify'}
+      dangerouslySetInnerHTML={{__html:
+               `${this.props.info}<br />${this.props.details}`}}
+      >
       </div>
     </div>;
   }

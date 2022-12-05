@@ -1,9 +1,10 @@
 import React from 'react';
 
 type Props = {
-    img: string
-    title: string
-    info: string
+  img: string
+  title: string
+  info: string
+  details: string
 }
 
 export class AboutCard extends React.Component<Props, {}> {
@@ -16,11 +17,14 @@ export class AboutCard extends React.Component<Props, {}> {
           className={'rounded-t'}
         />
       </div>
-      <div className={'py-10 text-head-m text-center'}>
+      <div className={'pt-10 text-head-m text-center'}>
         {this.props.title}
       </div>
-      <div className={'text-md text-left p-6 xl:text-text-l text-center'}>
-        {this.props.info}
+      <div className={'text-text-subtitle md-lg:text-text-s-m lg:text-text-m' +
+        ' text-left p-6 pb-8' +
+        ' 2xl:text-text-l text-center'}
+      dangerouslySetInnerHTML={{__html:
+          `${this.props.info}<br />${this.props.details}`}}>
       </div>
     </div>;
   }

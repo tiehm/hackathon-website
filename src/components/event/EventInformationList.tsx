@@ -21,10 +21,10 @@ export class EventInformationList extends React.Component {
     ' Eigene Aufgabenstellungen sind ausdrücklich erlaubt!',
 
     'Im Lauf der Woche finden Vorträge und Workshops führender Expert:innen' +
-    ' statt, deren Teilnahme nicht verpflichtend ist. In diesen Einheiten' +
-    ' werden saemtliche Fähigkeiten vermittelt, die notwendig sind,' +
-    ' um die Aufgaben zu lösen, und einen Einblick in die entsprechenden' +
-    ' Bereiche zu gewahren.',
+    ' statt, deren Teilnahme nicht verpflichtend ist. In diesen Einheiten ' +
+    'werden sämtliche Fähigkeiten vermittelt, die notwendig sind, um die ' +
+    'Aufgaben zu lösen und einen Einblick in die entsprechenden Bereiche ' +
+    'zu erlangen.',
 
     'Am Ende der Woche bewertet eine Jury die Prototypen, die die Teams im' +
     ' Laufe der Woche entwickelt haben. Das Siegerteam kann sich über einen' +

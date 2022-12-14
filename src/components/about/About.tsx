@@ -44,9 +44,9 @@ export class About extends React.Component<Props, {}> {
       title: 'Non Profit',
       descriptionTop:
         'Ein standort&shy;übergreifender Zusammen&shy;schluss von ' +
-        'Universitäten und Non-<wbr>Profit‑<wbr>Organisationen <strong>unter ' +
-        'der unter der Schirmherrschaft des Bayerischen Staatsministeriums ' +
-        'der Justiz</strong>.',
+        'Universitäten und Non-<wbr>Profit‑<wbr>Organisationen' +
+        ' unter der <strong>Schirmherrschaft des Bayerischen Staatsministers' +
+        ' der Justiz Georg Eisenreich</strong>.',
       descriptionBottom: 'Wir glauben, dass Legal Tech dabei helfen kann die ' +
         'Welt ein kleines Stückchen besser zu machen und möchten alle daran ' +
         'teilhaben lassen. Im Mittelpunkt stehen daher das gemeinsame ' +
@@ -61,7 +61,7 @@ export class About extends React.Component<Props, {}> {
         'Rechtswissenschaft und Technik</strong>.',
       descriptionBottom: 'Egal auf wie viel Vorwissen die Teams aufbauen ' +
         'können und aus welchen Disziplinen sie kommen, alle erhalten die ' +
-        'notwenigen Kenntnisse in den Bereichen Recht und Tech durch ein ' +
+        'notwendigen Kenntnisse in den Bereichen Recht und Tech durch ein ' +
         'umfassendes Workshop-Programm. Abgerundet durch Help Desks und eine ' +
         'engagierte Slack-Community findet jede:r einen Zugang zum Thema ' +
         'Legal Tech.',

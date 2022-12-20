@@ -1,7 +1,7 @@
 import React from 'react';
 import ltv from '../../img/mediapartners/legal_tech_verzeichnis.png';
+import beck from '../../img/mediapartners/beck.png';
 import {PartnerItem} from './PartnerItem';
-
 
 interface Partner {
     // the image source string to the logo of the partner
@@ -33,6 +33,13 @@ export class MediaPartners extends React.Component {
       size: 'big',
       backgroundColor: 'very-light-blue',
       link: 'https://legal-tech-verzeichnis.de/',
+    },
+    {
+      img: beck,
+      name: 'VERLAG C.H.BECK oHG',
+      size: 'big',
+      backgroundColor: 'very-light-blue',
+      link: 'https://www.beck.de/',
     },
   ];
 

@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/hackathon-website/static/css/main.769f0770.css",
-    "main.js": "/hackathon-website/static/js/main.dda3ce0d.js",
+    "main.css": "/hackathon-website/static/css/main.ed1998cd.css",
+    "main.js": "/hackathon-website/static/js/main.5737eae1.js",
+    "static/media/NicoleFormicaSchiller.png": "/hackathon-website/static/media/NicoleFormicaSchiller.9f721301ac87cbcaa100.png",
     "static/media/ChristianSchlicht.png": "/hackathon-website/static/media/ChristianSchlicht.52b07308f4c090db07b5.png",
     "static/media/AnnePaschke.png": "/hackathon-website/static/media/AnnePaschke.ce5585d7c511bdb72770.png",
     "static/media/FraukeRostalski.png": "/hackathon-website/static/media/FraukeRostalski.714cdfba822ff9e92c22.png",
@@ -20,7 +21,6 @@
     "static/media/muskaan.png": "/hackathon-website/static/media/muskaan.bb15d6fa3c666fcf1d03.png",
     "static/media/charlotte.png": "/hackathon-website/static/media/charlotte.bbc6afffe269473fba70.png",
     "static/media/basti.png": "/hackathon-website/static/media/basti.3fb431271d68971ce624.png",
-    "static/media/timetable.svg": "/hackathon-website/static/media/timetable.0c62132108613effe4982ac5e2c004d2.svg",
     "static/media/org_mannheim_white.png": "/hackathon-website/static/media/org_mannheim_white.4dedcbdf42da3c8b7ccf.png",
     "static/media/biancaNeumaier.png": "/hackathon-website/static/media/biancaNeumaier.7f9d42572f1b5ad07df6.png",
     "static/media/elegal.png": "/hackathon-website/static/media/elegal.6bd673e8e25f89c05e0e.png",
@@ -38,6 +38,8 @@
     "static/media/org_cologne.png": "/hackathon-website/static/media/org_cologne.985611032c722ef5d08b.png",
     "static/media/uniLeipzig.png": "/hackathon-website/static/media/uniLeipzig.78ee684f3a3291bc86f9.png",
     "static/media/org_freiburg_white.png": "/hackathon-website/static/media/org_freiburg_white.b18b835b58b15af85db0.png",
+    "static/media/timetable.png": "/hackathon-website/static/media/timetable.ea0acee5f76b41f7816a.png",
+    "static/media/MGrabmair.jpg": "/hackathon-website/static/media/MGrabmair.1020bc908914b28397c9.jpg",
     "static/media/lmu.png": "/hackathon-website/static/media/lmu.c1573a46dca4d17ab265.png",
     "static/media/org_trier_logo_text_white.png": "/hackathon-website/static/media/org_trier_logo_text_white.d293959fa1fa8d11541e.png",
     "static/media/org_munich.png": "/hackathon-website/static/media/org_munich.60c8677f888eba8f17b3.png",
@@ -59,11 +61,11 @@
     "static/media/mail.svg": "/hackathon-website/static/media/mail.31e5cf18b6741ff64e8e84254eeb59af.svg",
     "static/media/brackets.svg": "/hackathon-website/static/media/brackets.6125df9d8712353f9a99.svg",
     "static/media/down-caret.svg": "/hackathon-website/static/media/down-caret.67ed1724b315315be99f4d23f8e603c8.svg",
-    "main.769f0770.css.map": "/hackathon-website/static/css/main.769f0770.css.map",
-    "main.dda3ce0d.js.map": "/hackathon-website/static/js/main.dda3ce0d.js.map"
+    "main.ed1998cd.css.map": "/hackathon-website/static/css/main.ed1998cd.css.map",
+    "main.5737eae1.js.map": "/hackathon-website/static/js/main.5737eae1.js.map"
   },
   "entrypoints": [
-    "static/css/main.769f0770.css",
-    "static/js/main.dda3ce0d.js"
+    "static/css/main.ed1998cd.css",
+    "static/js/main.5737eae1.js"
   ]
 }

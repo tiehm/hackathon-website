@@ -1,0 +1,48 @@
+.sarah-pic {
+    background: url("../img/teamMembers/sarah.png") 40% 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.matthias-pic {
+    background: url("../img/MGrabmair.jpg") 40% 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ann-sophie-pic {
+    background: url("../img/teamMembers/ann_sophie.png") 40% 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nicole-pic {
+    background: url("../img/NicoleFormicaSchiller.png") 40% 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kirsten-pic {
+    background: url("../img/KirstenRulf.png") 40% 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.normal-view .jury-pic:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+.mySwiper .jury-pic {
+    background-size: contain;
+}
+
+.grayscale {
+    filter: grayscale(100%)
+}
+
+.test {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+}

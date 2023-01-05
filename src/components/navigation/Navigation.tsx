@@ -75,6 +75,12 @@ export class Navigation extends React.Component<{}, State> {
               Team
           </CustomLink>
           <CustomLink
+            to={'/jury'}
+            className={'border-b-2 hover:text-blue-11'}
+          >
+            Jury
+          </CustomLink>
+          <CustomLink
             to={'/join'}
             className={'border-b-2 font-medium text-blue-2'}
             outerClassName="bg-blue-12 px-2"

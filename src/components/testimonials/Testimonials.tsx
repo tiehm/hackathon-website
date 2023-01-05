@@ -9,6 +9,8 @@ import heckmann from '../../img/Heckmann.jpg';
 import christianSchlicht from '../../img/ChristianSchlicht.png';
 import biancaNeumaier from '../../img/biancaNeumaier.png';
 import kirstenRulf from '../../img/KirstenRulf.png';
+import matthiasGrabmair from '../../img/MGrabmair.jpg';
+import nicoleFormicaSchiller from '../../img/NicoleFormicaSchiller.png';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import './Testimonials.css';
 import {Navigation} from 'swiper';
@@ -112,6 +114,29 @@ export class Testimonials extends React.Component<Props, {}> {
         'aufbauen wollen. Eine super Inspiration und Lernerfahrung!',
       name: 'Bianca Neumaier',
       img: biancaNeumaier,
+    },
+    {
+      text: 'Der LLT Hackathon ist eine großartige Gelegenheit, an der' +
+        ' Schnittstelle zwischen Recht und Informatik praktische Erfahrungen' +
+        ' zu sammeln. Die interdisziplinäre, kreative Projektarbeit ist' +
+        ' wertvoll sowohl für die Teilnehmer als auch für die ganze' +
+        ' Community.',
+      name: 'Prof. Dr. Matthias Grabmair',
+      img: matthiasGrabmair,
+    },
+    {
+      text: 'Technologische Innovation als Schlüsselressource für unsere' +
+        ' Gesellschaft und Wirtschaft vollumfänglich nutzen ist ein Muss!' +
+        ' Dafür ist es wichtig, transformativen Fortschritt und digitale' +
+        ' Souveränität effektiv in den Gesamtkontext einzuordnen sowie' +
+        ' Potenziale zu erkennen. Denn die Herausforderungen unserer' +
+        ' digitalen Moderne sind enorm. Fortschritt lebt dabei von' +
+        ' interdisziplinärem Austausch! Der LegalLovesTech Hackathon bietet' +
+        ' hierfür eine einmalige Gelegenheit. Um bereits Heute gemeinsam das' +
+        ' Morgen zu gestalten.',
+      name: 'Nicole Formica-Schiller',
+      img: nicoleFormicaSchiller,
+      isTooBig: true,
     },
   ];
 

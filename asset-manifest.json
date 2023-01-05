@@ -1,14 +1,11 @@
 {
   "files": {
     "main.css": "/hackathon-website/static/css/main.04bed9b8.css",
-    "main.js": "/hackathon-website/static/js/main.3dcad3cf.js",
+    "main.js": "/hackathon-website/static/js/main.edb8bbe9.js",
     "static/media/ChristianSchlicht.png": "/hackathon-website/static/media/ChristianSchlicht.52b07308f4c090db07b5.png",
     "static/media/AnnePaschke.png": "/hackathon-website/static/media/AnnePaschke.ce5585d7c511bdb72770.png",
     "static/media/FraukeRostalski.png": "/hackathon-website/static/media/FraukeRostalski.714cdfba822ff9e92c22.png",
     "static/media/Heckmann.jpg": "/hackathon-website/static/media/Heckmann.b3a2e06d8e409543642f.jpg",
-    "static/media/nonProfit.png": "/hackathon-website/static/media/nonProfit.97b41073b7971cc204d4.png",
-    "static/media/betreuung.png": "/hackathon-website/static/media/betreuung.8954e632bbc5803f6f6d.png",
-    "static/media/umfassend.png": "/hackathon-website/static/media/umfassend.97e2b60a64c5bd3f4edf.png",
     "static/media/DirkHartung.jpg": "/hackathon-website/static/media/DirkHartung.3e7324f30f132d7e191e.jpg",
     "static/media/ChristinaMariaLeeb.png": "/hackathon-website/static/media/ChristinaMariaLeeb.dfdfbce7bd6eb2316670.png",
     "static/media/TamaraDeichsel.png": "/hackathon-website/static/media/TamaraDeichsel.9e999084f5690fdfc8e6.png",
@@ -17,6 +14,9 @@
     "static/media/sarah.png": "/hackathon-website/static/media/sarah.8abfccd1bfe820dbe596.png",
     "static/media/biancaNeumaier.png": "/hackathon-website/static/media/biancaNeumaier.7f9d42572f1b5ad07df6.png",
     "static/media/ann_sophie.png": "/hackathon-website/static/media/ann_sophie.5ce463f3659cc2f83942.png",
+    "static/media/nonProfit.png": "/hackathon-website/static/media/nonProfit.39e55d650f51b7c5fcef.png",
+    "static/media/umfassend.png": "/hackathon-website/static/media/umfassend.108e94de926b47caf9d1.png",
+    "static/media/betreuung.png": "/hackathon-website/static/media/betreuung.fa5bd50740499265610d.png",
     "static/media/charlie.png": "/hackathon-website/static/media/charlie.4174f81a66355ef564be.png",
     "static/media/fabian.png": "/hackathon-website/static/media/fabian.151dfc0975c2af16114a.png",
     "static/media/elegal.png": "/hackathon-website/static/media/elegal.6bd673e8e25f89c05e0e.png",
@@ -62,10 +62,10 @@
     "static/media/brackets.svg": "/hackathon-website/static/media/brackets.6125df9d8712353f9a99.svg",
     "static/media/down-caret.svg": "/hackathon-website/static/media/down-caret.67ed1724b315315be99f4d23f8e603c8.svg",
     "main.04bed9b8.css.map": "/hackathon-website/static/css/main.04bed9b8.css.map",
-    "main.3dcad3cf.js.map": "/hackathon-website/static/js/main.3dcad3cf.js.map"
+    "main.edb8bbe9.js.map": "/hackathon-website/static/js/main.edb8bbe9.js.map"
   },
   "entrypoints": [
     "static/css/main.04bed9b8.css",
-    "static/js/main.3dcad3cf.js"
+    "static/js/main.edb8bbe9.js"
   ]
 }

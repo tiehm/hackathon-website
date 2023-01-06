@@ -112,8 +112,8 @@ export class Jury extends React.Component {
   ];
 
   state = {
-    currentlySelectedJuryMember: null as JuryMember | null,
-    currentlySelectedJuryMemberIndex: null as number | null,
+    currentlySelectedJuryMember: this.juryMembers[0],
+    currentlySelectedJuryMemberIndex: 0,
   };
 
   selectJuryMember(i: number): void {

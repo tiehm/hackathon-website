@@ -83,7 +83,7 @@ export class Navigation extends React.Component<{}, State> {
             to={'/result'}
             className={'border-b-2 hover:text-blue-11'}
           >
-            Recap LLT '23
+            Recap LLT &apos;23
           </CustomLink>
           <CustomLink
             to={'/join'}

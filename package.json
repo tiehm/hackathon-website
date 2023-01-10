@@ -1,6 +1,7 @@
 {
   "homepage": "https://tiehm.github.io/hackathon-website",
   "name": "hackathon-website",
+  "description": "A very nice hackathon website made by a very angry developer.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

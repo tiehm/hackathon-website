@@ -9,9 +9,9 @@ export class Result extends React.Component {
       <div className={classNames('min-h-screen flex w-full' +
         ' justify-center items-center mb-10 mt-40')}>
         <div className="text-left text-blue-12 flex
-        flex-col gap-4 w-4/5 md:w-2/3 max-w-[800px] mx-auto">
+        flex-col gap-6 w-4/5 md:w-2/3 max-w-[800px] mx-auto">
           <div>
-            <h1 className={classNames('text-2xl font-bold')}>
+            <h1 className={classNames('text-2xl font-bold mb-2')}>
               Legal Loves Tech Hackathon 2023
             </h1>
             <h1 className={classNames('text-xl font-semibold')}>
@@ -19,9 +19,9 @@ export class Result extends React.Component {
               Tech
             </h1>
           </div>
-          <img src={GroupPicture} alt=""/>
+          <img src={GroupPicture} alt="Bild vom Hackathon" className={'my-4'}/>
           <div className={classNames('flex flex-col gap-4')}>
-            <p>
+            <p className={'text-justify'}>
               Eine Woche voller Legal Tech für jedermann – so lautete das
               ambitionierte Ziel des Legal Loves Tech Hackathons (LLT), der vom
               2. bis 8. Januar 2023 stattfand. Neben der Bewältigung einer
@@ -30,7 +30,7 @@ export class Result extends React.Component {
               jede:r unabhängig von Vorkenntnissen und Interessensschwerpunkten
               einen Zugang zum Thema Legal Tech erhalten konnte.
             </p>
-            <p>
+            <p className={'text-justify'}>
               Rund <strong>150 Studierende aus ganz Deutschland</strong> und den
               verschiedensten Disziplinen kamen remote zusammen, um von Legal
               Tech Expert:innen zu lernen, sich auszutauschen und in über 25
@@ -40,19 +40,16 @@ export class Result extends React.Component {
               vorbereitet wurde, oder eigene Herausforderungen mitbringen, denen
               sie mit ihrem Legal Tech Tool begegnen wollten.
             </p>
-            <p>
+            <p className={'text-justify'}>
               Zum offiziellen Start des Hackathons am 2. Januar richtete
-              der <strong>
-              Bayerische Staatsminister der Justiz Georg Eisenreich
-              </strong> als <strong>
-              Schirmherr des
-              LLT
-              </strong> motivierende
+              der <strong> Bayerische Staatsminister der Justiz Georg
+                           Eisenreich </strong>
+              als <strong> Schirmherr des LLT </strong> motivierende
               Worte an die Teilnehmenden und betonte die Chancen von Legal Tech
               in der Breite sowie die Wichtigkeit von Formaten wie dem LLT
               Hackathon.
             </p>
-            <p>
+            <p className={'text-justify'}>
               Anschließend startete das inhaltliche Rahmenprogramm mit Impulsen
               von Dirk Hartung und Bernhard Waltl, die die Möglichkeiten rund um
               Legal Tech aus rechtlicher und operativer Sicht darstellten.
@@ -61,7 +58,7 @@ export class Result extends React.Component {
               Manuel Geitner ihre wertvollen Erfahrungen aus der
               Start-Up-Beratung teilten.
             </p>
-            <p>
+            <p className={'text-justify'}>
               Am zweiten Tag wurden den Teams zahlreiche Tools und Ansätze für
               ein effektives und zielgerichtetes Arbeiten an die Hand gegeben,
               um das Ziel, nämlich bis zum Ende der Woche einen Prototyp zu
@@ -77,12 +74,12 @@ export class Result extends React.Component {
               Potentiale und (juristische) Herausforderungen für die Entwicklung
               eines Fristen-Chatbots auf.
             </p>
-            <p>
+            <p className={'text-justify'}>
               Der dritte Tag konzentrierte sich auf die technische Umsetzung der
               Legal Tech Tools. Sebastian Nagl startete mit dem ersten Teil des
               Coding Kurses und am Beispiel von Open Decision erhielten die
               Teilnehmenden einen Blick auf die Möglichkeiten von Open Source
-              Software für die eigene Produktenwicklung. Der rechtliche Vortrag
+              Software für die eigene Produktentwicklung. Der rechtliche Vortrag
               des Tages befasste sich mit dem Geschäftsmodell von sog.
               „Abmahnanwälten“, die Abmahnungen in großer Zahl verschicken und
               dabei teils auf Automatisierung zurückgreifen, und welche
@@ -94,7 +91,7 @@ export class Result extends React.Component {
               Bedeutung frühzeitiges Marketing hat und wie man am besten mit
               unerwarteten Marktänderungen umgehen sollte.
             </p>
-            <p>
+            <p className={'text-justify'}>
               Am Donnerstag konzentrierten sich die Teams nochmals auf die
               Kernthemen: Legal und Tech. Dirk Heckmann beleuchtete unter dem
               Titel „Gemeinfrei und Gemeinwohl“, welche Daten durch Legal Tech
@@ -105,7 +102,7 @@ export class Result extends React.Component {
               von Vadym Kuzmenko zur Rolle von Investoren beim Aufbau eines
               Legal Tech Start-Ups.
             </p>
-            <p>
+            <p className={'text-justify'}>
               Mit dem fünften Tag des LLT Hackathons folgte der letzte
               inhaltlich intensive Tag für die Teams. Neben dem letzten Teil des
               Coding Kurses folgten mit den Vorträgen von Matthias Grabmair
@@ -114,7 +111,7 @@ export class Result extends React.Component {
               hinaus lud das Liquid Legal Institute am Abend zu einem zwanglosen
               Austausch am digitalen open table ein.
             </p>
-            <p>
+            <p className={'text-justify'}>
               Nachdem die letzten 48 Stunden bis zum großen Finale am Sonntag
               angebrochen waren, folgte die wohl arbeitsintensivste Zeit für die
               Teams. Den gesamten Samstag wurde fleißig konzipiert, an den
@@ -125,7 +122,7 @@ export class Result extends React.Component {
               wurden.
             </p>
             <br/>
-            <p>
+            <p className={'text-justify'}>
               14 Teams qualifizierten sich schließlich für das große Finale am
               Sonntagnachmittag und präsentierten die von ihnen entwickelten
               Lösungen. Dabei hatten sie jeweils vier Minuten Zeit, um die Jury
@@ -137,12 +134,12 @@ export class Result extends React.Component {
               Ann-Sophie Blaser nochmals, wie intensiv sich die Jury mit jeder
               einzelnen Idee auseinandergesetzt habe.
             </p>
-            <p>
+            <p className={'text-justify'}>
               Letztlich konnten sich in den Augen der Jury jedoch drei Teams
               absetzen:
             </p>
-            <p>
-              Der <strong>erste Platz</strong>
+            <p className={'text-justify'}>
+              Der <strong>erste Platz </strong>
               ging an das <strong>Team „ComplAI“</strong>,
               die mit ihrer Lösung auf die Probleme kleinerer Unternehmen
               eingingen. Damit diese stets den Überblick über
@@ -154,9 +151,9 @@ export class Result extends React.Component {
               das Konzept bereits relativ weit ausgereift sei und ein
               existierendes Problem vieler (Klein-)Unternehmer adressiere.
             </p>
-            <p>
+            <p className={'text-justify'}>
               <strong>Platz zwei</strong> konnte sich das
-              <strong>Team „LiKA“</strong> sichern,
+              <strong> Team „LiKA“</strong> sichern,
               die
             einen <strong>Lieferkettenassistenten</strong> zur
             Bewältigung der durch das
@@ -172,7 +169,7 @@ export class Result extends React.Component {
             dar, sich mit dem Thema zu
             beschäftigen.
             </p>
-            <p>
+            <p className={'text-justify'}>
               Das Gewinnerteam des <strong>dritten Platzes</strong> verkündete
               Nicole Formica-Schiller. Sie zeigte sich allgemein begeistert von
               der Vielfalt der gepitchten Ideen und sah beachtliche
@@ -185,7 +182,7 @@ export class Result extends React.Component {
               Hilfe dringend gebraucht wird. Der bereits sehr weit entwickelte
               Prototyp sicherte dem Team so den dritten Platz.
             </p>
-            <p>
+            <p className={'text-justify'}>
               Auch Schirmherr Georg Eisenreich zeigte sich begeistert von den
               entwickelten Lösungen und lud – wie bereits beim letzten Hackathon
               – das Siegerteam zu einem <strong>
@@ -196,7 +193,7 @@ export class Result extends React.Component {
               <strong>LLT Pokal, 2.500 Euro Preisgeld und ein Interview
                       in der Zeitschrift Recht Digital (RDi)</strong> freuen.
             </p>
-            <p>
+            <p className={'text-justify'}>
               Der LLT Hackathon lebte über die gesamte Woche von einer
               engagierten Community, die sich Tag und Nacht über die
               eingerichteten Slack Channels austauschte und Problemen stets mit
@@ -205,7 +202,7 @@ export class Result extends React.Component {
               Bis zuletzt wurde hier gepostet, um sich noch eine Chance in der
               parallelen <strong>Meme Challenge</strong> zu sichern.
             </p>
-            <p>
+            <p className={'text-justify'}>
               Das <strong>Organisationsteam</strong> (Sebastian Nagl, Sarah
               Rachut, Muskaan Multani, Fabian Wiedemann, Ann-Sophie Blaser und
               Charlie Tiehm) konnte diese erfolgreiche Woche somit mit

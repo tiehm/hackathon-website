@@ -9,6 +9,7 @@ import {Imprint} from './routes/Imprint';
 import {Join} from './routes/Join';
 import {Jury} from './routes/Jury';
 import {Privacy} from './routes/Privacy';
+import {Result} from './routes/Result';
 import {Team} from './routes/Team';
 
 const root = ReactDOM.createRoot(
@@ -24,6 +25,7 @@ root.render(
           <Route path={'/event'} element={<Event />} />
           <Route path={'/team'} element={<Team />} />
           <Route path={'/jury'} element={<Jury />} />
+          <Route path={'/result'} element={<Result />} />
           <Route path={'/join'} element={<Join />} />
           <Route path={'/impressum'} element={<Imprint />} />
           <Route path={'/datenschutz'} element={<Privacy />} />

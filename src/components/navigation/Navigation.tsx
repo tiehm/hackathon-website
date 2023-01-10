@@ -1,11 +1,12 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import {CustomLink} from './CustomLink';
 import coloredLogo from '../../img/lltLogos/logo-colored.svg';
 import {MenuButton} from './MenuButton';
 import {MobileNavigationOverlay} from './MobileNavigationOverlay';
 
 type State = {
-    isMobileNavigationOpened: boolean;
+  isMobileNavigationOpened: boolean;
 };
 
 export class Navigation extends React.Component<{}, State> {
@@ -32,47 +33,45 @@ export class Navigation extends React.Component<{}, State> {
 
   render() {
     return <nav className={'bg-blue-1 text-text-l absolute w-full'}>
-      {
-        this.state.isMobileNavigationOpened &&
-                <MobileNavigationOverlay close={this.toggleNav}/>
-      }
+      {this.state.isMobileNavigationOpened &&
+        <MobileNavigationOverlay close={this.toggleNav}/>}
       <div className={'container flex flex-wrap justify-between items-center ' +
-          'mx-auto tabletL:w-4/5 items-stretch h-full'}>
+        'mx-auto tabletL:w-4/5 items-stretch h-full'}>
 
         <div className={'p-4'}>
           <CustomLink to="/">
             <img
               src={coloredLogo}
               alt={'Logo'}
-              className={'w-16 tabletL:w-20 xl:w-24 ml-2'} />
+              className={'w-16 tabletL:w-20 xl:w-24 ml-2'}/>
           </CustomLink>
         </div>
 
         <div className={'inline-flex p-2 ml-3 tabletL:hidden'}>
           <MenuButton
             openedMenu={this.state.isMobileNavigationOpened}
-            toggleNav={this.toggleNav} />
+            toggleNav={this.toggleNav}/>
         </div>
 
         <div className={'hidden w-full ml-4 flex-row gap-8 w-auto ' +
-            'justify-center tabletL:flex 2xl:text-head-s items-stretch'}>
+          'justify-center tabletL:flex 2xl:text-head-s items-stretch'}>
           <CustomLink
             to={'/'}
             className={'border-b-2 hover:text-blue-11'}
           >
-              Home
+            Home
           </CustomLink>
           <CustomLink
             to={'/event'}
             className={'border-b-2 hover:text-blue-11'}
           >
-              Event
+            Event
           </CustomLink>
           <CustomLink
             to={'/team'}
             className={'border-b-2 hover:text-blue-11'}
           >
-              Team
+            Team
           </CustomLink>
           <CustomLink
             to={'/jury'}
@@ -92,10 +91,16 @@ export class Navigation extends React.Component<{}, State> {
             outerClassName="bg-blue-12 px-2"
             isJoinButton={true}
           >
-              Mitmachen
+            Mitmachen
           </CustomLink>
         </div>
       </div>
+      <Link to="/result" className={'block bg-yellow-400 text-center' +
+        ' text-yellow-900 py-2 text-sm md:text-lg z-50'}>
+        <span className={'font-bold'}>
+          Hier geht‘s zum Gewinner-Team des Legal Loves Tech 2023
+        </span>
+      </Link>
     </nav>;
   }
 }

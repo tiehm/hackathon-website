@@ -63,7 +63,7 @@ export class Partners extends React.Component {
       name: 'Legal Tech Colab',
       size: 'big',
       backgroundColor: 'very-light-blue',
-      link: 'https://www.legaltechcolab.com/',
+      link: 'https://www.legal-tech-colab.de/',
     }, {
       img: openLegalTechLogo,
       name: 'Open Legal Tech e. V.',

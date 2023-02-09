@@ -11,7 +11,8 @@ export class Join extends React.Component {
           <div className={classNames('font-medium mb-4 lxs:mb-0 text-xl' +
             ' sm:text-2xl md:text-5xl lg:text-5xl mx-auto w-2/3')}>
             Die Anmeldung für das Jahr 2023 ist geschlossen;
-            die Sieger:innen werden in Kürze bekanntgegeben!
+            die Sieger:innen können <a href="/result"
+              className={'underline font-bold'}>hier</a> eingesehen werden!
           </div>
         </div>
       </div>
